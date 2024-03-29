@@ -20,3 +20,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Spin effects on the hamburger menu*/
+.spin {
+  transition: transform 0.5s ease;
+}
+
+.spin:hover {
+  transform: rotate(360deg);
+}
+
