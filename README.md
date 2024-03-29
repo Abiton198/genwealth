@@ -1,2 +1,8 @@
-# genwealth
-This project revolves around utilizing React JS to develop a website aimed at promoting network referral marketing endeavors for individuals. The primary objective is to enrich user experience while simultaneously generating interest and engagement from potential business partners.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
