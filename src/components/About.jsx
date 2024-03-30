@@ -5,7 +5,7 @@ import Michelle from '../img/Michelle.jpeg';
 const About = () => {
   // contact me directly on WhatsApp
   const whatsappNumber = '+27761272025';
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
@@ -38,6 +38,17 @@ const About = () => {
 
           In our quest, we discovered the Duepoint opportunity. Upon thorough examination of the materials provided, we found it to be a business model that not only complements our current income streams but also promises steady growth and recurring earnings for a lifetime.
         </p>
+
+        <p>  Our role as Wealth Engineers with Duepoint is simple - to share this remarkable opportunity with individuals we encounter in our everyday lives.
+
+Driven by our passion for people and our desire to alleviate financial struggles, it is our mission to extend this opportunity to as many individuals as possible, empowering them to improve their circumstances.
+
+As you can see, it requires minimal effort to introduce you to this platform, and with the same level of effort, you too can become a part of this venture and share it with others.
+
+Participating in this business venture will not only shape your financial future but also have a positive impact on the lives of those you introduce to this invaluable opportunity.
+
+Whatever decision you make, we wish you the very best!
+</p>
       </div>
 
       {/* WhatsApp Button */}
@@ -52,7 +63,8 @@ const About = () => {
 
       {/* Read more toggle */}
       <p className="mt-4 text-center text-blue-500 cursor-pointer" onClick={toggleCollapse}>
-        {isCollapsed ? 'Read more...' : 'Show less'}
+        {isCollapsed ? 'Show less' :'Read more...'}
+
       </p>
     </div>
   );

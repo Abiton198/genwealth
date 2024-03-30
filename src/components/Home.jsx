@@ -78,6 +78,7 @@ const Home = () => {
   const containerStyles = isDarkMode ? darkModeStyles : lightModeStyles;
 
   return (
+    <div className='home'>
     <div className="flex flex-col items-center justify-evenly h-screen m-2 p-2" style={containerStyles}>
       <p className="text-4xl md:text-5xl lg:text-6xl text-center mb-12">"Discover Your Path to Financial Freedom: Start Building Your Fortune Today!"</p>
       
@@ -98,6 +99,7 @@ const Home = () => {
           <span className="slider round"></span>
         </label>
       </div>
+    </div>
     </div>
   );
 };
