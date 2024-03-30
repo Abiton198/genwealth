@@ -1,21 +1,23 @@
-import React from 'react';
-import { Intro, Questions, Testimonies, Welcome, NavBar } from './components';
+import { Route, Routes } from 'react-router-dom';
 
+import { About, Intro, Testimonies, NavBar, Home } from './components';
 
-// Main App Component
-const App = () => {
+function App() {
   return (
-    <div>
-      <NavBar />
-      <div className='flex flex-col items-center justify-evenly h-screen m-2 p-2 bg-green'>
-        <Welcome />
-        <Intro />
-        <Testimonies />
-        <Questions />
+      <div>
+        <NavBar />
+        
+        {/* The Routes should wrap all the Route components */}
+        <Routes>
+          <Route exact path='/' element={<Home/>}/> 
+          <Route path='/Intro' element={<Intro/>}/>
+          <Route path='/About'  element={<About/>}/>
+          <Route path='/Testimonies'  element={<Testimonies/>}/>
+        </Routes> 
       </div>
-    </div>
+    
   );
-};
+}
 
 export default App;
 

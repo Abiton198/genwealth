@@ -6,8 +6,9 @@ const Intro = () => {
 
   return (
     <div className='bg-white rounded-lg p-4 relative'>
+
       {/* Responsive Image with YouTube Play Button */}
-      <div className='w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 bg-gray-300 rounded-full relative'>
+      <div className='w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 bg-gray-300  relative'>
         {/* Overlay Image */}
         <a href={`https://www.youtube.com/watch?v=${youtubeVideoId}`} target='_blank' rel='noopener noreferrer' className='absolute inset-0'>
           <img

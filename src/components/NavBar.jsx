@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 // Navigation Bar Component
 const NavBar = () => {
@@ -40,10 +42,11 @@ const NavBar = () => {
         </div>
         <div className={`hidden md:flex space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
           {/* Your navigation links go here */}
-          <a href="#" className="text-white hover:text-gray-300 transition duration-300">Home</a>
-          <a href="#" className="text-white hover:text-gray-300 transition duration-300">About</a>
-          <a href="#" className="text-white hover:text-gray-300 transition duration-300">Services</a>
-          <a href="#" className="text-white hover:text-gray-300 transition duration-300">Contact</a>
+          <Link to="/" className="text-white hover:text-gray-300 transition duration-300">Home</Link>
+          <Link to="/About" className="text-white hover:text-gray-300 transition duration-300">About</Link>
+          {/* Change the "to" prop to the appropriate route for your About page */}
+          <Link to="/Intro" className="text-white hover:text-gray-300 transition duration-300">Intro</Link>
+          <Link to="/Testimonies" className="text-white hover:text-gray-300 transition duration-300">Testimonies</Link>
         </div>
       </div>
     </nav>

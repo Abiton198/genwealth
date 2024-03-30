@@ -1,5 +1,6 @@
 export {default as Intro} from './Intro'
 export {default as Questions} from './Questions'
 export {default as Testimonies} from './Testimonies'
-export {default as Welcome} from './Welcome'
+export {default as Home} from './Home'
 export {default as NavBar} from './NavBar'
+export {default as About} from './About'
