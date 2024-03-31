@@ -1,11 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { About, Intro, Testimonies, NavBar, Home } from './components';
+import { About, Intro, Testimonies, Home, NavBar } from './components';
 
 function App() {
   return (
       <div>
-        <NavBar />
+        <NavBar/>
+       
         
         {/* The Routes should wrap all the Route components */}
         <Routes>
