@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <div className="border rounded-lg p-4">
-      <h2 className="font-bold text-2xl mb-4">Allow us to introduce ourselves,</h2>
+      <h2 className="font-bold text-2xl mb-4">Allow us to introduce ourselves:</h2>
       <div className="flex flex-col items-center mb-4">
         {/* Abiton's Image */}
         <div className="mb-2">
@@ -53,7 +53,7 @@ Whatever decision you make, we wish you the very best!
 
       {/* WhatsApp Button */}
       <a href={`whatsapp://send?phone=${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
-        <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker">
+        <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker ml-5">
           Message Us on WhatsApp
           <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fillRule="evenodd" d="M9 0a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1zM6 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm9 3a1 1 0 0 1 1 1v11a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zM3 7a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1zm14 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" clipRule="evenodd" />

@@ -4,7 +4,6 @@ import { slide as Menu } from 'react-burger-menu';
 import logo from '../img/logo.jpeg';
 
 const Sidebar = () => {
-  // Assuming `logo` is imported or defined somewhere in your project
   
   return (
     <div>
