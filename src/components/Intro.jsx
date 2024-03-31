@@ -126,7 +126,7 @@ const Intro = () => {
               className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-lg mr-4"
             />
             <div>
-              <p className="text-black xl font-bold">Watch on YouTube</p>
+              <p className="text-black xl font-bold">Objections Overruled!</p>
               <a href={`https://www.youtube.com/watch?v=${youtubeVideoId3}`} target="_blank" rel="noopener noreferrer" className="text-blue-500">Watch Now</a>
             </div>
           </div>

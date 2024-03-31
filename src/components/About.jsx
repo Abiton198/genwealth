@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <div className="border rounded-lg p-4">
-      <h2 className="font-bold text-2xl mb-4">Allow us to introduce ourselves:</h2>
+      <h2 className="text-black font-bold text-2xl mb-4">Allow us to introduce ourselves:</h2>
       <div className="flex flex-col items-center mb-4">
         {/* Abiton's Image */}
         <div className="mb-2">

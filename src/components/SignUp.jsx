@@ -97,21 +97,21 @@ export default function SignUp() {
   return (
     <div className="mx-auto px-4 md:px-8 lg:px-16">
       <div className="my-8 lg:my-16">
-        <p className="text-lg text-gray-100 leading-7 mb-4">
+        <p className="text-lg text-gray-900 leading-7 mb-4">
           The sign-up process is straightforward and can be completed from the comfort 
           of your home using either a phone or laptop. In this slide, We'll walk you through
           five simple steps and what you'll need to complete the sign-up!
         </p>
 
         <div className="mb-8">
-          <h2 className="text-lg font-bold text-white mb-2">Step 1: Visit Website</h2>
-          <p className="text-gray-100 leading-7 mb-4">
+          <h2 className="text-lg font-bold text-black mb-2">Step 1: Visit Website</h2>
+          <p className="text-black leading-7 mb-4">
             Go on to DuePoint website to start the process: <br/> www.duepoint.net
           </p>
           <img src={Step1} alt="Step 1" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
-          <h2 className="text-lg font-bold text-white mb-2">Step 2: Click Get Started</h2>
-          <p className="text-gray-100 leading-7 mb-4">
+          <h2 className="text-lg font-bold text-black mb-2">Step 2: Click Get Started</h2>
+          <p className="text-black leading-7 mb-4">
             As you have seen above on the image, the home page of DuePoint allows you to either log-in or sign-up.
             Feel confident to click on <span className="text-blue-900 font-bold">Get Started</span>. Congrats your
             your journey to financial freedom is on track! You got to see this image below after clicking.
@@ -119,7 +119,7 @@ export default function SignUp() {
           <img src={Step2} alt="Step 2" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
           <h2 className="text-lg font-bold text-white mb-2">Step 3: Enter Wealth Engineer Number</h2>
-          <p className="text-gray-100 leading-7 mb-4">
+          <p className="text-black leading-7 mb-4">
             This must be the most exciting moment for you and for us! Acknowledging us as the lead to your financial freedom,
             you are doing this out of both ethics and your heart. Kindly answer the who? with this:</p> <br/> 
                   
@@ -140,12 +140,12 @@ export default function SignUp() {
           <img src={Step3} alt="Step 3" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
 
-          <h2 className="text-lg font-bold text-white mb-2">Step 4: Form Completion</h2>
-          <p className="text-gray-100 leading-7 mb-4">
+          <h2 className="text-lg font-bold text-black mb-2">Step 4: Form Completion</h2>
+          <p className="text-black leading-7 mb-4">
             This is the most important step, your details. Get it right, the 
             system is linked to FICA, they will ask you of the following documents: <br/>
-            <span className="text-green-200 font-bold"> - South African ID or any valid Passport(if foreigner)</span> <br/>
-            <span className="text-green-200 font-bold"> - Proof of Address - utility bill or bank statement or anything permitable</span> <br/>
+            <span className="text-green-800 font-bold"> - South African ID or any valid Passport(if foreigner)</span> <br/>
+            <span className="text-green-800 font-bold"> - Proof of Address - utility bill or bank statement or anything permitable</span> <br/>
             ** After completing your personal details, take note: Skip on proof of address if only you dont have it with you, 
             later you can email <span className="text-red-300 font-bold">info@duepoint.net</span>  to update your documents, way after completing your application.<br/>
             ** You can set debit date of your account of your choice (you don't need money in the bank to complete the process!) <br/>
@@ -155,8 +155,8 @@ export default function SignUp() {
             <Carousel />
           </div>
 
-          <h2 className="text-lg font-bold text-white mb-2">Step 5: Download App on PlayStore</h2>
-          <p className="text-gray-100 leading-7 mb-4">
+          <h2 className="text-lg font-bold text-black mb-2">Step 5: Download App on PlayStore</h2>
+          <p className="text-black leading-7 mb-4">
             The last but most important part of the process is to get your hands dirty! Yes, download the app. Go to your 
             phone <span className="text-red-500 font-extrabold">PlayStore</span>. A very light but comprehensive application
             ready to change your life. 
@@ -165,7 +165,7 @@ export default function SignUp() {
           </p>
           <img src={Step5} alt="Step 5" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
-          <p className="text-lg font-bold text-green-300 mb-2">Thank you for joining the wealth creation family: DUEPOINT</p>
+          <p className="text-lg font-bold text-green-900 mb-2">Thank you for joining the wealth creation family: DUEPOINT</p>
 
           <div className="flex justify-center">
             <a href='/Intro'>
