@@ -1,12 +1,45 @@
 import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import motivate1 from '../img/motivate1.jpg';
+import motivate2 from '../img/motivate2.webp';
+import motivate3 from '../img/motivate3.jpg';
+import motivate4 from '../img/motivate4.png';
+import motivate5 from '../img/motivate5.jpg';
 
 const Home = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000, // Adjust the speed here
+  };
+
   return (
-    <div className='home'>
-      <div className="flex flex-col items-center justify-evenly h-screen m-2 p-2">
-        <p className="text-4xl md:text-5xl lg:text-6xl text-center mb-12">"Discover Your Path to Financial Freedom: Creating Fortune simplified, start Now!"</p>
-        
-        {/* Action button below the text */}
+    <div className='home' style={{ overflowX: 'hidden' }}>
+      <Slider {...settings}>
+        <div>
+          <img src={motivate1} alt="Image 1" className="slider-image" />
+        </div>
+        <div>
+          <img src={motivate2} alt="Image 2" className="slider-image" />
+        </div>
+        <div>
+          <img src={motivate3} alt="Image 3" className="slider-image" />
+        </div>
+        <div>
+          <img src={motivate4} alt="Image 4" className="slider-image" />
+        </div>
+        <div>
+          <img src={motivate5} alt="Image 5" className="slider-image" />
+        </div>
+      </Slider>
+      {/* Action button below the text */}
+      <div className="flex justify-center">
         <a href='/Intro'>
           <button className="bg-red-600 hover:bg-green-600 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker">
             Get Started

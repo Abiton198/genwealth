@@ -21,7 +21,7 @@ export default function Guide() {
           <h2 className="text-lg font-bold text-black mb-2">Step 1: Visit Website</h2>
           <p className="text-black leading-7 mb-4">
             Go on to DuePoint website to start the process: <br/> 
-            <a href="https://www.duepoint.net" className="text-black xl font-bold">www.duepoint.net</a>
+            <a href="https://www.duepoint.net" className="text-black xl font-bold  hover:bg-green-600">www.duepoint.net</a>
           </p>
           <img src={Step1} alt="Step 1" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 

@@ -3,22 +3,7 @@
 @tailwind utilities;
 
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
+/* flicking buttons */
 @keyframes flicker {
   0% {
     opacity: 0.5;
@@ -30,9 +15,6 @@
     opacity: 1;
   }
 }
-
-
-
 
 .animate-flicker {
   animation: flicker 1.5s infinite;
@@ -167,4 +149,53 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* 
+
+
+
+*/
+
+/* You can include this CSS in your project's stylesheet */
+
+/* You can include this CSS in your project's stylesheet */
+
+.home {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-image {
+  width:100%;
+  height: 100vh; /* Fills the viewport height */
+  object-fit:contain; /* Ensures the image covers the entire slide */
+}
+
+.action-button {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.action-button button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button button:hover {
+  background-color: green;
+}
+
+.action-button button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
 }
