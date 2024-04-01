@@ -6,11 +6,12 @@ import Step3 from '../img/Step3.png'
 import Step5 from '../img/step5.jpeg'
 import Carousel from "./Carousel";
 
-export default function SignUp() {
+export default function Guide() {
   return (
-    <div className="mx-auto px-4 md:px-8 lg:px-16">
+    <div className="bg-white mx-auto px-4 md:px-8 lg:px-16">
       <div className="my-8 lg:my-16">
-        <p className="text-lg text-gray-900 leading-7 mb-4">
+        <h2 className="text-lg font-bold text-black mb-5">Welcome to a generous guide to success!</h2>
+        <p className="text-lg text-black leading-7 mb-4">
           The sign-up process is straightforward and can be completed from the comfort 
           of your home using either a phone or laptop. In this slide, We'll walk you through
           five simple steps and what you'll need to complete the sign-up!
@@ -19,7 +20,8 @@ export default function SignUp() {
         <div className="mb-8">
           <h2 className="text-lg font-bold text-black mb-2">Step 1: Visit Website</h2>
           <p className="text-black leading-7 mb-4">
-            Go on to DuePoint website to start the process: <br/> www.duepoint.net
+            Go on to DuePoint website to start the process: <br/> 
+            <a href="https://www.duepoint.net" className="text-black xl font-bold">www.duepoint.net</a>
           </p>
           <img src={Step1} alt="Step 1" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 

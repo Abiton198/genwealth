@@ -1,7 +1,10 @@
+import Layout from './Layout'
+
 export {default as Intro} from './Intro'
 export {default as Questions} from './Questions'
 export {default as Testimonies} from './Testimonies'
 export {default as Home} from './Home'
-export {default as SignUp} from './SignUp'
+export {default as Guide} from './Guide'
 export {default as About} from './About'
 export {default as Sidebar} from './SideBar'
+export {default as Layout} from './Layout'
