@@ -57,13 +57,13 @@ export default function Guide() {
 
           <h2 className="text-lg font-bold text-black mb-2">Step 4: Form Completion</h2>
           <p className="text-black leading-7 mb-4">
-            This is the most important step, your details. Get it right, the 
-            system is linked to FICA, they will ask you of the following documents: <br/>
+            Now it's time to put your details. Get it right, the 
+            system is linked to FICA, you need these documents: <br/>
             <span className="text-green-800 font-bold"> - South African ID or any valid Passport(if foreigner)</span> <br/>
             <span className="text-green-800 font-bold"> - Proof of Address - utility bill or bank statement or anything permitable</span> <br/>
-            ** After completing your personal details, take note: Skip on proof of address if only you dont have it with you, 
-            later you can email <span className="text-red-300 font-bold">info@duepoint.net</span>  to update your documents, way after completing your application.<br/>
-            ** You can set debit date of your account of your choice (you don't need money in the bank to complete the process!) <br/>
+            ** Next, take note: Skip on proof of address if only you don't have it with you, email <span className="text-red-300 font-bold">info@duepoint.net</span> 
+            to update your info,to complete the application.<br/>
+            ** Set debit date for your account (you don't need money in the bank to complete the process!) <br/>
             The below images gives you a glimps of your process, click continue at bottom of every page to continue.
           </p>
           <div className="mb-4">
@@ -72,10 +72,10 @@ export default function Guide() {
 
           <h2 className="text-lg font-bold text-black mb-2">Step 5: Download App on PlayStore</h2>
           <p className="text-black leading-7 mb-4">
-            The last but most important part of the process is to get your hands dirty! Yes, download the app. Go to your 
+            The lastly get your hands dirty! Yes, download the app. Go to your 
             phone <span className="text-red-500 font-extrabold">PlayStore</span>. A very light but comprehensive application
             ready to change your life. 
-            We call it 'A golden tool on your Palm' : DUEPOINT. Check the image below to see if we are seeing the same. At this stage you have received your
+            'A golden tool on your Palm' : DUEPOINT. Check the image below to see if we are seeing the same. At this stage you have received your
             log-in details via email or text message. Please Check!
           </p>
           <img src={Step5} alt="Step 5" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
@@ -85,7 +85,7 @@ export default function Guide() {
           <div className="flex justify-center">
             <a href='/Intro'>
               <button className="bg-red-600 hover:bg-green-600 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker">
-                Next Step
+                We are ready to help! Send WhatsApp!
                 <svg className="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M9 0a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1zM6 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm9 3a1 1 0 0 1 1 1v11a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zM3 7a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1zm14 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" clipRule="evenodd" />
                 </svg>
