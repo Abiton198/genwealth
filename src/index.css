@@ -89,7 +89,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(201, 30, 30, 0.3);
 }
 
-
+/* font for burger items */
+.menu-item {
+  color: aqua;
+  font-size: 2.5rem;
+  border: #f4f5f7 solid 4px;
+  padding: 10px;
+}
 
 
 /* toddle switch for dark and light mode */
