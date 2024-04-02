@@ -204,3 +204,50 @@ input:checked + .slider:before {
   height: 1.5rem;
   margin-left: 0.5rem;
 }
+
+
+/* Questions Component styles */
+
+.faq-container {
+  width: 100%;
+  max-width: 600px; /* Adjust max-width as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0; /* Change background color as desired */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.faq-question:hover {
+  background-color: #e0e0e0; /* Change hover background color as desired */
+}
+
+.faq-answer {
+  padding: 10px;
+  background-color: #ffffff; /* Change background color as desired */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* style - answers in Q&A */
+
+.answer-list {
+  list-style-type: disc; /* Use disc for bullet marks */
+  padding-left: 20px; /* Add padding for indentation */
+}
+
+.answer-list li {
+  margin-bottom: 10px; /* Add bottom margin for gaps between list items */
+}
