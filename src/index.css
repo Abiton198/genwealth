@@ -92,9 +92,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* font for burger items */
 .menu-item {
   color: aqua;
-  font-size: 2.5rem;
-  border: #f4f5f7 solid 4px;
-  padding: 10px;
+  font-size: 1.5rem;
+  border: #f4f5f7 solid 0.05px;
+  padding: 1px;
+  margin: 5px;
 }
 
 
@@ -156,13 +157,6 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
-/* 
-
-
-
-*/
-
 
 /* Home page slider*/
 
@@ -251,3 +245,22 @@ input:checked + .slider:before {
 .answer-list li {
   margin-bottom: 10px; /* Add bottom margin for gaps between list items */
 }
+
+/* hover on clicked item of slider */
+.menu-item {
+  display: block;
+  padding: 10px 20px;
+  color: aqua;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.clicked {
+  /* background-color: red; Change to the color you want when an item is clicked */
+  color: white; /* Change to the text color you want when an item is clicked */
+}
+
