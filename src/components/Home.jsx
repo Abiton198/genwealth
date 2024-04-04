@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -9,6 +9,27 @@ import motivate4 from '../img/motivate4.png';
 import motivate5 from '../img/motivate5.jpg';
 
 const Home = () => {
+  const [weather, setWeather] = useState(null);
+
+  useEffect(() => {
+    // Fetch weather data from API
+    const fetchWeather = async () => {
+      try {
+        const response = await fetch('API_ENDPOINT_HERE');
+        if (response.ok) {
+          const data = await response.json();
+          setWeather(data);
+        } else {
+          throw new Error('Failed to fetch weather data');
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchWeather();
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -38,6 +59,12 @@ const Home = () => {
           <img src={motivate5} alt="Image 5" className="slider-image" />
         </div>
       </Slider>
+      {/* Display weather information */}
+      {weather && (
+        <div className="weather-info">
+          <p>Weather for {weather.city}: {weather.temperature}°C, {weather.description}</p>
+        </div>
+      )}
       {/* Action button below the text */}
       <div className="flex justify-center">
         <a href='/Intro'>

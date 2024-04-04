@@ -95,7 +95,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.5rem;
   border: #f4f5f7 solid 0.05px;
   padding: 1px;
-  margin: 5px;
+  margin-top: 5px;
 }
 
 
@@ -264,3 +264,15 @@ input:checked + .slider:before {
   color: white; /* Change to the text color you want when an item is clicked */
 }
 
+/* WEATHER ICON */
+.weather-info {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  z-index: 2;
+}

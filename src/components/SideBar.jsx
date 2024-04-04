@@ -64,7 +64,7 @@ const Sidebar = () => {
         >
           Guide
         </Link>
-        <p className="menu-item mt-8">Ref # <br/> <span className="menu-item">W1001488205</span></p>
+        <p className="menu-item mt-8">Ref # <br/> <span className="text-aqua">W1001488205</span></p>
       </Menu>
     </div>
   );
