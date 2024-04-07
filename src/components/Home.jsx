@@ -7,33 +7,13 @@ import motivate2 from '../img/motivate2.webp';
 import motivate3 from '../img/motivate3.jpg';
 import motivate4 from '../img/motivate4.png';
 import motivate5 from '../img/motivate5.jpg';
+import {DisplayTime, WeatherDisplay} from '../utils'
+
 
 const keyWeather = '6ddd3954f3eca243f3bc57cd214fe38c';
 
 const Home = () => {
-  const [weather, setWeather] = useState(null);
-
-  useEffect(() => {
-    // Fetch weather data from API
-    const fetchWeather = async () => {
-      try {
-        // Get user's geolocation
-        navigator.geolocation.getCurrentPosition(async (position) => {
-          const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${keyWeather}`);
-          if (response.ok) {
-            const data = await response.json();
-            setWeather(data);
-          } else {
-            throw new Error('Failed to fetch weather data');
-          }
-        });
-      } catch (error) {
-        console.error(error);
-      }
-    };
-
-    fetchWeather();
-  }, []);
+  
 
   const settings = {
     dots: true,
@@ -49,15 +29,7 @@ const Home = () => {
     <div className='home' style={{ overflowX: 'hidden' }}>
       <h2 className='text-center text-black text-3xl font-bold mt-28'>GenWealth <br/> <span className='text-sm text-blue-900'>'Building generational legacy'</span></h2> {/* Updated heading */}
       <Slider {...settings}>
-        <div>
-          <img src={motivate1} alt="Image 1" className="slider-image" />
-        </div>
-        <div>
-          <img src={motivate2} alt="Image 2" className="slider-image" />
-        </div>
-        <div>
-          <img src={motivate3} alt="Image 3" className="slider-image" />
-        </div>
+        
         <div>
           <img src={motivate4} alt="Image 4" className="slider-image" />
         </div>
@@ -65,12 +37,10 @@ const Home = () => {
           <img src={motivate5} alt="Image 5" className="slider-image" />
         </div>
       </Slider>
-      {/* Display weather information */}
-      {weather && (
-        <div className="weather-info mt-2">
-          <p>{weather.name}: {Math.round(weather.main.temp - 273.15)}°C, {weather.weather[0].description}</p>
-        </div>
-      )}
+    {/* weather display */}
+    <WeatherDisplay/>
+
+      <DisplayTime/>
       {/* Action button below the text */}
       <div className="flex justify-center">
         <a href='/Intro'>
