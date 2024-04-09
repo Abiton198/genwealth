@@ -151,7 +151,7 @@ input:checked + .slider:before {
 
 .action-button {
   position: absolute;
-  bottom: 20px; /* Adjust as needed */
+  bottom: 20px; 
   left: 50%;
   transform: translateX(-50%);
 }
@@ -268,7 +268,7 @@ input:checked + .slider:before {
   width: 100%;
   height: auto;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 1.3s ease;
 }
 
 /* Enlarge image on hover */
@@ -307,4 +307,21 @@ input:checked + .slider:before {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+}
+
+/* NAVBAR-LINKS */
+
+.nav-links {
+  margin-left: auto;
+  justify-self: flex-end;
+}
+
+.nav-link {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(121, 191, 214);
 }
