@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { About, Intro, Testimonies, Home, Sidebar, Guide , Questions, DarkMode} from './components';
-import Navbar from './components/NavBar';
+import { About, Intro, Home, Guide , Questions, DarkMode, Gallery, NavBar} from './components';
+
 
 function App() {
   return (
       <div>
         {/* <Sidebar/> */}
-        <Navbar/>
+        <NavBar/>
        
        {/* DarkMode is triggering dark and light mode */}
         <DarkMode>
@@ -17,7 +17,7 @@ function App() {
             <Route path='/Intro' element={<Intro/>}/>
             <Route path='/About'  element={<About/>}/>
             <Route path='/Questions'  element={<Questions/>}/>
-            <Route path='/Testimonies'  element={<Testimonies/>}/>
+            <Route path='/Gallery'  element={<Gallery/>}/>
             <Route path='/Guide'  element={<Guide/>}/>
           </Routes> 
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
-const Navbar = () => {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [clickedItem, setClickedItem] = useState(null);
 
@@ -13,13 +13,19 @@ const Navbar = () => {
     setClickedItem(itemId);
   };
 
+  const handleMenuClick = (event) => {
+    // Prevent the click event from propagating
+    event.stopPropagation();
+  };
+
   return (
     <nav className="navbar">
-      <div className="navbar-brand">
+      <div className="navbar-brand flex">
         <Link to="/" className="navbar-logo text-white"></Link>
-        <button className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
-          <span className="navbar-icon">&#9776; GenWealth</span>
+        <button className="navbar-toggle" onClick={(event) => { setIsOpen(!isOpen); handleMenuClick(event); }}>
+          <span className="navbar-icon">&#9776;</span>
         </button>
+        <h2 className='text-white text-2xl m-6 font-bold'>GenWealth</h2>
       </div>
       <Menu width={'80%'} isOpen={isOpen} onStateChange={(state) => setIsOpen(state.isOpen)}>
         <Link
@@ -30,50 +36,11 @@ const Navbar = () => {
         >
           Home
         </Link>
-        <Link
-          id="about"
-          className={`menu-item ${clickedItem === 'about' ? 'clicked' : ''}`}
-          to="/About"
-          onClick={() => handleItemClick('about')}
-        >
-          About
-        </Link>
-        <Link
-          id="intro"
-          className={`menu-item ${clickedItem === 'intro' ? 'clicked' : ''}`}
-          to="/Intro"
-          onClick={() => handleItemClick('intro')}
-        >
-          Intro
-        </Link>
-        <Link
-          id="questions"
-          className={`menu-item ${clickedItem === 'questions' ? 'clicked' : ''}`}
-          to="/Questions"
-          onClick={() => handleItemClick('questions')}
-        >
-          Q & A
-        </Link>
-        <Link
-          id="testimonies"
-          className={`menu-item ${clickedItem === 'testimonies' ? 'clicked' : ''}`}
-          to="/Testimonies"
-          onClick={() => handleItemClick('testimonies')}
-        >
-          Gallery
-        </Link>
-        <Link
-          id="guide"
-          className={`menu-item ${clickedItem === 'guide' ? 'clicked' : ''}`}
-          to="/Guide"
-          onClick={() => handleItemClick('guide')}
-        >
-          Guide
-        </Link>
+        {/* Other menu items */}
         <p className="menu-item mt-8">Ref # <br/> <span className="text-aqua">W1001488205</span></p>
       </Menu>
     </nav>
   );
 };
 
-export default Navbar;
+export default NavBar;
