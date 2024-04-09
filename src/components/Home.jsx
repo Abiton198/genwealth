@@ -9,35 +9,14 @@ import motivate4 from '../img/motivate4.png';
 import motivate5 from '../img/motivate5.jpg';
 import {DisplayTime, WeatherDisplay} from '../utils'
 
-
-const keyWeather = '6ddd3954f3eca243f3bc57cd214fe38c';
-
 const Home = () => {
-  
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000, // Adjust the speed here
-  };
 
   return (
     <div className='home' style={{ overflowX: 'hidden' }}>
-      <h2 className='text-center text-black text-3xl font-bold mt-28'>GenWealth <br/> <span className='text-sm text-blue-900'>'Building generational legacy'</span></h2> {/* Updated heading */}
-      <Slider {...settings}>
-        
+
         <div>
           <img src={motivate4} alt="Image 4" className="slider-image" />
         </div>
-        <div>
-          <img src={motivate5} alt="Image 5" className="slider-image" />
-        </div>
-      </Slider>
-    {/* weather display */}
     <WeatherDisplay/>
 
       <DisplayTime/>

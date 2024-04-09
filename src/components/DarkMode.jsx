@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Layout = ({ children }) => {
+const DarkMode = ({ children }) => {
   // State to track the current mode
   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -39,4 +39,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default Layout;
+export default DarkMode;

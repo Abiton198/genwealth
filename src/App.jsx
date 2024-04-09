@@ -1,14 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { About, Intro, Testimonies, Home, Sidebar, Guide , Layout, Questions} from './components';
+import { About, Intro, Testimonies, Home, Sidebar, Guide , Questions, DarkMode} from './components';
+import Navbar from './components/NavBar';
 
 function App() {
   return (
       <div>
-        <Sidebar/>
+        {/* <Sidebar/> */}
+        <Navbar/>
        
-       {/* Layout is triggering dark and light mode */}
-        <Layout>
+       {/* DarkMode is triggering dark and light mode */}
+        <DarkMode>
           {/* The Routes should wrap all the Route components */}
           <Routes>
             <Route exact path='/' element={<Home/>}/> 
@@ -19,7 +21,7 @@ function App() {
             <Route path='/Guide'  element={<Guide/>}/>
           </Routes> 
 
-          </Layout>
+          </DarkMode>
       </div>
     
   );
