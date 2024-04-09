@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import motivate1 from '../img/motivate1.jpg';
-import motivate2 from '../img/motivate2.webp';
-import motivate3 from '../img/motivate3.jpg';
 import motivate4 from '../img/motivate4.png';
-import motivate5 from '../img/motivate5.jpg';
 import {DisplayTime, WeatherDisplay} from '../utils'
 
 const Home = () => {
