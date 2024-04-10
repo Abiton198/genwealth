@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { About, Intro, Home, Guide , Questions, DarkMode, Gallery, NavBar} from './components';
+import { About, Intro, Home, Guide , Questions, DarkMode, Gallery, NavBar, Footer} from './components';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
             <Route path='/Gallery'  element={<Gallery/>}/>
             <Route path='/Guide'  element={<Guide/>}/>
           </Routes> 
-
+          <Footer/>
           </DarkMode>
       </div>
     
