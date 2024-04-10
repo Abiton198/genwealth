@@ -155,7 +155,7 @@ const NavBar = () => {
         <Link to="/About" className={`menu-item ${clickedItem === 'about' ? 'clicked' : ''}`} onClick={() => handleItemClick('about')}>About</Link>
         <Link to="/Questions" className={`menu-item ${clickedItem === 'questions' ? 'clicked' : ''}`} onClick={() => handleItemClick('questions')}>Q & A</Link>
         {/* Other menu items */}
-        <p className="menu-item mt-8">Wealth Number <br/> <span className="text-aqua text-2xl">W1001488205</span></p>
+        <p className="menu-item mt-8">Wealth Engineer Num: <br/> <span className="text-aqua text-2xl">W1001488205</span></p>
       </div>
 
       {/* Close the menu when clicked outside */}

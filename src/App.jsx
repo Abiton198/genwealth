@@ -5,7 +5,7 @@ import { About, Intro, Home, Guide , Questions, DarkMode, Gallery, NavBar} from 
 
 function App() {
   return (
-      <div>
+      <div className='app-container'>
         {/* <Sidebar/> */}
         <NavBar/>
        
