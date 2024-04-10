@@ -19,6 +19,24 @@ import due17 from '../img/gallery/due17.jpeg'
 import due18 from '../img/gallery/due18.jpeg'
 import due19 from '../img/gallery/due19.jpeg'
 import due20 from '../img/gallery/due20.jpeg'
+import due21 from '../img/gallery/due21.jpeg'
+import due22 from '../img/gallery/due22.jpeg'
+import due23 from '../img/gallery/due23.jpeg'
+import due24 from '../img/gallery/due24.jpeg'
+import due25 from '../img/gallery/due25.jpeg'
+import due26 from '../img/gallery/due26.jpeg'
+import due27 from '../img/gallery/due27.jpeg'
+import due28 from '../img/gallery/due28.jpeg'
+import due29 from '../img/gallery/due29.jpeg'
+import due30 from '../img/gallery/due30.jpeg'
+import due31 from '../img/gallery/due31.jpeg'
+import due32 from '../img/gallery/due32.jpeg'
+import due33 from '../img/gallery/due33.jpeg'
+import due34 from '../img/gallery/due34.jpeg'
+import due35 from '../img/gallery/due35.jpeg'
+import due36 from '../img/gallery/due36.jpeg'
+import due37 from '../img/gallery/due37.jpeg'
+
 
 
 const Gallery = () => {
@@ -42,7 +60,23 @@ const Gallery = () => {
       {src: due17 , alt:'due17'},
       {src: due18 , alt:'due18'},
       {src: due19 , alt:'due19'},
-      {src: due20 , alt:'due20'}
+      {src: due20 , alt:'due20'},
+      {src: due21 , alt:'due21'},
+      {src: due22 , alt:'due22'},
+      {src: due23 , alt:'due23'},
+      {src: due24 , alt:'due24'},
+      {src: due25 , alt:'due25'},
+      {src: due26 , alt:'due26'},
+      {src: due27 , alt:'due27'},
+      {src: due28 , alt:'due28'},
+      {src: due29 , alt:'due29'},
+      {src: due30 , alt:'due30'},
+      {src: due31 , alt:'due31'},
+      {src: due32 , alt:'due32'},
+      {src: due33 , alt:'due33'},
+      {src: due34 , alt:'due34'},
+      {src: due35 , alt:'due35'},
+      {src: due36 , alt:'due36'},
         // Add more image paths here
   ];
 
