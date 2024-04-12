@@ -360,6 +360,7 @@ input:checked + .slider:before {
 
 /* FIXED PAGES */
 .app-container {
+  margin-top: 5rem;
   width: 100%;
   height: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
