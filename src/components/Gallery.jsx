@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState} from 'react';
 import due1 from '../img/gallery/due1.jpeg'
 import due2 from '../img/gallery/due2.jpeg'
 import due3 from '../img/gallery/due3.jpeg'
@@ -42,43 +42,53 @@ import due37 from '../img/gallery/due37.jpeg'
 const Gallery = () => {
   const images = [
     {src: due1 , alt:'due1'},
-      {src: due2 , alt:'due2'},
-      {src: due3 , alt:'due3'},
-      {src: due4 , alt:'due4'},
+    {src: due4 , alt:'due4'},
+    {src: due36 , alt:'due36'},
       {src: due5 , alt:'due5'},
       {src: due6 , alt:'due6'},
+      {src: due34 , alt:'due34'},
       {src: due7 , alt:'due7'},
       {src: due8 , alt:'due8'},
+      {src: due27 , alt:'due27'},
       {src: due9 , alt:'due9'},
       {src: due10 , alt:'due10'},
-      {src: due11 , alt:'due11'},
-      {src: due12 , alt:'due12'},
       {src: due13 , alt:'due13'},
       {src: due14 , alt:'due14'},
+      {src: due32 , alt:'due32'},
       {src: due15 , alt:'due15'},
       {src: due16 , alt:'due16'},
+      {src: due30 , alt:'due30'},
       {src: due17 , alt:'due17'},
-      {src: due18 , alt:'due18'},
       {src: due19 , alt:'due19'},
       {src: due20 , alt:'due20'},
+      {src: due35 , alt:'due35'},
       {src: due21 , alt:'due21'},
       {src: due22 , alt:'due22'},
       {src: due23 , alt:'due23'},
+      {src: due11 , alt:'due11'},
       {src: due24 , alt:'due24'},
       {src: due25 , alt:'due25'},
       {src: due26 , alt:'due26'},
-      {src: due27 , alt:'due27'},
       {src: due28 , alt:'due28'},
+      {src: due2 , alt:'due2'},
       {src: due29 , alt:'due29'},
-      {src: due30 , alt:'due30'},
+      {src: due3 , alt:'due3'},
       {src: due31 , alt:'due31'},
-      {src: due32 , alt:'due32'},
+      {src: due18 , alt:'due18'},
       {src: due33 , alt:'due33'},
-      {src: due34 , alt:'due34'},
-      {src: due35 , alt:'due35'},
-      {src: due36 , alt:'due36'},
-        // Add more image paths here
+      {src: due12 , alt:'due12'},
+      // Add more image paths here
   ];
+
+  const [clickedIndex, setClickedIndex] = useState(-1);
+
+  const toggleImageSize = (index) => {
+    if (index === clickedIndex) {
+      setClickedIndex(-1); // Reset if the same image is clicked again
+    } else {
+      setClickedIndex(index); // Set clicked image index to enlarge it
+    }
+  };
 
   return (
     <div className="gallery-container">
@@ -87,7 +97,8 @@ const Gallery = () => {
           key={index}
           src={image.src}
           alt={`Image ${index + 1}`}
-          className="thumbnail-image"
+          className={`thumbnail-image ${index === clickedIndex ? 'enlarged' : ''}`}
+          onClick={() => toggleImageSize(index)}
         />
       ))}
     </div>

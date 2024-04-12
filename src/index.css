@@ -283,7 +283,7 @@ input:checked + .slider:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; /* Evenly distribute items */
-  padding: 20px; /* Add padding around the gallery */
+  padding: 10px; /* Add padding around the gallery */
 }
 
 .thumbnail-image {
@@ -295,8 +295,14 @@ input:checked + .slider:before {
 
 .thumbnail-image:hover,
 .thumbnail-image:active {
-  transform: scale(1.2); /* Enlarge the image on hover or click */
+  transform: scale(2.5); /* Enlarge the image on hover or click */
   cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Reset transform on mouse out or click release */
+.thumbnail-image:hover:not(:active),
+.thumbnail-image:not(:active) {
+  transform: none;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
