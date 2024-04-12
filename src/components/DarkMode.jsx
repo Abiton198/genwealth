@@ -9,32 +9,21 @@ const DarkMode = ({ children }) => {
     setIsDarkMode(!isDarkMode);
   };
 
-  // Styles for dark and light mode
-  const darkModeStyles = {
-    backgroundColor: '#333',
-    color: '#fff',
-  };
-
-  const lightModeStyles = {
-    backgroundColor: '#fff',
-    color: '#333',
-  };
-
-  // Conditional styles based on the current mode
-  const containerStyles = isDarkMode ? darkModeStyles : lightModeStyles;
-
   return (
-    <div className="layout" style={containerStyles}>
+    <div className="layout" style={isDarkMode ? { backgroundColor: '#333', color: '#fff' } : { backgroundColor: '#fff', color: '#333' }}>
       {/* Dark/Light mode toggle switch */}
-      <div className="fixed top-0 right-0 m-2">
+      <div className="switch-container fixed top-0 right-0 m-2">
         <label className="switch">
           <input type="checkbox" onChange={toggleDarkMode} checked={isDarkMode} />
-          <span className="slider round"></span>
+          <span className="slider"></span>
         </label>
       </div>
 
       {/* Render children components */}
-      {children}
+      <div className={isDarkMode ? 'text-white' : 'text-black'}>
+        {/* Your text content here */}
+        {children}
+      </div>
     </div>
   );
 };

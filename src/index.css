@@ -76,8 +76,14 @@
   color: aqua;
 }
 
+/* TOGGLE SWITCH for dark and light mode */
+.switch-container {
+  position: fixed;
+  top: 60px; /* Adjust top position as needed */
+  right: 20px; /* Adjust left position for desired distance from the left edge */
+  z-index: 1000; /* Ensure it appears above other content */
+}
 
-/* toddle switch for dark and light mode */
 .switch {
   position: relative;
   display: inline-block;
@@ -91,6 +97,7 @@
   height: 0;
 }
 
+/* Customize the appearance of the switch */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -99,19 +106,21 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  transition: background-color 10.4s;
-  border-radius: 20px; /* Adjusted to half of the height to make it a circle */
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 20px;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 16px; /* Adjusted to fit within the slider */
-  width: 16px; /* Adjusted to fit within the slider */
+  height: 16px;
+  width: 16px;
   left: 2px;
   bottom: 2px;
   background-color: white;
-  transition: transform 0.4s;
+  -webkit-transition: .4s;
+  transition: .4s;
   border-radius: 50%;
 }
 
@@ -124,6 +133,8 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
   transform: translateX(20px);
 }
 
@@ -141,6 +152,7 @@ input:checked + .slider:before {
 .home {
   position: relative;
   overflow: hidden;
+  margin-top: 80px;
 }
 
 .slider-image {

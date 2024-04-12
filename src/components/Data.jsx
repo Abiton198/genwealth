@@ -1,0 +1,10 @@
+export default [
+{
+    id: 1,
+    description1: 'Embark on an empowering journey with GenWealth, an independent business distributor affiliated with a leading financial company in South Africa. Our mission is to empower individuals seeking entrepreneurial opportunities by offering independent distributor roles tailored for residents of the country. At GenWealth, we pride ourselves on providing independent distributors with the tools and resources they need to thrive in their entrepreneurial endeavors. Our website serves as a comprehensive hub where you can explore the exciting opportunities we offer and access valuable information to guide you through the process.'
+},
+   { 
+    id: 2,
+    description2:'Discover the potential for financial independence and personal growth as you navigate our website and explore the opportunities available. From informative guides to step-by-step instructions, our platform equips you with everything you need to kickstart your journey towards success. Whether you are a seasoned entrepreneur or new to the world of independent distribution, GenWealth welcomes individuals from all backgrounds to join our dynamic community. By leveraging our platform and engaging with our resources, you will have the opportunity to connect with a thriving business opportunity and take control of your financial future. We encourage you to take the first step towards a brighter tomorrow by familiarizing yourself with the GenWealth website and utilizing our Guide page to initiate the sign-up process. Our team is dedicated to supporting you every step of the way, so you can embark on your entrepreneurial journey with confidence and determination. Join GenWealth today and unlock the potential for success as an independent distributor. Your journey towards financial freedom starts here.'
+}
+]

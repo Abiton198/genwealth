@@ -1,18 +1,29 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import motivate4 from '../img/motivate4.png';
 import {DisplayTime, WeatherDisplay} from '../utils'
+
 
 const Home = () => {
 
   return (
-    <div className='home' style={{ overflowX: 'hidden' }}>
+    <div className='home' style={{ overflowX: 'hidden' }} >
 
-        <div>
-          <img src={motivate4} alt="Image 4" className="slider-image" />
-        </div>
     <WeatherDisplay/>
 
       <DisplayTime/>
+
+      <p className='text-black text-justify mt-20 p-8'>Embark on an empowering journey with GenWealth, an independent business distributor affiliated with a leading financial company in South Africa. 
+      <br/>Our mission is to empower individuals seeking entrepreneurial opportunities by offering independent distributor roles tailored for residents of the country. <br/> Our website serves as a comprehensive hub where you can explore the
+      exciting opportunities we offer and access valuable information to guide you through the process.
+      </p>
+        <div>
+          <img src={motivate4} alt="Image 4" className="slider-image" />
+        </div>
+
+        <p className='text-black text-justify mt-2 p-6'>Discover the potential for financial independence and personal growth as you navigate our website 
+          and explore the opportunities available. From informative guides to step-by-step instructions, our platform 
+          equips you with everything you need to kickstart your journey towards success.
+          </p>
       {/* Action button below the text */}
       <div className="flex justify-center">
         <a href='/Intro'>
@@ -24,6 +35,8 @@ const Home = () => {
           </button>
         </a>
       </div>
+
+        <p className='text-black text-justify mt-6 p-6'>Unlock the potential for success as an independent distributor. Your journey towards financial freedom starts here.</p>
     </div>
   );
 };
