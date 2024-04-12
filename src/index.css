@@ -19,7 +19,7 @@
 .animate-flicker {
   animation: flicker 1.5s infinite;
 }
-
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* NAVBAR */
 /* Navbar container */
 .navbar {
@@ -75,6 +75,7 @@
 .text-aqua {
   color: aqua;
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* TOGGLE SWITCH for dark and light mode */
 .switch-container {
@@ -161,6 +162,8 @@ input:checked + .slider:before {
   object-fit:contain; /* Ensures the image covers the entire slide */
 }
 
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
 .action-button {
   position: absolute;
   bottom: 20px; 
@@ -189,7 +192,7 @@ input:checked + .slider:before {
   margin-left: 0.5rem;
 }
 
-
+/* /////////////////////////////////////////////////////////////////////////// */
 /* Questions Component styles */
 
 .faq-container {
@@ -236,6 +239,8 @@ input:checked + .slider:before {
   margin-bottom: 10px; /* Add bottom margin for gaps between list items */
 }
 
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* hover on clicked item of slider */
 .menu-item {
   display: block;
@@ -254,6 +259,8 @@ input:checked + .slider:before {
   color: white; /* Change to the text color you want when an item is clicked */
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* WEATHER ICON */
 .weather-info {
   position: absolute;
@@ -267,61 +274,32 @@ input:checked + .slider:before {
   z-index: 2;
 }
 
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
 /* IMAGES FOR GALLERY */
 /* Gallery container */
+
 .gallery-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* gap: 20px;
-  padding: 10px;
-  margin: 20px; */
-}
-
-/* Thumbnail image */
-.thumbnail-image {
-  width: 100%;
-  height:auto;
-  cursor: pointer;
-  transition: transform 1.3s ease;
-}
-
-/* Enlarge image on hover */
-.thumbnail-image.hovered {
-  transform: scale(2.1);
-}
-
-/* Fullscreen image overlay */
-.fullscreen-image-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Evenly distribute items */
+  padding: 20px; /* Add padding around the gallery */
 }
 
-/* Fullscreen image */
-.fullscreen-image {
-  max-width: 90%;
-  max-height: 90%;
+.thumbnail-image {
+  width: 200px; /* Set initial width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px; /* Add margin between images */
+  transition: transform 0.3s ease; /* Smooth transition for transform property */
 }
 
-/* Close button */
-.close-button {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background-color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+.thumbnail-image:hover,
+.thumbnail-image:active {
+  transform: scale(1.2); /* Enlarge the image on hover or click */
+  cursor: pointer; /* Show pointer cursor on hover */
 }
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* NAVBAR-LINKS */
 
@@ -372,12 +350,16 @@ input:checked + .slider:before {
   background-color: transparent; /* Transparent background when menu is open */
 }
 
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* FIXED PAGES */
 .app-container {
   width: 100%;
   height: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* FOOTER */
 .footer {
@@ -448,3 +430,4 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
+/* //////////////////////////////////////////////////////////////////////////////////////////// */

@@ -34,15 +34,15 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div className="contact-info">
-          <p>Contact Number: +27761272025</p>
-          <p>Email: abitonp@gmail.com</p>
-          <p>Address: 3 Heatherbank Street, Gqeberha, SA</p>
+          <p>+27761272025</p>
+          <p>abitonp@gmail.com </p>
+          <p>3 Heatherbank Street, Gqeberha, SA</p>
         </div>
       </div>
 
       {/* copyright sign */}
       <div className='copyright'>
-        <p className='contact-info mt-4'>&copy; 2024 Abiton Padera</p>
+        <p className='contact-info mt-4'>&copy; 2024 Abiton & Michelle</p>
       </div>
 
     </footer>
