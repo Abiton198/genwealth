@@ -148,19 +148,31 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/* Home page slider*/
-
 .home {
-  position: relative;
-  overflow: hidden;
-  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-image {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .slider-image {
-  width:100%;
-  height: 100vh; /* Fills the viewport height */
-  object-fit:contain; /* Ensures the image covers the entire slide */
+  width: 80%; /* Adjust width as needed */
+  height: auto;
 }
+
+.text-black {
+  margin-top: 20px;
+  padding: 0 20px; /* Add padding to text */
+  text-align: justify;
+}
+
 
 /* /////////////////////////////////////////////////////////////////////////////////// */
 
@@ -287,7 +299,7 @@ input:checked + .slider:before {
 }
 
 .thumbnail-image {
-  width: 200px; /* Set initial width */
+  width: 380px; /* Set initial width */
   height: auto; /* Maintain aspect ratio */
   margin: 10px; /* Add margin between images */
   transition: transform 0.3s ease; /* Smooth transition for transform property */
@@ -371,8 +383,12 @@ input:checked + .slider:before {
 /* FOOTER */
 .footer {
   background-color: #333;
+  position:static;
+  width: 100%;
   color: #fff;
   padding: 20px;
+  bottom: 0;
+  left:0;
 }
 
 .footer-content {
