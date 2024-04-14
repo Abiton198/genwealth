@@ -26,7 +26,7 @@ const NavBar = () => {
           <span className="navbar-icon">&#9776;</span>
         </button>
         <div className='flex'>
-           <h2 className='text-white text-2xl m-6 font-bold'>GenWealth  <br/> <span className='text-white text-center text-sm'>"Building wealth for generations"</span></h2>
+           <h2 className='text-white text-2xl m-6 font-bold'>GenWealth  <br/> <span className='text-white text-center text-sm'>"Build wealth for gen"</span></h2>
            <img src={logo} className="logo"/>
         </div>
       </div>

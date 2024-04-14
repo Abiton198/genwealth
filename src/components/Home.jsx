@@ -37,7 +37,7 @@ const Home = () => {
       <DisplayTime />
     
       {/* Language toggle button */}
-      <div className='mb-4'>
+      <div className='mb-4 pt-4'>
         <button onClick={toggleLanguage} className='hover:bg-green-600 text-black font-bold py-4 px-8 rounded inline-flex items-center animate-flicker'>
           Language ({language === 'en' ? 'Xhosa / English' : language === 'xh' ? 'Afrikaans / English' : 'English / Xhosa'})
         </button>
@@ -59,7 +59,7 @@ const Home = () => {
 
       <div className='flex justify-center'>
         <a href='/Intro'>
-          <button className='bg-red-600 hover:bg-green-600 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker'>
+          <button className='bg-red-600 hover:bg-green-800 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker'>
             {translations.getStarted}
             <svg className='w-6 h-6 ml-2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor'>
               <path
