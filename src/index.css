@@ -428,8 +428,17 @@ input:checked + .slider:before {
   margin-top: 10px;
 }
 
+.footer-logo {
+  width: 20px;
+  border: solid ipx white;
+  border-radius: 50%;
+}
 .logo {
-  width: 100px;
+  width: 35px;
+  height: 35px;
+  border: #fff solid 1px;
+  border-radius: 50%;
+  /* background-color: white; */
 }
 
 .social-icons {
@@ -440,8 +449,8 @@ input:checked + .slider:before {
   padding: 10px;
 }
 
-.social-icons li {
-  margin-right: 10px;
+.social-icons > a {
+  margin: 10px;
 }
 
 .social-icons li:last-child {

@@ -56,8 +56,10 @@ const Intro = () => {
       <div className="mt-8">
         <h2 className="text-black font-bold text-xl mb-4">The wealth exposed...</h2>
         <p className="text-black">Embark on an extraordinary journey towards financial empowerment with Duepoint! This captivating video encapsulates 
-        the very essence of our revolutionary referral marketing business. As you delve into its compelling narrative, you'll discover the boundless 
-        opportunities that await. <br/> Join us today and become part of a dynamic community driven by success and prosperity. Let this video be your guiding 
+        the very essence of our asset based business. As you delve into its compelling narrative, you'll discover the boundless 
+        opportunities that await. </p> 
+        
+        <p className='text-black mt-2'><br/> Get involved today and become part of a dynamic community driven by great vision. Let this video be your guiding 
         light towards a brighter financial future with Duepoint!</p>
       </div>
 
@@ -102,12 +104,12 @@ const Intro = () => {
     <div className="mt-8">
         <h2 className="text-black font-bold text-xl mb-4">Why waiting now...</h2>
         <p className="text-gray-700 mb-4">
-          As for us, these two videos were crucial in making our decision. 
-          But what worked for us may not work for you. Now is your chance to sign up! Yes it's that easy!
+          As for us, we jumped in. Copy the Wealth Engineer Number to write on who introduced you? Yes it's that easy!
+          <span className='text-black text-2xl'> W1001488205</span>
         </p>
     {/* Call-to-Action Button */}
     
-    <a href='/Signup'>
+    <a href='https://portal.duepoint.net/register/application/v3/c5bc346b-2280-4545-a7c2-7ea8f80d91a8'>
         <button className="bg-green-600 hover:bg-red-600 text-black font-bold py-4 px-8 rounded inline-flex items-center animate-flicker mb-4">
           Sign-up Now
           <svg className="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -116,7 +118,7 @@ const Intro = () => {
         </button>
       </a>  
 
-      <p className="text-gray-700 mb-4">Alternatively, If you're still unsure and want to explore further
+      <p className="text-gray-700 mb-4">Alternatively, you want to explore further
       click below video for all objections overruled or contact us directly on WhatsApp.</p>
       <div className="mt-4 md:mt-0 md:ml-4 w-full md:w-1/2 flex items-center">
             {/* Thumbnail Image */}

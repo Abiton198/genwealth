@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../img/logo.jpeg'
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,10 @@ const NavBar = () => {
         <button className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
           <span className="navbar-icon">&#9776;</span>
         </button>
-        <h2 className='text-white text-2xl m-6 font-bold'>GenWealth  <br/> <span className='text-white text-center text-sm'>"Building wealth for generations"</span></h2>
+        <div className='flex'>
+           <h2 className='text-white text-2xl m-6 font-bold'>GenWealth  <br/> <span className='text-white text-center text-sm'>"Building wealth for generations"</span></h2>
+           <img src={logo} className="logo"/>
+        </div>
       </div>
       {/* Links to pages */}
       <div className={`nav-links ${isOpen ? 'hidden md:flex' : 'flex'}`}>

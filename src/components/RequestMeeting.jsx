@@ -12,6 +12,9 @@ const RequestMeeting = () => {
     isWeekend: false, // Add state to track if it's a weekend
   });
 
+  // track state of the submitted form
+  const [submitted, setSubmitted] = useState(false);
+
   // handling the events on input data
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,42 +26,39 @@ const RequestMeeting = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Logic to handle form submission (e.g., send data to backend or display a confirmation message)
+    // Logic to handle form submission (send data to backend or display a confirmation message)
     console.log(formData);
+    setSubmitted(true);
   };
 
-  // Set available times for WhatsApp/Direct Call and Meet-up
+  // Set available times for WhatsApp/Direct Call 
   const whatsappDirectCallTimes = [
-    { time: '09:00', available: true },
-    { time: '10:00', available: false },
-    { time: '11:00', available: true },
-    { time: '12:00', available: false },
-    { time: '13:00', available: true },
+    { time: '10:00', available: true},
+    { time: '12:00', available: true },
+    { time: '18:00', available: true },
+    { time: '19:00', available: true },
   ];
 
-  const meetUpTimes = [
-    { time: '09:00', available: true },
-    { time: '10:00', available: true },
-    { time: '11:00', available: false },
-    { time: '12:00', available: true },
-    { time: '13:00', available: false },
-  ];
+  // // Set available times for weekdays meet-up
+  // const meetUpTimes = [
+  //   { time: '14:00', available: true },
+  //   { time: '16:00', available: true },
+  
+  // ];
 
   // Set available times for weekend and weekday
   const weekendTimes = [
+    { time: '08:00', available: true },
     { time: '09:00', available: true },
     { time: '10:00', available: true },
-    { time: '11:00', available: true },
-    { time: '12:00', available: true },
-    { time: '13:00', available: true },
+  
   ];
-
+ 
+  // set times for week-days
   const weekdayTimes = [
-    { time: '09:00', available: true },
-    { time: '10:00', available: true },
-    { time: '11:00', available: false },
-    { time: '12:00', available: true },
-    { time: '13:00', available: false },
+    { time: '14:00', available: true },
+    { time: '16:00', available: true },
+    { time: '17:00', available: true },
   ];
 
   // Function to handle time button click
@@ -75,6 +75,16 @@ const RequestMeeting = () => {
     availableTimes = formData.isWeekend ? weekendTimes : weekdayTimes;
   } else {
     availableTimes = whatsappDirectCallTimes;
+  }
+
+  // Form close with Thank you
+  if (submitted) {
+    return (
+      <div className="container mx-auto p-4">
+        <h2 className="text-2xl font-semibold mb-4 mt-14">Thank You!</h2>
+        <p className="mb-4">Thank you for contacting us. We will get back to you shortly.</p>
+      </div>
+    );
   }
 
   return (
@@ -148,9 +158,13 @@ const RequestMeeting = () => {
         {formData.meetUpPlace === 'meet-up' && (
           <div className="mb-4 mt-3">
             <label htmlFor="meetUpPlace">Preferred Meet-up Place: </label>
-            <select id="meetUpPlace" name="meetUpPlace" value={formData.meetUpPlace} onChange={handleChange} required className='box pl-2'>
-              <option value="">McDonalds - Cape Road</option>
-              <option value="Coffee Shop">Seattle Coffee Co. - Cape Road</option>
+            <select id="meetUpPlace" name="meetUpPlace" 
+            value={formData.meetUpPlace} 
+            onChange={handleChange} required 
+            className='box pl-2'>
+              
+              <option value="McDonalds">McDonalds - Cape Road</option>
+              <option value="Seattle Coffee Shop">Seattle Coffee Co. - Cape Road</option>
               {/* <option value="Office">Bean Coffee -</option> */}
             </select>
           </div>

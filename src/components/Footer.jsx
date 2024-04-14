@@ -1,14 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'; // social media icons
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'; // social media icons
+import { SiSpotify } from 'react-icons/si';
+import logo from '../img/logo.jpeg'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
         {/* Logo */}
-        <div className="logo-container">
-          <Link to="/" className="footer-logo">GenWealth</Link>
+        <div className="logo-container flex">
+          <img src={logo} className="footer-logo mr-2"/>
+          <Link to="/" >If not this, the what?</Link>
           <p></p>
         </div>
 
@@ -21,13 +24,14 @@ const Footer = () => {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/questions">Q & A</Link></li>
+            <li><Link to="/requestMeeting">Request Meeting</Link></li>
           </ul>
         </nav>
 
         {/* Social Media Icons */}
         <div className="social-icons">
           <a href="https://web.facebook.com/Official.DuePoint/?_rdc=1&_rdr"><FaFacebook /></a>
-          <a href="https://twitter.com/duepoint"><FaTwitter /></a>
+          <a href='https://open.spotify.com/show/1tzJ9LlQDuvZWZH5xu7SVp'><SiSpotify/></a>
           <a href="https://www.instagram.com/duepoint.official/"><FaInstagram /></a>
           <a href="https://www.youtube.com/watch?v=WodCbX6hhhE&t=167s"><FaYoutube /></a>
         </div>
@@ -42,7 +46,7 @@ const Footer = () => {
 
       {/* copyright sign */}
       <div className='copyright'>
-        <p className='contact-info mt-4'>&copy; 2024 Abiton & Michelle</p>
+        <p className='contact-info mt-4'>&copy; 2024 Abiton & Michelle. All rights reserved</p>
       </div>
 
     </footer>

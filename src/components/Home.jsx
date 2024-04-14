@@ -12,16 +12,15 @@ const Home = () => {
 
       <DisplayTime/>
 
-      <p className='text-black text-justify mt-20 p-8'>Embark on an empowering journey with GenWealth, an independent business distributor affiliated with a leading financial company in South Africa. 
-      <br/><span className='text-black mt-4'>Our mission is to empower individuals seeking entrepreneurial opportunities by offering independent distributor roles tailored for residents of the country.</span> <br/> <span className='text-black mt-4'>Our website serves as a comprehensive hub where you can explore the
-      exciting opportunities we offer and access valuable information to guide you through the process.</span>
+      <p className='text-black text-justify mt-20 p-8'>Become an independent business distributor affiliated with a leading financial company in South Africa. 
+      <br/><span className='text-black mt-4'>Gen Wealth is pushing empowerment agenda for South Africans offering independent distributor tailored roles for residents of the country.</span> <br/> <span className='text-black mt-4'>Our website serves as a comprehensive hub where you can explore the
+      exciting opportunity on offer and access valuable information to guide you through the process.</span>
       </p>
         <div className='home-image'>
           <img src={motivate4} alt="Image 4" className="slider-image" />
         </div>
 
-        <p className='text-black text-justify p-6'>Discover the potential for financial independence and personal growth as you navigate our website 
-          and explore the opportunities available. From informative guides to step-by-step instructions, our platform 
+        <p className='text-black text-justify p-6'>You not selling any products! We look for people to distribute the company name throughout and in turn the company markets its products through your leads. Get paid! From informative guides to step-by-step instructions, our platform 
           equips you with everything you need to kickstart your journey towards success.
           </p>
       {/* Action button below the text */}

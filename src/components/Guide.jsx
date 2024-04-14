@@ -9,7 +9,7 @@ import Carousel from "./Carousel";
 export default function Guide() {
   return (
     <div className="bg-white mx-auto px-4 md:px-8 lg:px-16">
-      <div className="my-8 lg:my-16">
+      <div className="my-8 lg:my-16 mt-20">
         <h2 className="text-lg font-bold text-black mb-5">Welcome to a generous guide to success!</h2>
         <p className="text-lg text-black leading-7 mb-4">
           The sign-up process is straightforward and can be completed from the comfort 
