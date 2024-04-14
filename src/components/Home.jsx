@@ -5,24 +5,46 @@ import { DisplayTime, WeatherDisplay } from '../utils';
 // Import Xhosa translations
 import translationsXh from '../translations/translationsXh';
 import translationsEn from '../translations/translationsEn';
+import translationsAf from '../translations/translationsAf';
+
 
 const Home = () => {
+
   // Set the default language to English
   const [language, setLanguage] = useState('en');
 
-  // Function to toggle between English and Xhosa
+  // Function to toggle between English, Africans and Xhosa
   const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'xh' : 'en');
+    setLanguage(language === 'en' ? 'xh' : language === 'xh' ? 'af' : 'en');
+
   };
 
   // Use the translations based on the selected language
-  const translations = language === 'en' ? translationsEn: translationsXh;
+  let translations;
+  if (language === 'en') {
+    translations = translationsEn;
+  } else if (language === 'xh') {
+    translations = translationsXh;
+  } 
+    else
+   {
+    translations = translationsAf;
+  }
 
   return (
     <div className='home' style={{ overflowX: 'hidden' }}>
       <WeatherDisplay />
       <DisplayTime />
+    
+      {/* Language toggle button */}
+      <div className='mb-4'>
+        <button onClick={toggleLanguage} className='hover:bg-green-600 text-black font-bold py-4 px-8 rounded inline-flex items-center animate-flicker'>
+          Language ({language === 'en' ? 'Xhosa / English' : language === 'xh' ? 'Afrikaans / English' : 'English / Xhosa'})
+        </button>
+      </div>
 
+
+{/* Text displayed on home-page */}
       <p className='text-black text-justify mt-20 p-8'>
         {translations.become}
         <br />
@@ -33,7 +55,7 @@ const Home = () => {
         <img src={motivate4} alt='Image 4' className='slider-image' />
       </div>
 
-      <p className='text-black text-justify p-6'>{translations.notSelling}</p>
+      <p className='text-black text-justify p-6'>{translations.notselling}</p>
 
       <div className='flex justify-center'>
         <a href='/Intro'>
@@ -50,12 +72,8 @@ const Home = () => {
         </a>
       </div>
 
-      <p className='text-black text-justify mt-6 p-6'>{translations.unlockPotential}</p>
+      <p className='text-black text-justify mt-6 p-6'>{translations.unlock}</p>
 
-    <div className='mb-14'>
-      {/* Language toggle button */}
-      <button onClick={toggleLanguage} className='bg-blue-600 hover:bg-green-600 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker'>Toggle Language ({language === 'en' ? 'Xhosa' : 'English'})</button>
-    </div>
     </div>
   );
 };

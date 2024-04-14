@@ -11,7 +11,7 @@ const Footer = () => {
         {/* Logo */}
         <div className="logo-container flex">
           <img src={logo} className="footer-logo mr-2"/>
-          <Link to="/" >If not this, the what?</Link>
+          <Link to="/" >If not this, then what?</Link>
           <p></p>
         </div>
 
