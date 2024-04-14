@@ -44,6 +44,7 @@ const NavBar = () => {
         <Link to="/Gallery" className={`menu-item ${clickedItem === 'gallery' ? 'clicked' : ''}`} onClick={() => handleItemClick('gallery')}>Gallery</Link>
         <Link to="/About" className={`menu-item ${clickedItem === 'about' ? 'clicked' : ''}`} onClick={() => handleItemClick('about')}>About</Link>
         <Link to="/Questions" className={`menu-item ${clickedItem === 'questions' ? 'clicked' : ''}`} onClick={() => handleItemClick('questions')}>Q & A</Link>
+        <Link to="/RequestMeeting" className={`menu-item ${clickedItem === 'questions' ? 'clicked' : ''}`} onClick={() => handleItemClick('requestmeeting')}>Request Meeting</Link>
         {/* Other menu items */}
         <p className="menu-item mt-8">Wealth Engineer Num: <br/> <span className="text-aqua text-2xl">W1001488205</span></p>
       </div>

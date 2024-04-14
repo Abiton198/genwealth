@@ -152,7 +152,7 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 .home-image {
@@ -163,13 +163,13 @@ input:checked + .slider:before {
 }
 
 .slider-image {
-  width: 80%; /* Adjust width as needed */
+  width: 80%; 
   height: auto;
 }
 
 .text-black {
   margin-top: 20px;
-  padding: 0 20px; /* Add padding to text */
+  padding: 0 20px;
   text-align: justify;
 }
 
@@ -417,11 +417,11 @@ input:checked + .slider:before {
 }
 
  .footer-menu {
-  font-size: 8px;
+  font-size: 10px;
   text-decoration: underline;
 }
 .contact-info{
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .address {
@@ -454,3 +454,9 @@ input:checked + .slider:before {
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* REQUEST MEETING FORM */
+.box{
+  border: solid rgb(73, 66, 66) 1px;
+  margin-left: 10px;
+}
