@@ -8,7 +8,7 @@ const Intro = () => {
   const whatsappNumber = '+27761272025';
 
   return (
-    <div className="bg-white rounded-lg p-4 relative">
+    <div className="bg-white rounded-lg p-4 mt-8 relative">
       {/* Text on 1st video */}
       <div className="mt-4">
         <h2 className="text-black text-xl font-bold">The journey begins...</h2>

@@ -374,7 +374,7 @@ input:checked + .slider:before {
 .app-container {
   margin-top: 5rem;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
@@ -432,6 +432,7 @@ input:checked + .slider:before {
   width: 20px;
   border: solid ipx white;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 .logo {
   width: 35px;

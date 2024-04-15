@@ -21,8 +21,8 @@ function App() {
             <Route path='/Guide'  element={<Guide/>}/>
             <Route path='/RequestMeeting'  element={<RequestMeeting/>}/>
           </Routes> 
+        </DarkMode>
           <Footer/>
-          </DarkMode>
       </div>
     
   );

@@ -20,7 +20,7 @@ const DarkMode = ({ children }) => {
       </div>
 
       {/* Render children components */}
-      <div className={isDarkMode ? 'text-white' : 'text-black'}>
+      <div style={{ color: isDarkMode ? '#fff' : '#333' }}>
         {/* Your text content here */}
         {children}
       </div>
