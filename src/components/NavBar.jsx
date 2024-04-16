@@ -35,7 +35,7 @@ const NavBar = () => {
       </div>
 
       {/* Links to pages */}
-      <div className={`nav-links ${isOpen ? 'hidden md:flex justify-end' : 'flex'}`}>
+      <div className={`nav-links hidden md:flex justify-end`}>
         <Link to="/" className="nav-link" onClick={() => handleItemClick('home')}>
           Home
         </Link>
