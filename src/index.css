@@ -367,6 +367,15 @@ input:checked + .slider:before {
 .navbar.open {
   background-color: transparent; /* Transparent background when menu is open */
 }
+.nav-links{
+  font-size: 16px;
+  padding: 1rem;
+  font-weight: bold;
+ 
+}
+.nav-link{
+  padding: 10px;
+}
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
