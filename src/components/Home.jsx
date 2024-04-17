@@ -1,66 +1,57 @@
 import React, { useState } from 'react';
 import motivate4 from '../img/motivate4.png';
-import { DisplayTime, WeatherDisplay } from '../utils';
-
-// Import Xhosa translations
-import translationsXh from '../translations/translationsXh';
+import { WeatherDisplay, DisplayTime } from '../utils';
 import translationsEn from '../translations/translationsEn';
+import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
 
-
 const Home = () => {
-
-  // Set the default language to English
+  // Define state for language and set default language to English
   const [language, setLanguage] = useState('en');
 
-  // Function to toggle between English, Africans and Xhosa
-  const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'xh' : language === 'xh' ? 'af' : 'en');
-
+  // Define translations object based on the selected language
+  const translations = {
+    en: translationsEn,
+    xh: translationsXh,
+    af: translationsAf
   };
 
-  // Use the translations based on the selected language
-  let translations;
-  if (language === 'en') {
-    translations = translationsEn;
-  } else if (language === 'xh') {
-    translations = translationsXh;
-  } 
-    else
-   {
-    translations = translationsAf;
-  }
+  // Function to handle language toggle
+  const toggleLanguage = (selectedLanguage) => {
+    setLanguage(selectedLanguage);
+  };
 
   return (
     <div className='home' style={{ overflowX: 'hidden' }}>
       <WeatherDisplay />
       <DisplayTime />
-    
-      {/* Language toggle button */}
+
+      {/* Language toggle dropdown */}
       <div className='mb-4 pt-4'>
-        <button onClick={toggleLanguage} className='hover:bg-green-600 text-black font-bold py-4 px-8 rounded inline-flex items-center animate-flicker'>
-          Language ({language === 'en' ? 'Xhosa / English' : language === 'xh' ? 'Afrikaans / English' : 'English / Xhosa'})
-        </button>
+        <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
+          <option value="en">English</option>
+          <option value="xh">Xhosa</option>
+          <option value="af">Afrikaans</option>
+        </select>
       </div>
 
-
-{/* Text displayed on home-page */}
+      {/* Text displayed on home-page */}
       <p className='text-black text-justify mt-20 p-8'>
-        {translations.become}
+        {translations[language].become}
         <br />
-        <span className='text-black mt-4'>{translations.genwealth}</span> <br />{' '}
-        <span className='text-black mt-4'>{translations.ourwebsite}</span>
+        <span className='text-black mt-4'>{translations[language].genwealth}</span> <br />{' '}
+        <span className='text-black mt-4'>{translations[language].ourwebsite}</span>
       </p>
       <div className='home-image'>
         <img src={motivate4} alt='Image 4' className='slider-image' />
       </div>
 
-      <p className='text-black text-justify p-6'>{translations.notselling}</p>
+      <p className='text-black text-justify p-6'>{translations[language].notselling}</p>
 
       <div className='flex justify-center'>
         <a href='/Intro'>
           <button className='bg-red-600 hover:bg-green-800 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker'>
-            {translations.getStarted}
+            {translations[language].getStarted}
             <svg className='w-6 h-6 ml-2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor'>
               <path
                 fillRule='evenodd'
@@ -72,8 +63,7 @@ const Home = () => {
         </a>
       </div>
 
-      <p className='text-black text-justify mt-6 p-6'>{translations.unlock}</p>
-
+      <p className='text-black text-justify mt-6 p-6'>{translations[language].unlock}</p>
     </div>
   );
 };

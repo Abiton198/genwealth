@@ -106,7 +106,7 @@ const Questions = () => {
   return (
     <div className="faq-container text-black">
       {questionsAndAnswers.map((qa, index) => (
-        <div key={index} className="faq-item">
+        <div key={index} className="faq-item mt-12">
           <div
             className="faq-question"
             onClick={() => toggleDropdown(index)}

@@ -54,13 +54,13 @@ const NavBar = () => {
         <Link to="/questions" className="nav-link" onClick={() => handleItemClick('questions')}>
           Q & A
         </Link>
-        <Link
+        {/* <Link
           to="/requestmeeting"
           className={`nav-link ${clickedItem === 'requestmeeting' ? 'clicked' : ''}`}
           onClick={() => handleItemClick('requestmeeting')}
         >
           Request Meeting
-        </Link>
+        </Link> */}
       </div>
 
       {/* Hamburger menu for mobile */}
@@ -107,16 +107,19 @@ const NavBar = () => {
         >
           Q & A
         </Link>
+{/*         
+        Reques page - needs backend intergration first
+
         <Link
           to="/requestmeeting"
           className={`menu-item ${clickedItem === 'requestmeeting' ? 'clicked' : ''}`}
           onClick={() => handleItemClick('requestmeeting')}
         >
           Request Meeting
-        </Link>
+        </Link> */}
         {/* Other menu items */}
         <p className="menu-item mt-8">
-          Wealth Engineer Num: <br />
+          Wealth Engineer Number: <br />
           <span className="text-aqua text-2xl">W1001488205</span>
         </p>
       </div>

@@ -14,7 +14,7 @@ const About = () => {
     <div className="container mx-auto px-4 mt-6">
       <h2 className="text-2xl font-bold text-center mb-8">Allow us to introduce ourselves:</h2>
       
-      <div className="flex flex-col items-center mb-8">
+      {/* <div className="flex flex-col items-center mb-8">
         <img src={Abiton} alt="Abiton" className="w-32 h-32 rounded-full mb-2" />
         <p className="text-center mb-4">Abiton</p>
       </div>
@@ -22,7 +22,34 @@ const About = () => {
       <div className="flex flex-col items-center mb-8">
         <img src={Michelle} alt="Michelle" className="w-32 h-32 rounded-full mb-2" />
         <p className="text-center">Michelle</p>
+      </div> */}
+             <div className="digital-card-container">
+      {/* First Digital Card */}
+      <div className="digital-card">
+        <div className="digital-card-header">
+          <img src={Abiton} alt="Profile" className="profile-image" />
+        </div>
+        <div className="digital-card-content">
+          <h2 className="card-title">Abiton</h2>
+          <p className="card-description">Business Partner</p>
+          <button className="card-button">Gqeberha</button>
+        </div>
       </div>
+
+      {/* Second Digital Card */}
+      <div className="digital-card">
+        <div className="digital-card-header">
+          <img src={Michelle} alt="Profile" className="profile-image" />
+        </div>
+        <div className="digital-card-content">
+          <h2 className="card-title">Michelle</h2>
+          <p className="card-description">Business Partner</p>
+          <button className="card-button">Gqeberha</button>
+        </div>
+      </div>
+    </div>
+
+
 
       <div className={isCollapsed ? 'block' : 'hidden'}>
         <p className="text-black mb-4">
