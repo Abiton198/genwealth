@@ -12,6 +12,15 @@ const translationsEn = {
     asyou:"As you can see, it requires minimal effort to introduce you to this platform, and with the same level of effort, you too can become a part of this venture and share it with others. Participating in this business venture will not only shape your financial future but also have a positive impact on the lives of those you introduce to this invaluable opportunity.",
     whatever:" Whatever decision you make, we wish you the very best!",
     message:"Message Us on WhatsApp",
+    allowus:'Allow us to introduce ourselves',
+    areyou:"Are you ready for an exhilarating journey into the world of Duepoint business? In just 3 minutes, this video will whisk you away on an adventure that marks the beginning of an incredible financial journey. So grab a seat, buckle up, and let's embark on this thrilling ride together!",
+    embark:"Embark on an extraordinary journey towards financial empowerment with Duepoint! This captivating video encapsulates the very essence of our asset-based business. As you delve into its compelling narrative, you'll discover the boundless opportunities that await.",
+    getinvolved:"Get involved today and become part of a dynamic community driven by great vision. Let this video be your guiding light towards a brighter financial future with Duepoint!",
+    asfor:"As for us, we jumped in. Copy the Wealth Engineer Number to write on who introduced you? Yes, it's that easy!",
+    alternatively:"Alternatively, if you want to explore further, click below to watch 'Objections Overruled!' or contact us directly on WhatsApp.",
+    thejourney:"The journey begins...",
+    thewealth:"The wealth exposed...",
+    whywait:"Why wait now...",
     
 
 

@@ -11,6 +11,15 @@ const translationsXh ={
     asyou:"Njengoko ubona, kufuna umgudu omncinci ukukwazisa kweli qonga, kwaye ngenqanaba elifanayo lomzamo, nawe unokuba yinxalenye yeli shishini kwaye wabelane ngalo nabanye. Ukuthatha inxaxheba kweli linge loshishino akuyi kubumba ikamva lakho lezemali kuphela kodwa kuya kuba nefuthe elihle kubomi babo ubazisayo kweli thuba lixabisekileyo.",
     whatever:"Nokuba sisiphi na isigqibo osenzayo, sikunqwenelela okuhle kodwa!",
     message:"Sithumele umyalezo kuWhatsApp",
+    allowus:'Sivumele ukuba sizazise',
+    areyou:"Ngaba ululungele uhambo olonwabisayo lokuya kwihlabathi leshishini le-Duepoint? Kwimizuzu nje emi-3, le vidiyo iya kukukhupha kuhambo oluphawula ukuqala kohambo lwemali olumangalisayo. Ke thatha isihlalo, bopha iqhosha, kwaye masiqalise olu hambo luchulumancisayo kunye!",
+    embark:"Qalisa kuhambo olungaqhelekanga olusingise kuxhotyiso lwemali nge-Duepoint! Le vidiyo inomtsalane iquka eyona nto iphambili kwishishini lethu esekwe kwii-asethi. Njengoko uphonononga ibali layo elinyanzelayo, uya kufumana amathuba angenamda alindileyo.",
+    getinvolved:"Zibandakanye namhlanje kwaye ube yinxalenye yoluntu oluguqukayo oluqhutywa ngumbono omkhulu. Vumela le vidiyo ibe sisikhanyiso sakho esikhokelela kwikamva eliqaqambileyo lezemali ngeDuepoint!",
+    asfor:"Thina ke, siye satsibela. Khuphela iNombolo yeNjineli yoButyebi ukuze ubhale ukuba waziswe ngubani? Ewe, kulula ngolo hlobo!",
+    alternatively:"Kungenjalo, ukuba ufuna ukuphonononga ngakumbi, cofa apha ngezantsi ukuze ubukele 'Izichaso ziPhelisiwe!' okanye uqhagamshelane nathi ngqo kuWhatsApp.",
+    thejourney:"Uhambo luyaqala...",
+    thewealth:"Ubutyebi obuveziweyo...",
+    whywait:"Kutheni ulinde ngoku...",
 
 
 }   

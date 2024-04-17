@@ -1,29 +1,55 @@
 import React, { useState } from 'react';
 import Abiton from '../img/Abiton.jpeg';
 import Michelle from '../img/Michelle.jpeg';
+import translationsEn from '../translations/translationsEn';
+import translationsXh from '../translations/translationsXh';
+import translationsAf from '../translations/translationsAf';
+
 
 const About = () => {
   const whatsappNumber = '+27761272025';
   const [isCollapsed, setIsCollapsed] = useState(false);
-
+  
+    // Define state for language and set default language to English
+    const [language, setLanguage] = useState('en');
+  
+  // toggle for readmore button
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
   };
 
+
+  // Define translations object based on the selected language
+  const translations = {
+    en: translationsEn,
+    xh: translationsXh,
+    af: translationsAf
+  };
+
+  // Function to handle language toggle
+  const toggleLanguage = (selectedLanguage) => {
+    setLanguage(selectedLanguage);
+  };
+
+
+
+
   return (
     <div className="container mx-auto px-4 mt-6">
-      <h2 className="text-2xl font-bold text-center mb-8">Allow us to introduce ourselves:</h2>
+
+          {/* Language toggle dropdown */}
+          <div className='mb-4 pt-4'>
+          <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
+            <option value="en">English</option>
+            <option value="xh">Xhosa</option>
+            <option value="af">Afrikaans</option>
+          </select>
+        </div>
+
+      <h2 className="text-2xl font-bold text-center mb-8">{translations[language].allowus}:</h2>
       
-      {/* <div className="flex flex-col items-center mb-8">
-        <img src={Abiton} alt="Abiton" className="w-32 h-32 rounded-full mb-2" />
-        <p className="text-center mb-4">Abiton</p>
-      </div>
-      
-      <div className="flex flex-col items-center mb-8">
-        <img src={Michelle} alt="Michelle" className="w-32 h-32 rounded-full mb-2" />
-        <p className="text-center">Michelle</p>
-      </div> */}
-             <div className="digital-card-container">
+    
+     <div className="digital-card-container">
       {/* First Digital Card */}
       <div className="digital-card">
         <div className="digital-card-header">
@@ -53,27 +79,32 @@ const About = () => {
 
       <div className={isCollapsed ? 'block' : 'hidden'}>
         <p className="text-black mb-4">
-          We are Abiton and Michelle, and we sincerely appreciate you taking the time to explore our platform.
-          In light of the challenging economic landscape in South Africa and across the globe, we have sought out alternative avenues to supplement our income.
+          {translations[language].weare}
+          {/* We are Abiton and Michelle, and we sincerely appreciate you taking the time to explore our platform.
+          In light of the challenging economic landscape in South Africa and across the globe, we have sought out alternative avenues to supplement our income. */}
         </p>
         
         <p className="text-black mb-4">
-          We understand the importance of finding stable and dependable sources of revenue, which can often be elusive.
-          In our quest, we discovered the Duepoint opportunity. Upon thorough examination of the materials provided, we found it to be a business model that not only complements our current income streams but also promises steady growth and recurring earnings for a lifetime.
+          {translations[language].weunderstand}
+          {/* We understand the importance of finding stable and dependable sources of revenue, which can often be elusive.
+          In our quest, we discovered the Duepoint opportunity. Upon thorough examination of the materials provided, we found it to be a business model that not only complements our current income streams but also promises steady growth and recurring earnings for a lifetime. */}
         </p>
 
         <p className="text-black mb-4">
-          Our role as Wealth Engineers with Duepoint is simple - to share this remarkable opportunity with individuals we encounter in our everyday lives.
-          Driven by our passion for people and our desire to alleviate financial struggles, it is our mission to extend this opportunity to as many individuals as possible, empowering them to improve their circumstances.
+         {translations[language].ourrole}
+          {/* Our role as Wealth Engineers with Duepoint is simple - to share this remarkable opportunity with individuals we encounter in our everyday lives.
+          Driven by our passion for people and our desire to alleviate financial struggles, it is our mission to extend this opportunity to as many individuals as possible, empowering them to improve their circumstances. */}
         </p>
 
         <p className="text-black mb-4">
-          As you can see, it requires minimal effort to introduce you to this platform, and with the same level of effort, you too can become a part of this venture and share it with others.
-          Participating in this business venture will not only shape your financial future but also have a positive impact on the lives of those you introduce to this invaluable opportunity.
+         {translations[language].asyou}
+          {/* As you can see, it requires minimal effort to introduce you to this platform, and with the same level of effort, you too can become a part of this venture and share it with others.
+          Participating in this business venture will not only shape your financial future but also have a positive impact on the lives of those you introduce to this invaluable opportunity. */}
         </p>
 
         <p className="text-black mb-4">
-          Whatever decision you make, we wish you the very best!
+          {translations[language].whatever}
+          {/* Whatever decision you make, we wish you the very best! */}
         </p>
       </div>
 
@@ -90,7 +121,8 @@ const About = () => {
       <div className="flex justify-center mt-8">
         <a href={`whatsapp://send?phone=${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
           <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker">
-            Message Us on WhatsApp
+            {translations[language].message}
+            {/* Message Us on WhatsApp */}
             <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M9 0a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1zM6 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm9 3a1 1 0 0 1 1 1v11a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zM3 7a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1zm14 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" clipRule="evenodd" />
             </svg>
