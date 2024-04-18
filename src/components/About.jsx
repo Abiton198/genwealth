@@ -4,6 +4,7 @@ import Michelle from '../img/Michelle.jpeg';
 import translationsEn from '../translations/translationsEn';
 import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
+import translationsZu from '../translations/translationsZu';
 
 
 const About = () => {
@@ -23,7 +24,8 @@ const About = () => {
   const translations = {
     en: translationsEn,
     xh: translationsXh,
-    af: translationsAf
+    af: translationsAf,
+    zu: translationsZu
   };
 
   // Function to handle language toggle
@@ -41,8 +43,9 @@ const About = () => {
           <div className='mb-4 pt-4'>
           <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
             <option value="en">English</option>
-            <option value="xh">Xhosa</option>
             <option value="af">Afrikaans</option>
+            <option value="xh">isiXhosa</option>
+            <option value="zu">isiZulu</option>
           </select>
         </div>
 
