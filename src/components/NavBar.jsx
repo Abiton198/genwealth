@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../img/logo.jpeg';
+import {  DisplayTime } from '../utils';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,6 +63,8 @@ const NavBar = () => {
           Request Meeting
         </Link> */}
       </div>
+
+      <DisplayTime />
 
       {/* Hamburger menu for mobile */}
       <div className={`menu ${isOpen ? 'block' : 'hidden'}`}>

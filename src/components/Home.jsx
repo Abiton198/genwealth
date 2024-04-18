@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import motivate4 from '../img/motivate4.png';
-import { WeatherDisplay, DisplayTime } from '../utils';
+import { WeatherDisplay } from '../utils';
 import translationsEn from '../translations/translationsEn';
 import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div className='home' style={{ overflowX: 'hidden' }}>
       <WeatherDisplay />
-      <DisplayTime />
+     
 
       {/* Language toggle dropdown */}
       <div className='mb-4 pt-4'>

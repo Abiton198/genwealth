@@ -14,10 +14,10 @@ const DateTimeDisplay = () => {
 
   const formatDateTime = (dateTime) => {
     const options = {
-      weekday: 'long',
+      // weekday: 'long',
       day: 'numeric',
-      month: 'long',
-      year: 'numeric',
+      month: 'short',
+      // year: 'numeric',
       hour: 'numeric',
       minute: 'numeric',
     };
@@ -31,7 +31,7 @@ const DateTimeDisplay = () => {
   };
 
   return (
-    <div className="weather-info mt-12">
+    <div className="weather-info mt-16 pt-2">
    
       <p>{formatDateTime(currentDateTime)}</p>
     </div>
