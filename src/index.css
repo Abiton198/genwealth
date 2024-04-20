@@ -544,3 +544,79 @@ input:checked + .slider:before {
     width: 100%;
   }
 }
+
+/* ///////////////////////////////////////////////////////////////// */
+/* HOME PAGE */
+
+/* Container for the entire home page */
+.home-container {
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  background-image: url('../src/img/home2.jpeg'); /* Replace 'your-background-image-url.jpg' with your image URL */
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(10%); /* Adjust grayscale level as needed */
+  height: 100vh;
+}
+
+/* Overlay to create a darkened effect on the background image */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+
+/* Language dropdown */
+.language-dropdown {
+  position: absolute;
+  border: solid white 1px;
+  margin-top: 50px;
+  top: 20px;
+  left: 20px;
+  z-index: 1; /* Ensure it's above the background image */
+}
+
+/* Content container */
+.content-container {
+  position: relative; /* Ensure it's above the background image */
+  z-index: 1;
+  text-align: center;
+  margin-top: 50vh; /* Adjust as needed to center content vertically */
+  transform: translateY(-50%);
+  color: #fff; /* Text color */
+}
+
+/* Text styles */
+.text {
+  font-size: 24px; /* Font size */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.italic {
+  font-style: italic;
+  margin-top: 10px;
+  color: white;
+}
+
+/* Button styles */
+.button-container {
+  text-align: center;
+}
+
+.button {
+  background-color: #ff4d4f; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Padding */
+  border-radius: 5px; /* Border radius */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold font weight */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: #ff7875; /* Hover background color */
+}
