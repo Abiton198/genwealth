@@ -4,6 +4,7 @@ import translationsEn from '../translations/translationsEn';
 import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
+import translationsVe from '../translations/translationsVe';
 
 const Home = () => {
   // Define state for language and set default language to English
@@ -14,7 +15,8 @@ const Home = () => {
     en: translationsEn,
     xh: translationsXh,
     af: translationsAf,
-    zu: translationsZu
+    zu: translationsZu,
+    ve: translationsVe,
   };
 
   // Function to handle language toggle
@@ -32,8 +34,9 @@ const Home = () => {
         <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
           <option value="en">English</option>
           <option value="af">Afrikaans</option>
+          <option value="zu">isiVenda</option>
           <option value="xh">isiXhosa</option>
-          <option value="zu">isiZulu</option>
+          <option value="ve">isiZulu</option>
         </select>
       </div>
 

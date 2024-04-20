@@ -7,6 +7,7 @@ import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 
 
+
 const About = () => {
   const whatsappNumber = '+27761272025';
   const [isCollapsed, setIsCollapsed] = useState(false);

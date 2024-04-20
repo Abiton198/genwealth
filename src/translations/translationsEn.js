@@ -4,7 +4,7 @@ const translationsEn = {
   // //////////////////////////////////////////////////
     genwealth: 'Are you resident of South Africa?',
     become: 'Be the boss.',
-    ourwebsite:'Explore our website now!',
+    ourwebsite:'Explore the opportunity now!',
     notselling: 'No selling, No Bitcoin, No Trading !',
     getStarted: 'Get Started',
     unlock: 'Connect to financial destiny now!',

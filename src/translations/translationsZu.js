@@ -1,11 +1,14 @@
 // translations/zu.js
 const translationsZu = {
-    become: 'Iba ngumsabalalisi webhizinisi ozimele oxhumene nenkampani yezezimali ehamba phambili eNingizimu Afrika.',
-    genwealth: 'I-Gen Wealth iphusha i-ajenda yokuhlomisa abantu baseNingizimu Afrika enikeza izindima ezizimele zokusabalalisa izakhamuzi zezwe.',
-    ourwebsite:'Iwebhusayithi yethu isebenza njengesizinda esiphelele lapho ungahlola khona ithuba elijabulisayo lokunikezwayo futhi ufinyelele ulwazi olubalulekile lokukuqondisa ohlelweni.',
-    notselling: 'Awuthengisi noma yimiphi imikhiqizo! Sibheka abantu abazosabalalisa igama lenkampani kuyo yonke indawo bese inkampani imaketha imikhiqizo yayo ngemikhondo yenu. Khokhwa! Kusukela kumhlahlandlela ofundisayo kuya emiyalweni yesinyathelo nesinyathelo, inkundla yethu ikuhlomisa ngakho konke okudingayo ukuze uqale uhambo lwakho oluya empumelelweni.',
-    getStarted: 'Qalisa',
-    unlock: 'Vula amandla empumelelo njengomsabalalisi ozimele. Uhambo lwakho oluya enkululekweni yezezimali luqala lapha.',
+  //////////////////////////////////////////////////////////////////////////
+  //HOME PAGE
+    Genwealth: 'Ingabe ungumhlali waseNingizimu Afrika?',
+    become: 'Yiba ngumphathi.',
+    ourwebsite:'Hlola leli thuba manje!',
+    notselling: 'Akukho ukuthengisa, Akukho Bitcoin, Akukho Ukuhweba!',
+    getStarted: 'Qala',
+    unlock: 'Xhuma esimisweni sezezimali manje!',
+    ///////////////////////////////////////////////////////////////////////////////////////
     weare:'Singu-Abiton kanye no-Michelle, futhi sibonga kakhulu ngokuthi uzinike isikhathi sokuhlola inkundla yethu. Ngenxa yesimo somnotho esiyinselele eNingizimu Afrika nasemhlabeni wonke, siye safuna ezinye izindlela zokwengeza imali esiyitholayo.',
     weunderstand:'Siyakuqonda ukubaluleka kokuthola imithombo ezinzile futhi enokwethenjelwa yemali engenayo, okungase kubonakale kunzima. Ekufuneni kwethu, sithole ithuba le-Duepoint. Ngemva kokuhlolisisa izinto ezinikeziwe, sithole ukuthi iyimodeli yebhizinisi engagcini nje ngokuphelelisa imali yethu engenayo kodwa futhi ethembisa ukukhula okuzinzile kanye namaholo aphindelelayo ukuphila kwakho konke.',
     ourrole:"Iqhaza lethu njengonjiniyela Bengcebo abane-Duepoint ilula - ukwabelana ngaleli thuba elimangalisayo nabantu esihlangana nabo ekuphileni kwethu kwansuku zonke. Siqhutshwa uthando lwethu ngabantu kanye nesifiso sethu sokunciphisa imizabalazo yezezimali, kuwumgomo wethu ukwelula leli thuba kubantu abaningi ngangokunokwenzeka, sibanikeze amandla okuthuthukisa izimo zabo.",
