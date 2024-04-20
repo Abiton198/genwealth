@@ -36,17 +36,17 @@ const Footer = () => {
           <a href="https://www.youtube.com/watch?v=WodCbX6hhhE&t=167s"><FaYoutube /></a>
         </div>
 
-        {/* Contact Info */}
+        {/* Contact Info
         <div className="contact-info">
           <p>+27761272025</p>
           <p>abitonp@gmail.com </p>
           <p>3 Heatherbank Street, Gqeberha, SA</p>
-        </div>
+        </div> */}
       </div>
 
       {/* copyright sign */}
       <div className='copyright'>
-        <p className='contact-info mt-4'>&copy; 2024 Abiton & Michelle. All rights reserved</p>
+        <p className='contact-info mt-1'>&copy; 2024 Abiton & Michelle. All rights reserved</p>
       </div>
 
     </footer>
