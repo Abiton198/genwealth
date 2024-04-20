@@ -391,7 +391,7 @@ input:checked + .slider:before {
 
 /* FOOTER */
 .footer {
-  background-color: #333;
+  background-color:#424242;
   position:fixed;
   width: 100%;
   height: 20vh;
@@ -615,13 +615,18 @@ input:checked + .slider:before {
 .button {
   background-color: #ff4d4f; /* Button background color */
   color: #fff; /* Button text color */
-  padding: 10px 20px; /* Padding */
-  border-radius: 5px; /* Border radius */
+  padding: 15px 30px; /* Increased padding for better visibility */
+  border-radius: 25px; /* Increased border radius for a softer look */
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Bold font weight */
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.5s ease; /* Smooth transition */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add pointer cursor for better interaction */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 .button:hover {
-  background-color: #ff7875; /* Hover background color */
+  background-color:  #030e06;; /* Darken button color on hover */
 }
+
+

@@ -29,7 +29,7 @@ const NavBar = () => {
         <div className="flex">
           <h2 className="text-white text-2xl m-6 font-bold">
             GenWealth <br />
-            <span className="text-white text-center text-sm">"Build wealth for gen"</span>
+            <span className="text-white text-center text-xs font-thin">"Wealth creation experts"</span>
           </h2>
           <img src={logo} className="logo" alt="Logo" />
         </div>

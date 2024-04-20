@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="footer-container">
         {/* Logo */}
         <div className="logo-container flex">
-          <img src={logo} className="footer-logo mr-2"/>
-          <Link to="/" >If not this, then what?</Link>
+          <img src={logo} className="footer-logo mr-2 "/>
+          <Link to="/" className='text-sm font-light'>If not this, then what?</Link>
           <p></p>
         </div>
 

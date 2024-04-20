@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Abiton from '../img/Abiton.jpeg';
-import Michelle from '../img/Michelle.jpeg';
+import bus_partner from '../img/bus_partner2.jpeg';
 import translationsEn from '../translations/translationsEn';
 import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
@@ -40,7 +40,7 @@ const About = () => {
     <div className="container mx-auto px-4 mt-6">
 
           {/* Language toggle dropdown */}
-          <div className='mb-4 pt-4'>
+          <div className='mb-2 pt-4'>
           <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
             <option value="en">English</option>
             <option value="af">Afrikaans</option>
@@ -49,7 +49,7 @@ const About = () => {
           </select>
         </div>
 
-      <h2 className="text-2xl font-bold text-center mb-8">{translations[language].allowus}:</h2>
+      <h2 className="text-2xl font-bold text-center mb-2">{translations[language].allowus}:</h2>
       
     
      <div className="digital-card-container">
@@ -61,19 +61,19 @@ const About = () => {
         <div className="digital-card-content">
           <h2 className="card-title">Abiton</h2>
           <p className="card-description">Business Partner</p>
-          <button className="card-button">Gqeberha</button>
+          {/* <button className="card-button">Gqeberha</button> */}
         </div>
       </div>
 
       {/* Second Digital Card */}
       <div className="digital-card">
         <div className="digital-card-header">
-          <img src={Michelle} alt="Profile" className="profile-image" />
+          <img src={bus_partner} alt="Profile" className="profile-image" />
         </div>
         <div className="digital-card-content">
           <h2 className="card-title">Michelle</h2>
           <p className="card-description">Business Partner</p>
-          <button className="card-button">Gqeberha</button>
+          {/* <button className="card-button">Gqeberha</button> */}
         </div>
       </div>
     </div>
@@ -111,13 +111,13 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex justify-center">
-        <button
+      <div className="flex justify-center ">
+        <p
           onClick={toggleCollapse}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker mb-8"
         >
           {isCollapsed ? 'Show less' : 'Read more...'}
-        </button>
+        </p>
       </div>
 
       {/* WhatsApp Button */}
