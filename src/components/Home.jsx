@@ -5,6 +5,7 @@ import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 import translationsVe from '../translations/translationsVe';
+import SpinningSentence from '../utils/effects_sentences'
 
 const Home = () => {
   // Define state for language and set default language to English
@@ -24,6 +25,10 @@ const Home = () => {
     setLanguage(selectedLanguage);
   };
 
+  // spinning sentence
+  const sentence = translations[language].become;
+  const delay = 1000; // milliseconds
+
   return (
     <div className='home-container'>
       <WeatherDisplay />
@@ -42,7 +47,7 @@ const Home = () => {
 
       {/* Text displayed on home-page */}
       <div className='content-container'>
-        <p className='text'>{translations[language].become}</p>
+        <p className='text text-black'><SpinningSentence sentence={sentence} delay={delay}/></p>
         <p className='italic'>{translations[language].genwealth}</p>
         <p className='text'>{translations[language].ourwebsite}</p>
       </div>

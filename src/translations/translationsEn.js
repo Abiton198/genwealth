@@ -3,11 +3,11 @@ const translationsEn = {
   // HOME PAGE
   // //////////////////////////////////////////////////
     genwealth: 'Are you resident of South Africa?',
-    become: 'Be the boss.',
+    become: "Change people's situations.",
     ourwebsite:'Explore the opportunity now!',
     notselling: 'No selling, No Bitcoin, No Trading !',
     getStarted: 'Get Started',
-    unlock: 'Connect to financial destiny now!',
+    unlock: 'Connect to your destiny now!',
 
     // //////////////////////////////////////////////
     weare:'We are Abiton and Michelle, and we sincerely appreciate you taking the time to explore our platform. In light of the challenging economic landscape in South Africa and across the globe, we have sought out alternative avenues to supplement our income.',
