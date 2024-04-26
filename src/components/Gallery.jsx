@@ -36,6 +36,8 @@ import due34 from '../img/gallery/due34.jpeg'
 import due35 from '../img/gallery/due35.jpeg'
 import due36 from '../img/gallery/due36.jpeg'
 import due37 from '../img/gallery/due37.jpeg'
+import due_38 from  '../img/gallery/due_38.jpeg'
+import due_39 from  '../img/gallery/due_39.jpeg'
 
 
 
@@ -45,6 +47,7 @@ const Gallery = () => {
     {src: due4 , alt:'due4'},
     {src: due36 , alt:'due36'},
       {src: due5 , alt:'due5'},
+      {src: due_38 , alt:'due_38'},
       {src: due6 , alt:'due6'},
       {src: due34 , alt:'due34'},
       {src: due7 , alt:'due7'},
@@ -52,6 +55,7 @@ const Gallery = () => {
       {src: due27 , alt:'due27'},
       {src: due9 , alt:'due9'},
       {src: due10 , alt:'due10'},
+      {src: due_39 , alt:'due_39'},
       {src: due13 , alt:'due13'},
       {src: due14 , alt:'due14'},
       {src: due32 , alt:'due32'},
