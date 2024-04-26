@@ -551,13 +551,25 @@ input:checked + .slider:before {
 
 /* ///////////////////////////////////////////////////////////////// */
 /* HOME PAGE */
+.world-image2 {
+  /* width: 150px;
+  height: 150px; */
+  /* object-fit: cover; */
+  /* border-radius: 50%; */
+  /* margin-left: 80px; */
+  display: flex;
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+}
+
 
 /* Container for the entire home page */
 .home-container {
   position: absolute;
   width: 100%;
   /* height: 100%; */
-  background-image: url('../src/img/background.jpg'); /* Replace 'your-background-image-url.jpg' with your image URL */
+  /* background-image: url('../src/img/home2.jpeg');  */
+  /* Replace 'your-background-image-url.jpg' with your image URL */
   background-size: cover;
   background-position: center;
   filter: grayscale(50%); /* Adjust grayscale level as needed */
@@ -591,26 +603,26 @@ input:checked + .slider:before {
   text-align: center;
   margin-top: 30vh; /* Adjust as needed to center content vertically */
   transform: translateY(-50%);
-  color: #fff; /* Text color */
+  color: black; /* Text color */
 }
 
 /* Text styles */
 .text {
-  font-size: 24px; /* Font size */
-  margin-bottom: 20px; /* Bottom margin */
+  font-size: 34px; /* Font size */
   text-align: center;
 }
 
 .italic {
   font-style: italic;
   margin: 10px;
-  margin-top: 15px;
-  color: white;
+  
 }
 
 /* Button styles */
 .button-container {
   text-align: center;
+  margin-top: 15px;
+
 }
 
 .button {
@@ -652,5 +664,19 @@ input:checked + .slider:before {
 .hidden {
   display: none;
 }
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+/* QUESTIONS PAGE */
 
+.world-image{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
 
+.que-heading{
+  text-align: center;
+  font-size: 38px;
+  margin-top: 30px;
+}

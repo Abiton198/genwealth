@@ -6,6 +6,7 @@ import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 import translationsVe from '../translations/translationsVe';
 import SpinningSentence from '../utils/effects_sentences'
+import que_image from '../img/world_image.jpeg'
 
 const Home = () => {
   // Define state for language and set default language to English
@@ -27,7 +28,7 @@ const Home = () => {
 
   // spinning sentence
   const sentence = translations[language].become;
-  const delay = 1000; // milliseconds
+  const delay = 100; // milliseconds
 
   return (
     <div className='home-container'>
@@ -47,10 +48,16 @@ const Home = () => {
 
       {/* Text displayed on home-page */}
       <div className='content-container'>
-        <p className='text text-black'><SpinningSentence sentence={sentence} delay={delay}/></p>
+        {/* <p className='text text-red-700'><SpinningSentence sentence={sentence} delay={delay}/></p> */}
+        {/* <p className='italic'>{translations[language].become}</p> */}
         <p className='italic'>{translations[language].genwealth}</p>
         <p className='text'>{translations[language].ourwebsite}</p>
       </div>
+
+    {/* Image */}
+      <div className="world-image2" >
+          <img src={que_image} alt="Profile"  />
+        </div>
 
       <div className='button-container'>
         <a href='/Intro' className='button'>{translations[language].getStarted}</a>

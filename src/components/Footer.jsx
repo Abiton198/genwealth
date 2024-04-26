@@ -23,7 +23,7 @@ const Footer = () => {
             <li><Link to="/guide">Guide</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/questions">Q & A</Link></li>
+            {/* <li><Link to="/questions">Q & A</Link></li> */}
             {/* <li><Link to="/requestMeeting">Request Meeting</Link></li> */}
           </ul>
         </nav>
