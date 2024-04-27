@@ -6,6 +6,7 @@ import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 import translationsVe from '../translations/translationsVe';
 import que_image from '../img/world_image.jpeg'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   // Define state for language and set default language to English
@@ -54,7 +55,7 @@ const Home = () => {
         </div>
 
       <div className='button-container'>
-        <a href='/Intro' className='button'>{translations[language].getStarted}</a>
+        <Link to='/Intro' className='button'>{translations[language].getStarted}</Link>
       </div>
 
       <p className='text2 italic'>{translations[language].unlock}</p>
