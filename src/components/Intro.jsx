@@ -85,6 +85,7 @@ const Intro = () => {
         </p>
         <a href="https://portal.duepoint.net/register/application/v3/c5bc346b-2280-4545-a7c2-7ea8f80d91a8" target="_blank" rel="noopener noreferrer" className="inline-block bg-green-600 hover:bg-red-600 text-white font-bold py-2 px-4 rounded animate-flicker mb-4">Sign-up Now</a>
         <p className="text-gray-700 mb-4">{translations[language].alternatively} </p>
+        
         <div className="md:flex items-center">
           <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-lg overflow-hidden">
             <a href={`https://www.youtube.com/watch?v=${youtubeVideoId3}`} target="_blank" rel="noopener noreferrer" className="block">
@@ -94,12 +95,15 @@ const Intro = () => {
               </svg>
             </a>
           </div>
+
+      {/* Whatsapp messaging */}
           <a href={`whatsapp://send?phone=${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker mt-5 md:mt-0 md:ml-4">
            {translations[language].message} 
             <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M9 0a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1zM6 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm9 3a1 1 0 0 1 1 1v11a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zM3 7a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1zm14 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" clipRule="evenodd" />
             </svg>
           </a>
+
         </div>
       </div>
     </div>

@@ -328,11 +328,11 @@ background-color: white;
   border-radius: 50%;
   margin-bottom: 10px;
 }
-.logo {
+.logo > img{
   width: 35px;
   height: 35px;
-  border: #fff solid 1px;
-  border-radius: 50%;
+  /* border: #0e0d0d solid 1px;
+  border-radius: 50%; */
   /* background-color: white; */
 }
 
