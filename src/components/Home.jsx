@@ -50,7 +50,7 @@ const Home = () => {
       </div>
 
     {/* Image */}
-      <div className="world-image2" >
+      <div className="world-image2 p-10" >
           <img src={que_image} alt="Profile"  />
         </div>
 
