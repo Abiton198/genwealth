@@ -34,11 +34,11 @@ const Home = () => {
       {/* Language toggle dropdown */}
       <div className='language-dropdown'>
         <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
-          <option value="en">English</option>
-          <option value="af">Afrikaans</option>
-          <option value="zu">isiVenda</option>
-          <option value="xh">isiXhosa</option>
-          <option value="ve">isiZulu</option>
+          <option value="en">En</option>
+          <option value="af">Af</option>
+          <option value="zu">Ven</option>
+          <option value="xh">Xh</option>
+          <option value="ve">Zu</option>
         </select>
       </div>
 
