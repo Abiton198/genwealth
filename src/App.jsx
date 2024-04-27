@@ -7,8 +7,9 @@ function App() {
   return (
     <div className='app-container'>
       <NavBar />
+      
+        
       <DarkMode>
-        <Translate>
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/About' element={<About />} />
@@ -18,8 +19,8 @@ function App() {
             <Route path='/Guide' element={<Guide />} />
             {/* Other routes */}
           </Routes>
-        </Translate>
       </DarkMode>
+
       <Footer />
     </div>
   );

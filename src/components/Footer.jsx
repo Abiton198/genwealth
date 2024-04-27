@@ -10,8 +10,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Logo */}
         <div className="logo-container flex">
-          <img src={logo} className="footer-logo mr-2 "/>
-          <Link to="/" className='text-sm font-light'>If not this, then what?</Link>
+          <p className='text-sm mb-2'>If not this, then what?</p>
           <p></p>
         </div>
 
@@ -46,7 +45,7 @@ const Footer = () => {
 
       {/* copyright sign */}
       <div className='copyright'>
-        <p className='contact-info mt-1'>&copy; 2024 Abiton & Michelle. All rights reserved</p>
+        <p className='contact-info '>&copy; 2024 Abiton & Michelle. All rights reserved</p>
       </div>
 
     </footer>

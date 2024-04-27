@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../img/logo.jpeg';
-import {  DisplayTime } from '../utils';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +21,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand flex">
-        <Link to="/" className="navbar-logo text-white"></Link>
+        {/* <Link to="/" className="navbar-logo text-white"></Link> */}
         <button className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
           <span className="navbar-icon">&#9776;</span>
         </button>
@@ -31,8 +30,8 @@ const NavBar = () => {
             GenWealth <br />
             <span className="text-white text-center text-xs font-thin">"Wealth creation experts"</span>
           </h2>
-          <img src={logo} className="logo" alt="Logo" />
         </div>
+        
       </div>
 
       {/* Links to pages */}
@@ -64,7 +63,6 @@ const NavBar = () => {
         </Link> */}
       </div>
 
-      <DisplayTime />
 
       {/* Hamburger menu for mobile */}
       <div className={`menu ${isOpen ? 'block' : 'hidden'}`}>
@@ -129,6 +127,10 @@ const NavBar = () => {
 
       {/* Close the menu when clicked outside */}
       {isOpen && <div className="backdrop" onClick={handleMenuClick}></div>}
+
+      <div className="logo">
+          <img src={logo}  alt="Logo" />
+        </div>
     </nav>
   );
 };

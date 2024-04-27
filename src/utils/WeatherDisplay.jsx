@@ -31,7 +31,7 @@ export default function WeatherDisplay() {
     <div>
       {/* Display weather information */}
       {weather && (
-        <div className="weather-info mt-2 text-white">
+        <div className="weather-info mt-2 text-black">
           <p>{weather.name}: {Math.round(weather.main.temp - 273.15)}°C, {weather.weather[0].description}</p>
         </div>
       )}

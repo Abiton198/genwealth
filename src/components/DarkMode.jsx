@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaSun, FaMoon } from 'react-icons/fa'; // Import sun and moon icons
 
 const DarkMode = ({ children }) => {
   // State to track the current mode
@@ -11,12 +12,17 @@ const DarkMode = ({ children }) => {
 
   return (
     <div className="layout" style={isDarkMode ? { backgroundColor: '#333', color: '#fff' } : { backgroundColor: '#fff', color: '#333' }}>
-      {/* Dark/Light mode toggle switch */}
-      <div className="switch-container fixed top-0 right-0 m-2">
-        <label className="switch">
-          <input type="checkbox" onChange={toggleDarkMode} checked={isDarkMode} />
-          <span className="slider"></span>
-        </label>
+      {/* Moon and sun icons for dark/light mode */}
+      <div className="toggle-icons">
+        {isDarkMode ? (
+          <span onClick={toggleDarkMode} className="toggle-icon">
+            <FaSun /> {/* Sun icon */}
+          </span>
+        ) : (
+          <span onClick={toggleDarkMode} className="toggle-icon">
+            <FaMoon /> {/* Moon icon */}
+          </span>
+        )}
       </div>
 
       {/* Render children components */}
