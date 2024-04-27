@@ -3,7 +3,7 @@ const translationsEn = {
   // HOME PAGE
   // //////////////////////////////////////////////////
     genwealth: 'Are you resident of South Africa?',
-    become: "Change people's situations.",
+    become: "Do you care about changing narratives?",
     ourwebsite:'Explore the opportunity now!',
     notselling: 'No selling, No Bitcoin, No Trading !',
     getStarted: 'Get Started',

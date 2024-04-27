@@ -4,12 +4,13 @@ const translationsVe = {
    //HOME PAGE
 
   
-    genwealth: 'Udivha nga South Africa?',
-    become: 'Ri fha boss.',
-    ourwebsite: 'Tshinyela muthuvi vhathu u!',
-    notselling: 'A ri u tshi thenga, A ri Bitcoin, A ri u divha!',
-    getStarted: 'Tshama U',
-    unlock: 'Hlambela u na mulayo wa fhulufhelo wa zwithu!',
+    genwealth: "U vhana vha Afrika Tshipembe?",
+    become: "U ya siya vha zwavhudi zwa zwavhudi?",
+    ourwebsite: "Ri bulisa thitsindzo tshothe.",
+    notselling: "Ha zwona, Ha Bitkoina, Ha Kuhlanganisi!",
+    getStarted: "Tshama u fa?",
+    unlock: "Dinga u kha ntshovhiseni dza mbirhi tshibvumo!",
+
     
     ////////////////////////////////////////////////////////////////////////
     weare:'We are Abiton and Michelle, and we sincerely appreciate you taking the time to explore our platform. In light of the challenging economic landscape in South Africa and across the globe, we have sought out alternative avenues to supplement our income.',

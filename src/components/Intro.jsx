@@ -86,7 +86,7 @@ const Intro = () => {
         <a href="https://portal.duepoint.net/register/application/v3/c5bc346b-2280-4545-a7c2-7ea8f80d91a8" target="_blank" rel="noopener noreferrer" className="inline-block bg-green-600 hover:bg-red-600 text-white font-bold py-2 px-4 rounded animate-flicker mb-4">Sign-up Now</a>
         <p className="text-gray-700 mb-4">{translations[language].alternatively} </p>
         
-        <div className="md:flex items-center">
+        <div className="md:flex items-center mb-10">
           <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-lg overflow-hidden">
             <a href={`https://www.youtube.com/watch?v=${youtubeVideoId3}`} target="_blank" rel="noopener noreferrer" className="block">
               <img src={`https://img.youtube.com/vi/${youtubeVideoId3}/0.jpg`} alt="YouTube Thumbnail" className="w-full h-full object-cover" />

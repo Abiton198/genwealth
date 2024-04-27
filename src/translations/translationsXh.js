@@ -1,12 +1,13 @@
 const translationsXh ={
     //    ///////////////////////////////////////////////////////////
     // HOME PAGE
-    Genwealth: 'Ngaba ungumhlali waseMzantsi Afrika?',
-    become: 'Yiba ngumphathi.',
-    ourwebsite:'Jonga eli thuba ngoku!',
-    notselling: 'Akukho kuthengiswa, akukho Bitcoin, akukho ntengiso!',
-    getStarted: 'Qalisa',
-    unlock: 'Qhagamshela kwikamva lezemali ngoku!',
+    genwealth: "Unamkela eMzantsi Afrika?",
+    become:  "Ukhathalela ukulungisa iintshukumo?",
+    ourwebsite: "Qalisa ixesha manje!",
+    notselling: "Akekho okudayiswa, Ama-Bitcoin, Ama-Trading!",
+    getStarted: "Qala manje",
+    unlock: "Qiniseka ukuba uxhasele elilungelo lokwenza imisebenzi ethobekileyo!",
+
     // ///////////////////////////////////////////////////////////////////////
     weare:'Singu-Abiton kunye noMichelle, kwaye sikubulela ngokungazenzisiyo ukuba uthathe ixesha lokuphonononga iqonga lethu.Ngenxa yomngeni wemeko yezoqoqosho eMzantsi Afrika nakwihlabathi liphela, siye safuna iindlela ezizezinye ukongeza ingeniso yethu.',
     weunderstand:'Siyakuqonda ukubaluleka kokufumana imithombo ezinzileyo nethembekileyo yengeniso, ehlala inzima.Kumnqweno wethu, sifumene ithuba leDuepoint. Emva kokuphonononga ngokucokisekileyo izinto ezibonelelweyo, sifumanise ukuba iyimodeli yeshishini engaphelelisi nje kuphela imithombo yethu yengeniso yangoku kodwa ikwathembisa ukukhula okuzinzileyo kunye nemivuzo eqhubekayo ubomi bonke.',

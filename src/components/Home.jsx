@@ -44,7 +44,7 @@ const Home = () => {
 
       {/* Text displayed on home-page */}
       <div className='content-container'>
-        {/* <p className='italic'>{translations[language].become}</p> */}
+        <p className='italic text-red-700 text-bold animate-flicker'>{translations[language].become}</p>
         <p className='italic'>{translations[language].genwealth}</p>
         <p className='text'>{translations[language].ourwebsite}</p>
       </div>
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
 
       <div className='button-container'>
-        <Link to='/Intro' className='button'>{translations[language].getStarted}</Link>
+        <Link to='/Intro' className='button animate-flicker'>{translations[language].getStarted}</Link>
       </div>
 
       <p className='text2 italic'>{translations[language].unlock}</p>

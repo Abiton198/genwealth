@@ -2,12 +2,13 @@
 const translationsZu = {
   //////////////////////////////////////////////////////////////////////////
   //HOME PAGE
-    Genwealth: 'Ingabe ungumhlali waseNingizimu Afrika?',
-    become: 'Yiba ngumphathi.',
-    ourwebsite:'Hlola leli thuba manje!',
-    notselling: 'Akukho ukuthengisa, Akukho Bitcoin, Akukho Ukuhweba!',
-    getStarted: 'Qala',
-    unlock: 'Xhuma esimisweni sezezimali manje!',
+   Genwealth: "Ungehlukumezi eNingizimu Afrika?",
+   become: "Uyakwazi ukushintsha izimpendulo?",
+   ourwebsite: "Hlola lezinto manje!",
+   notselling: "Akekho okudayiswa, Ama-Bitcoin, Ama-Trading!",
+   getStarted: "Qala Manje",
+   unlock: "Uqinisekisa ukuthi uyayivakashela le ndlela yokwenza imisebenzi enhle kakhulu!",
+
     ///////////////////////////////////////////////////////////////////////////////////////
     weare:'Singu-Abiton kanye no-Michelle, futhi sibonga kakhulu ngokuthi uzinike isikhathi sokuhlola inkundla yethu. Ngenxa yesimo somnotho esiyinselele eNingizimu Afrika nasemhlabeni wonke, siye safuna ezinye izindlela zokwengeza imali esiyitholayo.',
     weunderstand:'Siyakuqonda ukubaluleka kokuthola imithombo ezinzile futhi enokwethenjelwa yemali engenayo, okungase kubonakale kunzima. Ekufuneni kwethu, sithole ithuba le-Duepoint. Ngemva kokuhlolisisa izinto ezinikeziwe, sithole ukuthi iyimodeli yebhizinisi engagcini nje ngokuphelelisa imali yethu engenayo kodwa futhi ethembisa ukukhula okuzinzile kanye namaholo aphindelelayo ukuphila kwakho konke.',

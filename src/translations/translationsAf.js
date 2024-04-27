@@ -2,12 +2,13 @@
 const translationsAf = {
   /////////////////////////////////////////////////////////////////////////////////////////
   //HOME PAGE   
-    genwealth: 'Is jy inwoner van Suid-Afrika?',
-    become: 'Wees die baas.',
-    ourwebsite: 'Verken die geleentheid nou!',
-    notselling: 'Geen verkoop, geen Bitcoin, geen handel nie!',
-    getStarted: 'Begin',
-    unlock: 'Verbind nou met finansiële lot!',
+   genwealth: "Is jy 'n inwoner van Suid-Afrika?",
+   become: "Gee om om vertellings te verander?",
+   ourwebsite: "Verken die geleentheid nou!",
+   notselling: "Geen verkoop, Geen Bitcoin, Geen Handel!",
+   getStarted: "Begin nou",
+   unlock: "Koppel nou aan die lewensveranderende geleentheid!",
+
     ///////////////////////////////////////////////////////////////////////////
     weare:'Ons is Abiton en Michelle, en ons waardeer dit opreg dat jy die tyd geneem het om ons platform te verken. In die lig van die uitdagende ekonomiese landskap in Suid-Afrika en regoor die wêreld, het ons alternatiewe maniere gesoek om ons inkomste aan te vul.',
     weunderstand:"Ons verstaan ​​die belangrikheid daarvan om stabiele en betroubare bronne van inkomste te vind, wat dikwels ontwykend kan wees. In ons soeke het ons die Duepoint-geleentheid ontdek. Na 'n deeglike ondersoek van die materiaal wat verskaf is, het ons gevind dat dit 'n sakemodel is wat nie net ons huidige inkomstestrome komplementeer nie, maar ook bestendige groei en herhalende verdienste vir 'n leeftyd beloof.",

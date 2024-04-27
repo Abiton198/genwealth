@@ -331,9 +331,7 @@ background-color: white;
 .logo > img{
   width: 35px;
   height: 35px;
-  /* border: #0e0d0d solid 1px;
-  border-radius: 50%; */
-  /* background-color: white; */
+ 
 }
 
 .social-icons {
@@ -481,12 +479,7 @@ background-color: white;
 
 /* Content container */
 .content-container {
-  position: relative; /* Ensure it's above the background image */
-  z-index: 1;
-  text-align: center;
-  margin-top: 30vh; /* Adjust as needed to center content vertically */
-  transform: translateY(-50%);
-  color: black; /* Text color */
+ margin-top: 80px;
 }
 
 /* Text styles */
@@ -518,8 +511,8 @@ background-color: white;
 .button {
   background-color: #ff4d4f; /* Button background color */
   color: #fff; /* Button text color */
-  padding: 15px 30px; /* Increased padding for better visibility */
-  border-radius: 25px; /* Increased border radius for a softer look */
+  padding: 15px 50px; /* Increased padding for better visibility */
+  border-radius: 5px 50px; /* Increased border radius for a softer look */
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Bold font weight */
   transition: background-color 0.5s ease; /* Smooth transition */
