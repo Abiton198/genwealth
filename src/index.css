@@ -563,3 +563,15 @@ background-color: white;
   font-size: 38px;
   margin-top: 30px;
 }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* Clipboard */
+.clipboard{
+  border: solid 0.5px black;
+  background-color: #777;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  align-items: center;
+}
+

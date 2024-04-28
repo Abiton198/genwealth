@@ -84,7 +84,7 @@ const Gallery = () => {
       // Add more image paths here
   ];
 
-  const [clickedIndex, setClickedIndex] = useState(-1);
+  const [clickedIndex, setClickedIndex] = useState(-1); // state set to no image clicked
 
   const toggleImageSize = (index) => {
     if (index === clickedIndex) {
@@ -95,16 +95,26 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery-container">
-      {images.map((image, index) => (
-        <img
-          key={index}
-          src={image.src}
-          alt={`Image ${index + 1}`}
-          className={`thumbnail-image ${index === clickedIndex ? 'enlarged' : ''}`}
-          onClick={() => toggleImageSize(index)}
-        />
-      ))}
+    <div>
+      <div className='gallery-text bg-gray-800 mt-12'>
+        <h2 className='text-white text-4xl mt-10 text-center'>Action at Duepoint</h2>
+        <p className='text-white text-justify text-xl mt-5 mx-5'>DuePoint is all about earning and creating wealth as a collective effort.
+           Building relationships that will last a lifetime. Creating memories that will be cherished forever.
+           DuePoint builds families financially and makes communities stronger together. Building a nation from the DuePoint model.</p>
+      </div>
+
+{/* Images display */}
+        <div className="gallery-container">
+          {images.map((image, index) => (
+            <img
+              key={index}
+              src={image.src}
+              alt={`Image ${index + 1}`}
+              className={`thumbnail-image ${index === clickedIndex ? 'enlarged' : ''}`}
+              onClick={() => toggleImageSize(index)}
+            />
+          ))}
+        </div>
     </div>
   );
 };

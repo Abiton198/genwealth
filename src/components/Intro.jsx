@@ -3,6 +3,7 @@ import translationsEn from '../translations/translationsEn';
 import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
+import CopyTextToClipboard from '../utils/CopyToClipboard';
 
 const Intro = () => {
   const youtubeVideoId1 = "WodCbX6hhhE";
@@ -26,16 +27,18 @@ const Intro = () => {
     setLanguage(selectedLanguage);
   };
 
+  const wealthNumber = 'W1001488205'
+
   return (
     <div className="bg-white rounded-lg p-4 mt-8">
 
           {/* Language toggle dropdown */}
           <div className='mb-4 pt-4'>
           <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
-            <option value="en">English</option>
-            <option value="af">Afrikaans</option>
-            <option value="xh">isiXhosa</option>
-            <option value="zu">isiZulu</option>
+            <option value="en">En</option>
+            <option value="af">Af</option>
+            <option value="xh">Xh</option>
+            <option value="zu">Zu</option>
           </select>
         </div>
 
@@ -81,7 +84,7 @@ const Intro = () => {
         <h2 className="text-black text-xl font-bold mb-2">{translations[language].whywait}...</h2>
         <p className="text-gray-700 mb-4">
          {translations[language].asfor} 
-          <span className="text-black text-2xl font-bold"> W1001488205 - Abiton </span>
+          <span className="text-black"> <CopyTextToClipboard text={wealthNumber}/> </span>
         </p>
         <a href="https://portal.duepoint.net/register/application/v3/c5bc346b-2280-4545-a7c2-7ea8f80d91a8" target="_blank" rel="noopener noreferrer" className="inline-block bg-green-600 hover:bg-red-600 text-white font-bold py-2 px-4 rounded animate-flicker mb-4">Sign-up Now</a>
         <p className="text-gray-700 mb-4">{translations[language].alternatively} </p>
