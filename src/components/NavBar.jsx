@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../img/logo.jpeg';
+import CopyTextToClipboard from '../utils/CopyToClipboard';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -121,7 +122,10 @@ const NavBar = () => {
         {/* Other menu items */}
         <p className="menu-item mt-8">
           Wealth Engineer Number: <br />
-          <span className="text-aqua text-2xl">W1001488205</span>
+          <span className="text-aqua text-2xl">
+            <CopyTextToClipboard/>
+            W1001488205
+            </span>
         </p>
       </div>
 
