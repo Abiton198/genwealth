@@ -9,7 +9,7 @@ function App() {
       <NavBar />
       
         
-      <DarkMode>
+      
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/About' element={<About />} />
@@ -19,7 +19,7 @@ function App() {
             <Route path='/Guide' element={<Guide />} />
             {/* Other routes */}
           </Routes>
-      </DarkMode>
+     
 
       <Footer />
     </div>
