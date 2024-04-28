@@ -29,7 +29,35 @@ const translationsEn = {
     thejourney:"The journey begins...",
     thewealth:"The wealth exposed...",
     whywait:"Why wait now...",
+    
     ///////////////////////////////////////////////////////////////////////////////
+    
+    //GUIDE
+    welcome:"Welcome to a generous guide to success!",
+    signup:"The sign-up process is straightforward and can be completed from the comfort of your home using either a phone or laptop. In this slide, We'll walk you through five simple steps and what you'll need to complete the sign-up!",
+    step1:"Step 1: Visit Website",
+    goon:"Go on to DuePoint website to start the process:",
+    step2:"Step 2: Click Get Started",
+    asyou2:"As you have seen above on the image, the home page of DuePoint allows you to either log-in or sign-up. Feel confident to click on",
+    congrats:"Congrats your your journey to financial freedom is on track! You got to see this image below after clicking.",
+    step3:"Step 3: Enter Wealth Engineer Number",
+    thismust:"This must be the most exciting moment for you and for us! Acknowledging us as the lead to your financial freedom, you are doing this out of both ethics and your heart. Kindly answer the who? with this:",
+    nexttime:"Next time it is someone doing that for you. Thank you! Treat yourself for signing-up!",
+    step4:"Step 4: Form Completion",
+    nowits: "Now it's time to put your details. Get it right, the system is linked to FICA, you need these documents:",
+    idnu:"South African ID or any valid Passport",
+    proofofres:"Proof of Address - utility bill or bank statement or anything permitable",
+    next:"Next, take note: Skip on proof of address if only you don't have it with you, email",
+    update:"to update your info,to complete the application.",
+    setdebit:"Set debit date for your account (you don't need money in the bank to complete the process!)",
+    belowimages:" The below images gives you a glimps of your process, click continue at bottom of every page to continue.",
+    step5:"Step 5: Download App on PlayStore",
+    thenlastly:"Then lastly get your hands dirty! Yes, download the app. Go to your phone",
+    verylight:"A very light but comprehensive application ready to change your life. 'A golden tool on your Palm' : DUEPOINT. Check the image below to see if we are seeing the same. At this stage you have received your log-in details via email or text message. Please Check!",
+    thankyou:"Thank you for joining the wealth creation family: DUEPOINT",
+    ready:" We are ready to help! Send WhatsApp!",
+
+
     
 
 

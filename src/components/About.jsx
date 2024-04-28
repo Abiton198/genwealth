@@ -41,12 +41,12 @@ const About = () => {
     <div className="container mx-auto px-4 mt-6">
 
           {/* Language toggle dropdown */}
-          <div className='mb-2 pt-4'>
+          <div className='mb-2 pt-6'>
           <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
-            <option value="en">English</option>
-            <option value="af">Afrikaans</option>
-            <option value="xh">isiXhosa</option>
-            <option value="zu">isiZulu</option>
+            <option value="en">En</option>
+            <option value="af">Af</option>
+            <option value="xh">Xh</option>
+            <option value="zu">Zu</option>
           </select>
         </div>
 
@@ -115,7 +115,7 @@ const About = () => {
       <div className="flex justify-center ">
         <p
           onClick={toggleCollapse}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker mb-8"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker mb-2"
         >
           {isCollapsed ? 'Show less' : 'Read more...'}
         </p>

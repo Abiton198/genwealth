@@ -123,10 +123,10 @@ const NavBar = () => {
         <p className="menu-item mt-8">
           Wealth Engineer Number: <br />
           <span className="text-aqua text-2xl">
-            <CopyTextToClipboard/>
             W1001488205
             </span>
         </p>
+            <CopyTextToClipboard/>
       </div>
 
       {/* Close the menu when clicked outside */}

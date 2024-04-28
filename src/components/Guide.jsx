@@ -5,38 +5,69 @@ import Step2 from '../img/Step2.png'
 import Step3 from '../img/Step3.png'
 import Step5 from '../img/step5.jpeg'
 import Carousel from "./Carousel";
+import translationsEn from '../translations/translationsEn';
+import translationsXh from '../translations/translationsXh';
+import translationsAf from '../translations/translationsAf';
+import translationsZu from '../translations/translationsZu';
+import translationsVe from '../translations/translationsVe';
+import { useState } from "react";
 
 export default function Guide() {
+  // Define state for language and set default language to English
+  const [language, setLanguage] = useState('en');
+
+  // Define translations object based on the selected language
+  const translations = {
+    en: translationsEn,
+    xh: translationsXh,
+    af: translationsAf,
+    zu: translationsZu,
+    ve: translationsVe,
+  };
+
+  // Function to handle language toggle
+  const toggleLanguage = (selectedLanguage) => {
+    setLanguage(selectedLanguage);
+  };
+
   return (
-    <div className="bg-white mx-auto px-4 md:px-8 lg:px-16">
-      <div className="my-8 lg:my-16 mt-20">
-        <h2 className="text-lg font-bold text-black mb-5">Welcome to a generous guide to success!</h2>
+    <div>
+          {/* Language toggle dropdown */}
+          <div className='mt-4 pt-10 text-black'>
+                  <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
+                    <option value="en">En</option>
+                    <option value="af">Af</option>
+                    <option value="zu">Ven</option>
+                    <option value="xh">Xh</option>
+                    <option value="ve">Zu</option>
+                  </select>
+                </div>
+    <div className=" mt-1 px-4 md:px-8 lg:px-16">
+      <div className="my-2 lg:my-1 mt-0">
+        <h2 className="text-lg font-bold text-black mb-5">{translations[language].welcome}</h2>
         <p className="text-lg text-black leading-7 mb-4">
-          The sign-up process is straightforward and can be completed from the comfort 
-          of your home using either a phone or laptop. In this slide, We'll walk you through
-          five simple steps and what you'll need to complete the sign-up!
+          {translations[language].signup}
         </p>
 
         <div className="mb-8">
-          <h2 className="text-lg font-bold text-black mb-2">Step 1: Visit Website</h2>
+          <h2 className="text-lg font-bold text-black mb-2">{translations[language].step1}</h2>
           <p className="text-black leading-7 mb-4">
-            Go on to DuePoint website to start the process: <br/> 
+          {translations[language].goon} <br/> 
             <a href="https://www.duepoint.net" className="text-black xl font-bold  hover:bg-green-600">www.duepoint.net</a>
           </p>
           <img src={Step1} alt="Step 1" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
-          <h2 className="text-lg font-bold text-black mb-2">Step 2: Click Get Started</h2>
+          <h2 className="text-lg font-bold text-black mb-2">{translations[language].step2}</h2>
           <p className="text-black leading-7 mb-4">
-            As you have seen above on the image, the home page of DuePoint allows you to either log-in or sign-up.
-            Feel confident to click on <span className="text-blue-900 font-bold">Get Started</span>. Congrats your
-            your journey to financial freedom is on track! You got to see this image below after clicking.
+            {translations[language].asyou}
+           <span className="text-blue-900 font-bold">Get Started</span>. {translations[language].congrats}
           </p>
           <img src={Step2} alt="Step 2" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
-          <h2 className="text-lg font-bold text-white mb-2">Step 3: Enter Wealth Engineer Number</h2>
+          <h2 className="text-lg font-bold text-white mb-2">{translations[language].step3}</h2>
           <p className="text-black leading-7 mb-4">
-            This must be the most exciting moment for you and for us! Acknowledging us as the lead to your financial freedom,
-            you are doing this out of both ethics and your heart. Kindly answer the who? with this:</p> <br/> 
+          {translations[language].thismust}
+            </p> <br/> 
                   
                   {/* flashing number */}
                   <div className="flex justify-center">
@@ -49,43 +80,39 @@ export default function Guide() {
                     </button>
                 </div>
 
-           <p className="mb-4"> Next time it is someone doing that for you. Thank you! Treat yourself for signing-up!
+           <p className="mb-4">
+           {translations[language].nexttime}
            </p>
          
           <img src={Step3} alt="Step 3" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
 
-          <h2 className="text-lg font-bold text-black mb-2">Step 4: Form Completion</h2>
+          <h2 className="text-lg font-bold text-black mb-2">{translations[language].step4}</h2>
           <p className="text-black leading-7 mb-4">
-            Now it's time to put your details. Get it right, the 
-            system is linked to FICA, you need these documents: <br/>
-            <span className="text-green-800 font-bold"> - South African ID or any valid Passport(if foreigner)</span> <br/>
-            <span className="text-green-800 font-bold"> - Proof of Address - utility bill or bank statement or anything permitable</span> <br/>
-            ** Next, take note: Skip on proof of address if only you don't have it with you, email <span className="text-red-300 font-bold">info@duepoint.net</span> 
-            to update your info,to complete the application.<br/>
-            ** Set debit date for your account (you don't need money in the bank to complete the process!) <br/>
-            The below images gives you a glimps of your process, click continue at bottom of every page to continue.
+          {translations[language].nowits} <br/>
+            <span className="text-green-800 font-bold"> - {translations[language].idnu}</span> <br/>
+            <span className="text-green-800 font-bold"> - {translations[language].proofofres}</span> <br/>
+            ** {translations[language].become} <span className="text-red-300 font-bold">info@duepoint.net</span> 
+            {translations[language].update}<br/>
+            ** {translations[language].setdebit} <br/>
+            {translations[language].belowimages}
           </p>
           <div className="mb-4">
             <Carousel />
           </div>
 
-          <h2 className="text-lg font-bold text-black mb-2">Step 5: Download App on PlayStore</h2>
+          <h2 className="text-lg font-bold text-black mb-2">{translations[language].step5}</h2>
           <p className="text-black leading-7 mb-4">
-            The lastly get your hands dirty! Yes, download the app. Go to your 
-            phone <span className="text-red-500 font-extrabold">PlayStore</span>. A very light but comprehensive application
-            ready to change your life. 
-            'A golden tool on your Palm' : DUEPOINT. Check the image below to see if we are seeing the same. At this stage you have received your
-            log-in details via email or text message. Please Check!
+          {translations[language].thenlastly} <span className="text-red-500 font-extrabold">PlayStore</span>.{translations[language].verylight}
           </p>
           <img src={Step5} alt="Step 5" className="w-full md:w-auto md:max-w-xs mx-auto mb-4" />
 
-          <p className="text-lg font-bold text-green-900 mb-2">Thank you for joining the wealth creation family: DUEPOINT</p>
+          <p className="text-lg font-bold text-green-900 mb-2"> {translations[language].thankyou}</p>
 
           <div className="flex justify-center">
             <a href='/Intro'>
               <button className="bg-red-600 hover:bg-green-600 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker">
-                We are ready to help! Send WhatsApp!
+              {translations[language].ready}
                 <svg className="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M9 0a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1zM6 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm9 3a1 1 0 0 1 1 1v11a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zM3 7a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1zm14 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" clipRule="evenodd" />
                 </svg>
@@ -94,6 +121,7 @@ export default function Guide() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
