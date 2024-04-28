@@ -355,13 +355,13 @@ background-color: white;
 .digital-card-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 .digital-card {
   width: 300px;
   background-color: #f0f0f0;
-  border-radius: 10px;
+  border-radius: 40px;
   overflow: hidden;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -374,17 +374,17 @@ background-color: white;
   width: 150px;
   height: 150px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 80%;
   margin-top: 20px;
 }
 
 .digital-card-content {
-  padding: 20px;
+  padding: 10px;
 }
 
 .card-title {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .card-description {
@@ -393,19 +393,6 @@ background-color: white;
   margin-bottom: 20px;
 }
 
-.card-button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.card-button:hover {
-  background-color: #0056b3;
-}
 
 @media (max-width: 768px) {
   .digital-card {

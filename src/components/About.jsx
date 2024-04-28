@@ -52,12 +52,6 @@ const About = () => {
 
       <h2 className="text-2xl font-bold text-center mb-2">{translations[language].allowus}:</h2>
       
-         {/* WhatsApp Button */}
-      <div className="">
-        <a href={`whatsapp://send?phone=${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
-          <p className="bg-green-500 hover:bg-green-600 text-white font-bold px-4 rounded inline-flex items-center animate-flicker">{translations[language].message}</p>
-        </a>
-      </div>
 
      
 
@@ -113,7 +107,7 @@ const About = () => {
       </div>
 
       {/* readmore... */}
-      <div className="flex justify-center mb-24 ">
+      <div className="flex justify-center mb-2 ">
         <p
           onClick={toggleCollapse}
           className="text-black font-bold py-1 px-4 rounded inline-flex items-center  "
@@ -122,6 +116,12 @@ const About = () => {
         </p>
       </div>
 
+         {/* WhatsApp Button */}
+      <div className="">
+        <a href={`whatsapp://send?phone=${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
+          <p className="bg-green-500 hover:bg-green-600 text-white font-bold px-4 rounded inline-flex items-center animate-flicker">{translations[language].message}</p>
+        </a>
+      </div>
      
     </div>
   );
