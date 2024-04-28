@@ -52,6 +52,11 @@ step5: "Indlela 5: Thola i-App ku-PlayStore",
 thenlastly: "Kodwa ngaphezulu, hamba uhambele! Yebo, thola isicelo. Hamba uhlale phansi, elikhoneni lakho",
 verylight: "Isicelo esingcono futhi esiphakeme sokuqala esiyingqayizivele, 'Ikhono lokugcina elinjengezenzo': DUEPOINT. Bheka isithombe phansi uqondise ukuthi sifuna ukubona okuhlangenwe. Ngalesikh",
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//GALLERY
+duepoint:"DuePoint ikhona konke ekwenza imali futhi ekwenza imfundo njengombono omunye. Ukujenga izihlobo ezizodlula isikhathi sobunzima. Ukuhlola izithako ezisemzini ukuze kuhlonishwe kwaze kwaba ngcono. DuePoint ikwakha izifamily futhi iyenza izifundazwe ziqhubekile ezweni."
+
 
     
 

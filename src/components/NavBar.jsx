@@ -18,6 +18,7 @@ const NavBar = () => {
     // Close the menu when clicked
     setIsOpen(false);
   };
+  const wealthNumber = 'W1001488205'
 
   return (
     <nav className="navbar">
@@ -126,7 +127,7 @@ const NavBar = () => {
             W1001488205
             </span>
         </p>
-            <CopyTextToClipboard/>
+            <CopyTextToClipboard text={wealthNumber}/>
       </div>
 
       {/* Close the menu when clicked outside */}

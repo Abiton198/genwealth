@@ -41,7 +41,7 @@ const translationsEn = {
     asyou2:"As you have seen above on the image, the home page of DuePoint allows you to either log-in or sign-up. Feel confident to click on",
     congrats:"Congrats your your journey to financial freedom is on track! You got to see this image below after clicking.",
     step3:"Step 3: Enter Wealth Engineer Number",
-    thismust:"This must be the most exciting moment for you and for us! Acknowledging us as the lead to your financial freedom, you are doing this out of both ethics and your heart. Kindly answer the who? with this:",
+    thismust:"This must be the most exciting moment for you and for us! Acknowledging us as the lead to your financial freedom, you are doing this out of both ethics and your heart. Kindly answer the who? with this with (W1001488205):",
     nexttime:"Next time it is someone doing that for you. Thank you! Treat yourself for signing-up!",
     step4:"Step 4: Form Completion",
     nowits: "Now it's time to put your details. Get it right, the system is linked to FICA, you need these documents:",
@@ -56,6 +56,10 @@ const translationsEn = {
     verylight:"A very light but comprehensive application ready to change your life. 'A golden tool on your Palm' : DUEPOINT. Check the image below to see if we are seeing the same. At this stage you have received your log-in details via email or text message. Please Check!",
     thankyou:"Thank you for joining the wealth creation family: DUEPOINT",
     ready:" We are ready to help! Send WhatsApp!",
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //GALLERY
+    duepoint:"DuePoint is all about earning and creating wealth as a collective effort. Building relationships that will last a lifetime. Creating memories that will be cherished forever.DuePoint builds families financially and makes communities stronger together. Building a nation from the DuePoint model.",
 
 
     

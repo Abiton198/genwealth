@@ -38,6 +38,12 @@ import due36 from '../img/gallery/due36.jpeg'
 import due37 from '../img/gallery/due37.jpeg'
 import due_38 from  '../img/gallery/due_38.jpeg'
 import due_39 from  '../img/gallery/due_39.jpeg'
+import translationsEn from '../translations/translationsEn';
+import translationsXh from '../translations/translationsXh';
+import translationsAf from '../translations/translationsAf';
+import translationsZu from '../translations/translationsZu';
+import translationsVe from '../translations/translationsVe';
+
 
 
 
@@ -94,14 +100,39 @@ const Gallery = () => {
     }
   };
 
+   // Define state for language and set default language to English
+   const [language, setLanguage] = useState('en');
+    // Define translations object based on the selected language
+    const translations = {
+      en: translationsEn,
+      xh: translationsXh,
+      af: translationsAf,
+      zu: translationsZu,
+      ve: translationsVe,
+    };
+  
+    // Function to handle language toggle
+    const toggleLanguage = (selectedLanguage) => {
+      setLanguage(selectedLanguage);
+    };
+
   return (
     <div>
-      <div className='gallery-text bg-gray-800 mt-12'>
-        <h2 className='text-white text-4xl mt-10 text-center'>Action at Duepoint</h2>
-        <p className='text-white text-justify text-xl mt-5 mx-5'>DuePoint is all about earning and creating wealth as a collective effort.
-           Building relationships that will last a lifetime. Creating memories that will be cherished forever.
-           DuePoint builds families financially and makes communities stronger together. Building a nation from the DuePoint model.</p>
-      </div>
+       {/* Language toggle dropdown */}
+       <div className='mt-4 pt-10 text-black'>
+                  <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
+                    <option value="en">En</option>
+                    <option value="af">Af</option>
+                    <option value="zu">Ven</option>
+                    <option value="xh">Xh</option>
+                    <option value="ve">Zu</option>
+                  </select>
+                </div>
+
+      <div className='gallery-text  mt-12'>
+        <h2 className='text-black text-4xl mt-10 text-center action'>Action at Duepoint</h2>
+        <p className='text-black text-justify text-xl mt-5 mx-5'>{translations[language].duepoint} </p>
+              </div>
 
 {/* Images display */}
         <div className="gallery-container">

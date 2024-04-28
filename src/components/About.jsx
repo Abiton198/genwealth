@@ -107,10 +107,10 @@ const About = () => {
       </div>
 
       {/* readmore... */}
-      <div className="flex justify-center mb-2 ">
+      <div className="flex justify-center mb-1 ">
         <p
           onClick={toggleCollapse}
-          className="text-black font-bold py-1 px-4 rounded inline-flex items-center  "
+          className="text-black font-bold pt-1 px-4 rounded inline-flex items-center  "
         >
           {isCollapsed ? 'Show less' : 'Read more...'}
         </p>

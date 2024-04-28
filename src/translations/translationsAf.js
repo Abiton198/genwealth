@@ -50,7 +50,11 @@ step5: "Stap 5: Laai die App af op PlayStore",
 thenlastly: "Laastens, kry jou hande vuil! Ja, laai die app af. Gaan na jou foon",
 verylight: " 'n Baie ligte maar omvattende aansoek gereed om jou lewe te verander. 'N goue instrument op jou Palm: DUEPOINT. Kyk na die beeld hieronder om te sien of ons dieselfde sien. Op hierdie stadium het jy jou aantekeningbesonderhede per e-pos of teksboodskap ontvang. Kontroleer asseblief!",
 thankyou: "Dankie dat jy die rykdom skep-familie: DUEPOINT aangesluit het",
-ready: "Ons is gereed om te help! Stuur 'n WhatsApp!"
+ready: "Ons is gereed om te help! Stuur 'n WhatsApp!",
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//GALLERY
+duepoint:"DuePoint draai alles om om 'n inkomste te verdien en welvaart te skep as 'n gesamentlike poging. Om verhoudings te bou wat vir 'n leeftyd sal hou. Om herinneringe te skep wat vir ewig gekoester sal word.DuePoint bou finansieel gesinne en maak gemeenskappe saam sterker. Om 'n nasie te bou vanuit die DuePoint-model."
 
 
 

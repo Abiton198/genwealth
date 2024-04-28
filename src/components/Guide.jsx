@@ -11,6 +11,7 @@ import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 import translationsVe from '../translations/translationsVe';
 import { useState } from "react";
+import CopyTextToClipboard from "../utils/CopyToClipboard";
 
 export default function Guide() {
   // Define state for language and set default language to English
@@ -29,6 +30,7 @@ export default function Guide() {
   const toggleLanguage = (selectedLanguage) => {
     setLanguage(selectedLanguage);
   };
+  const wealthnumber = 'W1001448205'
 
   return (
     <div>
@@ -71,14 +73,8 @@ export default function Guide() {
                   
                   {/* flashing number */}
                   <div className="flex justify-center">
-                  
-                    <button className="bg-red-600 hover:bg-green-600 text-white font-bold py-4 px-8 rounded inline-flex items-center animate-flicker">
-                          W1001488205
-                      <svg className="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M9 0a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1zM6 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm9 3a1 1 0 0 1 1 1v11a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zM3 7a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1zm14 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" clipRule="evenodd" />
-                      </svg>
-                    </button>
-                </div>
+                    <CopyTextToClipboard text={wealthnumber}/>
+                      </div>
 
            <p className="mb-4">
            {translations[language].nexttime}

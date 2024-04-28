@@ -52,6 +52,10 @@ verylight: "Isicelo esincinci kodwa esinthandwayo sisemva kulezilwandle. 'Ibhand
 thankyou: "Ndiyabulela ekufudusa entuthukweni yewalthi: DUEPOINT",
 ready: "Siyavuya ukusiza! Bhala i-WhatsApp!",
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//GALLERY
+duepoint:"DuePoint iyona nto yonke kwiyo ukwenza imali kunye nokwakha umthetho ngengxowesa.Ukuqala ubunzima obudiniyo okanye abantu basebenzisa ukuze bajikelezele."
+
 
 
 }   

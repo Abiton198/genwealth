@@ -56,6 +56,9 @@ thenlastly: "Lomukalaho phanda ḽo kha yone! Aho, tshifhinga tshidzulu. Famba k
 verylight: "Zwi nee zwiḽeḽo zwi sa ṱwanaho nga vhufhedzano vho ḽi ita u sa di ita u famba u vha na u ni na uya. 'Zwivhuso zwavho ngaḽa ṱuvha ḽa ndila': DUEPOINT. Swika nga zwiḽeḽo u vha ri vhona nga tsho!",
 thankyou: "Ndo livhuwa nga u tambulula mukhulukhulwana wa vhutshinyi: DUEPOINT",
 ready: "Tshembeka u ri tshi kombela! Tshimbela WhatsApp!",
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Gallery
+duepoint:"DuePoint hu livhuwa u nga zwino u dzula na vha muhulwane u ya u itela na vhuhulu ha vha na u swika zwivhidziso. Tshi khou humbela zwivhidziso zwi tou vha vha nga na zwilangudzwane zwa zwi apfa na zwi tou tshi vhakuma u fhela. Tshi humela vhadzimo vha dzinwe zwivhidziso zwi do vhudza u bva zwihumelo zwa vhukuma."
 
 
 
