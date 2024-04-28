@@ -122,9 +122,9 @@ const About = () => {
       </div>
 
       {/* WhatsApp Button */}
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center">
         <a href={`whatsapp://send?phone=${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
-          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded inline-flex items-center animate-flicker">
+          <button className="bg-green-500 hover:bg-green-600 text-white font-bold px-4 rounded inline-flex items-center animate-flicker">
             {translations[language].message}
             {/* Message Us on WhatsApp */}
             <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
