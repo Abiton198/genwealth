@@ -43,6 +43,7 @@ import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 import translationsVe from '../translations/translationsVe';
+import Popup from '../utils/Popup';
 
 
 
@@ -136,6 +137,10 @@ const Gallery = () => {
 
 {/* Images display */}
         <div className="gallery-container">
+          
+          {/* Popoup message */}
+        <Popup message={"DuePoint business, everyone's success is celebrated by others! We work as a team and family!"} />
+
           {images.map((image, index) => (
             <img
               key={index}

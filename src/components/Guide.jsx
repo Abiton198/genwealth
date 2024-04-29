@@ -12,6 +12,7 @@ import translationsZu from '../translations/translationsZu';
 import translationsVe from '../translations/translationsVe';
 import { useState } from "react";
 import CopyTextToClipboard from "../utils/CopyToClipboard";
+import Popup from '../utils/Popup';
 
 export default function Guide() {
   // Define state for language and set default language to English
@@ -47,6 +48,10 @@ export default function Guide() {
     <div className=" mt-1 px-4 md:px-8 lg:px-16">
       <div className="my-2 lg:my-1 mt-0">
         <h2 className="text-lg font-bold text-black mb-5">{translations[language].welcome}</h2>
+       
+        {/* popup message */}
+        <Popup message={"Cheers, \n Don't forget to copy the Wealth Engineer Number when signing-up \n Thank you. "} />
+       
         <p className="text-lg text-black leading-7 mb-4">
           {translations[language].signup}
         </p>

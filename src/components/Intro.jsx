@@ -4,6 +4,7 @@ import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 import CopyTextToClipboard from '../utils/CopyToClipboard';
+import Popup from '../utils/Popup';
 
 const Intro = () => {
   const youtubeVideoId1 = "WodCbX6hhhE";
@@ -46,6 +47,10 @@ const Intro = () => {
       <div className="mt-4 md:flex justify-between items-center">
         {/* Text Content */}
         <div className="md:w-1/2 md:mr-4">
+
+          {/* popup message */}
+        <Popup message={"Welcome! \n We don't take anyone's hard earned money. No deposit is needed to anyone' account! We only share opportunity. You make your own research. \n Thank you. "} />
+         
           <h2 className="text-black text-xl font-bold mb-2">{translations[language].thejourney}...</h2>
           <p className="text-black mb-4">{translations[language].areyou}!</p>
         </div>

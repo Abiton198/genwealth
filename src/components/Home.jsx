@@ -8,6 +8,7 @@ import translationsVe from '../translations/translationsVe';
 import que_image from '../img/world_image.jpeg'
 import { Link } from 'react-router-dom';
 
+
 const Home = () => {
   // Define state for language and set default language to English
   const [language, setLanguage] = useState('en');
@@ -44,7 +45,11 @@ const Home = () => {
 
       {/* Text displayed on home-page */}
       <div className='content-container'>
+      
         <p className='italic text-red-700 text-bold animate-flicker'>{translations[language].become}</p>
+        
+        {/* popup message */}
+
         <p className='italic'>{translations[language].genwealth}</p>
         <p className='text'>{translations[language].ourwebsite}</p>
       </div>
