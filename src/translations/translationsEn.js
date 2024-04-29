@@ -12,12 +12,14 @@ const translationsEn = {
     // ///////////////////////////////////////////////////////////////////////////////////
     // ABOUT/////////////
     weare:'We are Abiton and Michelle, and we sincerely appreciate you taking the time to explore our platform. In light of the challenging economic landscape in South Africa and across the globe, we have sought out alternative avenues to supplement our income.',
-    weunderstand:'We understand the importance of finding stable and dependable sources of revenue, which can often be elusive. In our quest, we discovered the Duepoint opportunity. Upon thorough examination of the materials provided, we found it to be a business model that not only complements our current income streams but also promises steady growth and recurring earnings for a lifetime.',
-    ourrole:"Our role as Wealth Engineers with Duepoint is simple - to share this remarkable opportunity with individuals we encounter in our everyday lives. Driven by our passion for people and our desire to alleviate financial struggles, it is our mission to extend this opportunity to as many individuals as possible, empowering them to improve their circumstances.",
-    asyou:"As you can see, it requires minimal effort to introduce you to this platform, and with the same level of effort, you too can become a part of this venture and share it with others. Participating in this business venture will not only shape your financial future but also have a positive impact on the lives of those you introduce to this invaluable opportunity.",
-    whatever:" Whatever decision you make, we wish you the very best!",
-    message:"Message Us on WhatsApp",
     allowus:'Allow us to introduce ourselves',
+    duepointbus:"DuePoint Business, an innovative insurance model launched in 2016, aimed at empowering local South Africans through dynamic business partnerships. Its mission? To offer a range of essential products, from insurance and funeral cover to medical and legal assistance, tailored to the needs of the South African populace.",
+    seeking:"We're seeking driven individuals eager to embark on their wealth creation journey by championing the DuePoint cause. Your role? Simply connect fellow South Africans with DuePoint, and watch as DuePoint quality products sell themselves through your network. But here's the exciting part: for every product paid by your connections, you'll receive a share of the profits, month after month, for life.",
+    readright:"Yes, you read that right. DuePoint believe in sharing the wealth with those who help them thrive. And the best part? There's no one-size-fits-all approach here. Whether you prefer word-of-mouth referrals, digital networking, or any other method, DuePoint empower you to spread the DuePoint message in a way that suits you best.",
+    picture:"Picture this: increase your streams of income and keeping your current job with a rewarding efforts at DuePoint, where your income potential knows no bounds. Join the ranks of countless others who have already embraced this exciting opportunity around South Africa.",
+    opportunity:"Don't wait for opportunities to pass. The choice is yours, and whatever path you choose, we're here to support you every step of the way.",
+    message:"Let's make it happen, let's connect!",
+
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     //INTRO

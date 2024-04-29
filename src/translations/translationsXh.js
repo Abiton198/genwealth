@@ -11,20 +11,23 @@ const translationsXh ={
     // ///////////////////////////////////////////////////////////////////////
     //ABOUT
     weare:'Singu-Abiton kunye noMichelle, kwaye sikubulela ngokungazenzisiyo ukuba uthathe ixesha lokuphonononga iqonga lethu.Ngenxa yomngeni wemeko yezoqoqosho eMzantsi Afrika nakwihlabathi liphela, siye safuna iindlela ezizezinye ukongeza ingeniso yethu.',
-    weunderstand:'Siyakuqonda ukubaluleka kokufumana imithombo ezinzileyo nethembekileyo yengeniso, ehlala inzima.Kumnqweno wethu, sifumene ithuba leDuepoint. Emva kokuphonononga ngokucokisekileyo izinto ezibonelelweyo, sifumanise ukuba iyimodeli yeshishini engaphelelisi nje kuphela imithombo yethu yengeniso yangoku kodwa ikwathembisa ukukhula okuzinzileyo kunye nemivuzo eqhubekayo ubomi bonke.',
-    ourrole:"Indima yethu njengeeNjineli zoButyebi kunye ne-Duepoint ilula - ukwabelana ngeli thuba limangalisayo nabantu esidibana nabo kubomi bethu bemihla ngemihla. Siqhutywa luthando lwethu ngabantu kunye nomnqweno wethu wokunciphisa imizabalazo yezemali, ngumsebenzi wethu ukwandisa eli thuba kubantu abaninzi kangangoko, sibaxhobisa ukuze baphucule iimeko zabo.",
-    asyou:"Njengoko ubona, kufuna umgudu omncinci ukukwazisa kweli qonga, kwaye ngenqanaba elifanayo lomzamo, nawe unokuba yinxalenye yeli shishini kwaye wabelane ngalo nabanye. Ukuthatha inxaxheba kweli linge loshishino akuyi kubumba ikamva lakho lezemali kuphela kodwa kuya kuba nefuthe elihle kubomi babo ubazisayo kweli thuba lixabisekileyo.",
-    whatever:"Nokuba sisiphi na isigqibo osenzayo, sikunqwenelela okuhle kodwa!",
-    message:"Sithumele umyalezo kuWhatsApp",
     allowus:'Sivumele ukuba sizazise',
-    areyou:"Ngaba ululungele uhambo olonwabisayo lokuya kwihlabathi leshishini le-Duepoint? Kwimizuzu nje emi-3, le vidiyo iya kukukhupha kuhambo oluphawula ukuqala kohambo lwemali olumangalisayo. Ke thatha isihlalo, bopha iqhosha, kwaye masiqalise olu hambo luchulumancisayo kunye!",
-    embark:"Qalisa kuhambo olungaqhelekanga olusingise kuxhotyiso lwemali nge-Duepoint! Le vidiyo inomtsalane iquka eyona nto iphambili kwishishini lethu esekwe kwii-asethi. Njengoko uphonononga ibali layo elinyanzelayo, uya kufumana amathuba angenamda alindileyo.",
-    getinvolved:"Zibandakanye namhlanje kwaye ube yinxalenye yoluntu oluguqukayo oluqhutywa ngumbono omkhulu. Vumela le vidiyo ibe sisikhanyiso sakho esikhokelela kwikamva eliqaqambileyo lezemali ngeDuepoint!",
-    asfor:"Thina ke, siye satsibela. Khuphela iNombolo yeNjineli yoButyebi ukuze ubhale ukuba waziswe ngubani? Ewe, kulula ngolo hlobo!",
-    alternatively:"Kungenjalo, ukuba ufuna ukuphonononga ngakumbi, cofa apha ngezantsi ukuze ubukele 'Izichaso ziPhelisiwe!' okanye uqhagamshelane nathi ngqo kuWhatsApp.",
-    thejourney:"Uhambo luyaqala...",
-    thewealth:"Ubutyebi obuveziweyo...",
-    whywait:"Kutheni ulinde ngoku...",
+    duepointbus:"DuePoint Business, ibhizinisi elikhuthazayo lokwenziwa ngokwenza izifundo ezingundoqo kunye nezimboni kunye nokuhlukanisa oMzantsi Afrika ngamabhaso ebusika. Yintoni into esenzayo? Ukwenza izinto ezininzi ezingavamileyo, kusetyenziswa kwiintsuku zobungcweti, kwiifanele zentsapho, iimfuneko zombini kunye nokunceda phantsi nasekuboniseni, kungekho nto ekufunekayo kwiingcaciso zamaXhosa.",
+    seeking: "Sizama abantu abangenamfene abathanda ukugcina iindlela zabo zokwenza imali ngokumaneleka ngosuku lwakho lonke xa kukhuphuka abantu bakho neDuePoint. Isebenzisa njani? Ndihlala ndincede abantu abahlala eMzantsi Afrika ukuba bacacele iimfuneko zabo zokwenza umsebenzi oncedayo, nangenkathazo nangemeko ukufumana imfuneko ngemekosini.",
+    readright: "Ewe, uhlala uthetha kwiNgqiqo. I-DuePoint inamandla ngokuhlanganisa ngenkathazo nomzekelo. Uyintoni okanye into esisuka kwiqela lakho elithile? Iinye into esenza ukuba le nto isinye, okanye ungenayo izinto ezilula kunye nezaziso eziqinileyo, DuePoint ikwenza ukuze uveze uthando lweDuePoint ngendlela engakwaziyo.",
+    picture: "Vula le nto: yenza iindawo zakho zokwenza imali zibulele kwaye uxhasele ukhuseleko lwakho olusetyenziswa kwiDuePoint, kwiyo efanayo yeyona ndlela yokwenza imali yakho. Thengisa nabanye abantu abanganjengeentlanga ezininzi abazizizela lo ngxelo olumangalisayo kwiNtshona Koloni.",
+    opportunity: "Andikwazi ukukulinda ukwenza izinto ziye ziqale ngaphambili. Ixesha kwiwe, futhi ngakumbi kuthetha ngokwenziwa kwiqhaza lakho kwaye njengokuba unokukwenza into yokwenza ingcaciso lakho, sizokunika umbono ophambili ngelona ndlela. Singasebenza ngokupheleleyo, nangona sisinqwenela. Ndiza kubonisa.",
+    message:"Sithumele umyalezo kuWhatsApp",
+    // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   //INTRO
+    areyou: "Uyaphuthelwa na ukuze uthumelele ekuboniseni kwezempilo yakwaDuepoint? Ngeemizuzu ezintathu kuphela, le video izakunceda ekwenzeni iindlela ezimangalisayo ezikhoyo ezintsha zezempilo. Kwiindlela ezintsha kwaye zihlala zixhamliweyo, hamba uza kuzibonisa iivenkile ezivela kwizaziso ezindibene zokwenza iingcaciso ezinceda ukuba uzilungele ukuthumelela kwiingcaciso zethu zeemali.",
+    embark: "Thumelela kwiindlela ezimangalisayo ekuphuhliseni kweemali ngoDuepoint! Le video ethandwayo ibhalwele indlela eyiintsika yale nto ethile yezempilo yethu eyenzekayo ngokwengcaciso. Ekwenzeni iingcaciso ezithandayo, uzakuthatha izibalo ezikhoyo zomsebenzi onamandla okhokelwayo okanye ezikufumanisa.",
+    getinvolved: "Ngenxa yoko ngoku uvile kodwa, uthumelela uqonde kwehlabathi leDuepoint. Wemvula le video ikhaya lakho lokwenza iimpilo zezemali zingcono kwaye usazakuthola imvubelo ebalulekileyo ngale nto.",
+    asfor: "Ngoko ke kuqalileyo, siyathumelela. Zicela ixesha elincedayo ngenxa yokuqalisa. Hlala kwiNdawo yamaButhi zamaXanduva(W1001488205) ukubonisa ngowona onguwoze wena? Ewe, ngokunjalo kungenzeka!",
+    alternatively: "Ngaphandle kwaloo, ukuba ufuna ukuqala, bhalisa ngevideo ethandwa ngu 'Amalungu eBubula Iintsini!' okanye qhagamshelana nathi ngeWhatsApp.",
+    thejourney: "Izindaba zihlala zonke...",
+    thewealth: "Izinto zimpumelelo zitshintshe...",
+    whywait: "Mawunzamele manje...",
 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     //GUIDE

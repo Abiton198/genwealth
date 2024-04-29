@@ -2,35 +2,39 @@
 const translationsVe = {
    ////////////////////////////////////////////////////////////////////
    //HOME PAGE
-
-  
+   
     genwealth: "U vhana vha Afrika Tshipembe?",
     become: "U ya siya vha zwavhudi zwa zwavhudi?",
     ourwebsite: "Ri bulisa thitsindzo tshothe.",
     notselling: "Ha zwona, Ha Bitkoina, Ha Kuhlanganisi!",
     getStarted: "Tshama u fa?",
     unlock: "Dinga u kha ntshovhiseni dza mbirhi tshibvumo!",
-
     
     ////////////////////////////////////////////////////////////////////////
     ///ABOUT 
-    weare:'We are Abiton and Michelle, and we sincerely appreciate you taking the time to explore our platform. In light of the challenging economic landscape in South Africa and across the globe, we have sought out alternative avenues to supplement our income.',
-    weunderstand:'We understand the importance of finding stable and dependable sources of revenue, which can often be elusive. In our quest, we discovered the Duepoint opportunity. Upon thorough examination of the materials provided, we found it to be a business model that not only complements our current income streams but also promises steady growth and recurring earnings for a lifetime.',
-    ourrole:"Our role as Wealth Engineers with Duepoint is simple - to share this remarkable opportunity with individuals we encounter in our everyday lives. Driven by our passion for people and our desire to alleviate financial struggles, it is our mission to extend this opportunity to as many individuals as possible, empowering them to improve their circumstances.",
-    asyou:"As you can see, it requires minimal effort to introduce you to this platform, and with the same level of effort, you too can become a part of this venture and share it with others. Participating in this business venture will not only shape your financial future but also have a positive impact on the lives of those you introduce to this invaluable opportunity.",
-    whatever:" Whatever decision you make, we wish you the very best!",
-    message:"Message Us on WhatsApp",
-    allowus:'Allow us to introduce ourselves',
-    areyou:"Are you ready for an exhilarating journey into the world of Duepoint business? In just 3 minutes, this video will whisk you away on an adventure that marks the beginning of an incredible financial journey. So grab a seat, buckle up, and let's embark on this thrilling ride together!",
-    embark:"Embark on an extraordinary journey towards financial empowerment with Duepoint! This captivating video encapsulates the very essence of our asset-based business. As you delve into its compelling narrative, you'll discover the boundless opportunities that await.",
-    getinvolved:"Get involved today and become part of a dynamic community driven by great vision. Let this video be your guiding light towards a brighter financial future with Duepoint!",
-    asfor:"As for us, we jumped in. Copy the Wealth Engineer Number to write on who introduced you? Yes, it's that easy!",
-    alternatively:"Alternatively, if you want to explore further, click below to watch 'Objections Overruled!' or contact us directly on WhatsApp.",
-    thejourney:"The journey begins...",
-    thewealth:"The wealth exposed...",
-    whywait:"Why wait now...",
     
+    allowus: "Ṱi zwino khou vha livhuwa uri mi ḽo iteaṋeḽa.",
+    weare: "Ṱi Abiton na Michelle, na vha zwi dzhivha dzi vhudelekela uri mi divhadza mafhungo athu. Kha dza khou divha uri u khou a livhuwa zwavhudi tshi tshi dzhwalela Tshipembe tsha Afrika na tsha tshi imṋi, ṱi vha ḽuvha lufuno ha zwavhudi ṱi zwi ḽauṋa nga zwavhudi.",
+    duepointbus: "DuePoint Business, modelo wa mafambiselo okatjiwa nga 2016, u khou livhuya vha-Afrika Tshipembe uri vha hu khutaza vha raselwa nga hu mafambiselo a tshi khou humelela nga hu dzivhuwha. Uri di hamele dza huna? U wana vhudipfuna nga hu konekana na-DuePoint na vha-South African vha do tshi fa hu mafambiselo a vha DuePoint nga hune dza vha bulisa nga hu fumisa vha di natshi ya vha, vha do tshi fumiwa kha milindi vha nga mudzimu, dza u mmbela kha swivhili.",
+    seeking: "Ha vha divha uri muvhilisele vha re tshiimba uri vha tshi tsalisele uri vha tshi tololedza uri re nyala nga vha DuePoint. Dizwi dza huna? Idivha uri vha ri tsho vuwanele vha-South African vha khou konekana na DuePoint na uri vha re khou mi zwandza nga hu mafambiselo a vha DuePoint. Kha khaṱeḓe haṱhu iyi khou fumisa nga hu fumisa.",
+    readright: "Ndi khou divha vha ro vhekelela uri u ri vhona nga hu fhano. DuePoint u hu ṱhumbulisa nga hu miḽa naa zwino nga u tenda nga hu sa tshimbilana. Iyi di vha divha uri vha ri tsho vhuṱhela uri nga u tenda naho. Nga hu fhano o khou tshi khou khwamisa uri vha nyama, nga hu itulufha nga hu di itiwa, kana nnyi dzikha dzinnyi, DuePoint u tshi humelela uri vha khou u kha vha muimbelela nga hu tshimbilana na DuePoint uri nga u fhano u vhona nga u zwi khou fhamba uri iyi lenda tsho zwine zwone. ",
+    picture: "Tshiṱwa takalelo: uri u dzavhaho nga maḽambiselo aṱhoni vha u shandukela nga maḽambiselo a vha DuePoint, tshi do dza khou luṋwelela. Tshi u tambula tshi tevha nga tshimele vhaḽudi nga milayo mi khou dzhakalela vhudipfuna vha vha tshi khou tshivhara vha na vhana vha tshi khou vhoneta nga vha Vhukwamiso Tshipembe.",
+    opportunity: "Dzila a fhano ha u do ni di shuma nga dzikiso. Ndilivho, na vhahulwane u do ni dziṱhumbulela vha ri zwi divha nga vhuvanhu vhavha nga tshimbilana. U khou divha nga vhudi nga vhuhulu.",
+    message: "U ri tshi tevha nga vha vhuti!",
+
+    /////////////////////////////////////////////////////////////////////////////////////
+    ///INTRO
+
+    areyou: "U a zwino u shumisana u dzhenisa mutangano ḽa Duepoint? Nga masiku maduvha manweni, vhatshihi ivhudiṱha vhokwaho ḽa lavhona zwi iteaṋeḽa rine nga khumbelo ya vhu-afraḓa na mutangano u vha lavhona. Zwo bva u tshi tanganedza vhuḓuli, ḽa zwi wana, na ḽi doḓela u shuma ḽiaḓa zwothe!",
+    embark: "Ri dzhenisa mutangano nga DuPoint u divha uri u ḽa funzela uri ri tshi ḽi funzela. Ido nghuwo iteaṋeḽa izwi na miṅwavuli vha ḽugisea ḽi thetha ḽi na khumbudzo ha mafhungo athu a ḽi doḓela u di fumbudza.",
+    getinvolved: "Lima dziṋo dziṋo na vha vhuthu vha livhuwa nga vhuḽanguludzeli vhokwaho vhu shuma na vhaḽiḓinwa nga muthu anefha nga vhuvoni vhadzo. Ḽa zwi iteaṋeḽa u shumela uri u zwine u vhutavhela kha mirado yakwe na Duepoint!",
+    asfor: "Nga fhedzi fhaṱhu, ri khou vhutavhela. Ria lakisa W1001488205 uri u tshebedzela nḓivho ya mutangano? Ee, iyi itshiṋo hune!",
+    alternatively: "Kha tshwanela, u ite 'Objections Overruled!' uri u ite zwi nga ḽi shuma, kana u vhulangle kha WhatsApp.",
+    thejourney: "Tshuḓa u tshi dzhenisana...",
+    thewealth: "Mafhungo ḽi doḓela ḽiaḓa...",
+    whywait: "Ndi uri u funa u dzhenisaḓa manḓu...",
     ///////////////////////////////////////////////////////////////////////////////////////////////
+    
     //GUIDE PAGE
 
 welcome: "Ndo livhuwa nga mutshila wa mabulo a tshilafho a nga ngotha!",
@@ -57,6 +61,7 @@ verylight: "Zwi nee zwiḽeḽo zwi sa ṱwanaho nga vhufhedzano vho ḽi ita u 
 thankyou: "Ndo livhuwa nga u tambulula mukhulukhulwana wa vhutshinyi: DUEPOINT",
 ready: "Tshembeka u ri tshi kombela! Tshimbela WhatsApp!",
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Gallery
 duepoint:"DuePoint hu livhuwa u nga zwino u dzula na vha muhulwane u ya u itela na vhuhulu ha vha na u swika zwivhidziso. Tshi khou humbela zwivhidziso zwi tou vha vha nga na zwilangudzwane zwa zwi apfa na zwi tou tshi vhakuma u fhela. Tshi humela vhadzimo vha dzinwe zwivhidziso zwi do vhudza u bva zwihumelo zwa vhukuma."
 

@@ -5,6 +5,7 @@ import translationsEn from '../translations/translationsEn';
 import translationsXh from '../translations/translationsXh';
 import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
+import translationsVe from '../translations/translationsVe';
 
 
 
@@ -26,7 +27,8 @@ const About = () => {
     en: translationsEn,
     xh: translationsXh,
     af: translationsAf,
-    zu: translationsZu
+    zu: translationsZu,
+    ve: translationsVe,
   };
 
   // Function to handle language toggle
@@ -47,6 +49,7 @@ const About = () => {
             <option value="af">Af</option>
             <option value="xh">Xh</option>
             <option value="zu">Zu</option>
+            <option value="zu">Ve</option>
           </select>
         </div>
 
@@ -90,19 +93,23 @@ const About = () => {
         </p>
         
         <p className="text-black mb-4">
-          {translations[language].weunderstand}
+          {translations[language].duepointbus}
         </p>
 
         <p className="text-black mb-4">
-         {translations[language].ourrole}
+         {translations[language].seeking}
         </p>
 
         <p className="text-black mb-4">
-         {translations[language].asyou}
+         {translations[language].readright}
         </p>
 
         <p className="text-black mb-4">
-          {translations[language].whatever}
+          {translations[language].picture}
+        </p>
+
+        <p className="text-black mb-4">
+          {translations[language].opportunity}
         </p>
       </div>
 
@@ -117,7 +124,7 @@ const About = () => {
       </div>
 
          {/* WhatsApp Button */}
-      <div className="">
+      <div className="mb-16 pb-16">
         <a href={`whatsapp://send?phone=${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
           <p className="bg-green-500 hover:bg-green-600 text-white font-bold px-4 rounded inline-flex items-center animate-flicker">{translations[language].message}</p>
         </a>

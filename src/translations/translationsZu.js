@@ -13,20 +13,25 @@ const translationsZu = {
    //ABOUT
 
     weare:'Singu-Abiton kanye no-Michelle, futhi sibonga kakhulu ngokuthi uzinike isikhathi sokuhlola inkundla yethu. Ngenxa yesimo somnotho esiyinselele eNingizimu Afrika nasemhlabeni wonke, siye safuna ezinye izindlela zokwengeza imali esiyitholayo.',
-    weunderstand:'Siyakuqonda ukubaluleka kokuthola imithombo ezinzile futhi enokwethenjelwa yemali engenayo, okungase kubonakale kunzima. Ekufuneni kwethu, sithole ithuba le-Duepoint. Ngemva kokuhlolisisa izinto ezinikeziwe, sithole ukuthi iyimodeli yebhizinisi engagcini nje ngokuphelelisa imali yethu engenayo kodwa futhi ethembisa ukukhula okuzinzile kanye namaholo aphindelelayo ukuphila kwakho konke.',
-    ourrole:"Iqhaza lethu njengonjiniyela Bengcebo abane-Duepoint ilula - ukwabelana ngaleli thuba elimangalisayo nabantu esihlangana nabo ekuphileni kwethu kwansuku zonke. Siqhutshwa uthando lwethu ngabantu kanye nesifiso sethu sokunciphisa imizabalazo yezezimali, kuwumgomo wethu ukwelula leli thuba kubantu abaningi ngangokunokwenzeka, sibanikeze amandla okuthuthukisa izimo zabo.",
-    asyou:"Njengoba ubona, kudinga umzamo omncane ukukwethula le nkundla, futhi ngezinga elifanayo lomzamo, nawe ungaba yingxenye yalolu hlelo futhi wabelane ngalo nabanye. Ukubamba iqhaza kulo msebenzi webhizinisi ngeke nje kulolonge ikusasa lakho lezezimali kodwa futhi kuzoba nomthelela omuhle ezimpilweni zalabo obathulayo kuleli thuba eliyigugu.",
-    whatever:"Noma ngabe yisiphi isinqumo osithathayo, sikufisela okuhle kodwa!",
-    message:"Sithumele umlayezo ku-WhatsApp",
     allowus:'Sivumele sizethule',
-    areyou:"Ingabe ululungele uhambo olujabulisayo lokungena emhlabeni webhizinisi le-Duepoint? Emizuzwini emi-3 nje kuphela, le vidiyo izokuhambisa ohambeni oluphawula ukuqala kohambo lwezezimali olumangalisayo. Ngakho-ke thatha isihlalo, bopha ibhande, futhi masingene kulolu hambo olujabulisayo ndawonye!",
-    embark:"Qala uhambo olungajwayelekile oluya ekufukulweni kwezimali nge-Duepoint! Le vidiyo ekhangayo ihlanganisa wona kanye umnyombo webhizinisi lethu elisekelwe empahleni. Njengoba ucwaninga ekulandiseni kwakho okuphoqayo, uzothola amathuba angenamkhawulo alindile.",
-    getinvolved:"Zibandakanye namuhla futhi ube yingxenye yomphakathi onamandla oqhutshwa umbono omuhle. Vumela le vidiyo ibe ukukhanya kwakho okukuqondisayo ekuqondeni ikusasa eliqhakazile lezezimali nge-Duepoint!",
-    asfor:"Thina, sigxumele phakathi. Kopisha Inombolo Yonjiniyela Wealth ukuze ubhale ukuthi ubani owethule? Yebo, kulula kanjalo!",
-    alternatively:"Kungenjalo, uma ufuna ukuhlola kabanzi, chofoza ngezansi ukuze ubuke 'Ukuphikisa Kweqiwe!' noma usithinte ngqo ku-WhatsApp.",
-    thejourney:"Uhambo luyaqala...",
-    thewealth:"Umcebo wadalulwa...",
-    whywait:"Kungani ulinde manje...",
+    duepointbus: "I-DuePoint Business, isimodeli yesayensi enesithakazelo esasungulwe ngo-2016, enelungelo lokwenza abantu abahamba phambili kwesimo sezokwelapha esihlukanisiwe kuphela kwezitshalo zemvelo nasefuneral nokwenza umsebenzi wokwelapha kanye nokuqinisekisa noma nokuqinisekisa okungaba nzima kwabanye okungama-South African, okusezingeni eliphezulu kuleli zwe.",
+    seeking: "Sifuna abantu abangenamqondo okwenziwa izinto ezinempilo ngokuhlaziya abaqondile okuyinto abanele ukuba baphendulele entsha yabo yomthetho. Umsebenzi wakho? Hambisana nabanye abantu abangama-South African ngeDuePoint, futhi bheka njengoba izinto ezingcono eziyibalulekile zaseDuePoint ezithengwa kuphela ngenkathi zilungele iziqondiso zakho. Kodwa lapha kunesidingo engcono: konke okufunwayo izinto, uyoyithola inhlangano yokudla yaseningizimu Afrika.",
+    readright: "Yebo, wakufunda kahle lokhu. I-DuePoint ikhona uthando lokwenza imali nabanye abanikela ukusiza ukuba baphumelele. Futhi okuhle kakhulu? Ake kufanele, akukho nokhuni oyisebenzisa la. Uma ufuna izifundo ezithile, ukulungiswa kwesitshalo sezitshalo, noma umugqa omunye, DuePoint ikwenza ukuze uhlanganise ithuba likaDuePoint ngendlela efanele kakhulu.",
+    picture: "Vula le into: zifinyelela izindlela zakho zezimboni zemali futhi uzikhande phambili kwi-mthetho othile kwiDuePoint, lapho ukukhula kwakho kwazi kwenza intando. Cela usungula phakathi kwabanye abaningi abanayo induku yalokhu emazingeni angaphezu kuka-South Africa.",
+    opportunity: "Ungakhohlwa ukuthi awushintshanga izikhala zokuba zihamba. Ikhetha likho, futhi ikhetha yini nalokhu uyifuna, sikhona sonke sonke ukuthandaza.",
+    message: "Sisebenzise kanjani, sikhulume!",
+    // ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    //INTRO
+
+    areyou: "Uyayazi yini ukuthi usuka kwenqubomgomo endleleni yebhizinisi leDuePoint? Ngemizuzu emithathu kuphela, le video izokukhipha kwangena ekuboniseni iklabhu yokuhamba okuhle esifundeni sethu sokuqala sokuhamba kwezomnotho. Ngakho, hlola amakhukhi, chaphaza ulindwe, futhi sibe neqembu lokuhamba lokujabulisa lesi sihlabo!",
+    embark: "Khetha indlela elula ekufinyelelweni ekuphuhliseni kwezomnotho nabakwaDuepoint! Le video enothando ibamba iqembu lapho ifakeka ngesikhathi sebhizinisi bethu basebenza ngezinto. Uma uyezwa ekwenzeni izithombe ezincikekayo, uzakuthola izikhathi ezinzima ezilungiswayo ezizokwenza kube ezithakazelisayo.",
+    getinvolved: "Landela iholo olungcono oluthuthukisa ekukhuliseni nolwazi olukhulu ngezomnotho. Mkhombandlela kule video ithi ngokwakho kwihambo elula ekusiza, ngezomnotho ongcono.",
+    asfor: "Ngenxa yethu, siphakathi. Bhala inombolo yeWealth Engineer(W1001488205) ukhumbule kanjani ongakunikezela? Ewe, kuyadlula kangcono!",
+    alternatively: "Noma unezingane ekwazi ukuthuthukisa ngazo zonke izindawo, bhalisa aphansi ukuze uyibone i-video 'Izithiyo Zivalelwe!' noma qhagamshelana nathi ngaphandle ku-WhatsApp.",
+    thejourney: "Uhambo luqala...",
+    thewealth: "Umnotho uswele...",
+    whywait: "Kanti kungcono unzamele manje...",
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
     ///GUIDE

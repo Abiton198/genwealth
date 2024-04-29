@@ -12,20 +12,14 @@ const translationsAf = {
     ///////////////////////////////////////////////////////////////////////////
     //ABOUT
     weare:'Ons is Abiton en Michelle, en ons waardeer dit opreg dat jy die tyd geneem het om ons platform te verken. In die lig van die uitdagende ekonomiese landskap in Suid-Afrika en regoor die wêreld, het ons alternatiewe maniere gesoek om ons inkomste aan te vul.',
-    weunderstand:"Ons verstaan ​​die belangrikheid daarvan om stabiele en betroubare bronne van inkomste te vind, wat dikwels ontwykend kan wees. In ons soeke het ons die Duepoint-geleentheid ontdek. Na 'n deeglike ondersoek van die materiaal wat verskaf is, het ons gevind dat dit 'n sakemodel is wat nie net ons huidige inkomstestrome komplementeer nie, maar ook bestendige groei en herhalende verdienste vir 'n leeftyd beloof.",
-    ourrole:"Ons rol as Wealth Engineers met Duepoint is eenvoudig - om hierdie merkwaardige geleentheid te deel met individue wat ons in ons alledaagse lewens teëkom. Gedryf deur ons passie vir mense en ons begeerte om finansiële stryd te verlig, is dit ons missie om hierdie geleentheid uit te brei na soveel individue as moontlik, om hulle te bemagtig om hul omstandighede te verbeter.",
-    asyou:"Soos u kan sien, verg dit minimale moeite om u aan hierdie platform bekend te stel, en met dieselfde vlak van moeite kan u ook deel word van hierdie onderneming en dit met ander deel. Deelname aan hierdie sake-onderneming sal nie net jou finansiële toekoms vorm nie, maar ook 'n positiewe impak hê op die lewens van diegene wat jy aan hierdie onskatbare geleentheid bekendstel.",
-    whatever:"Watter besluit jy ook al neem, ons wens jou die beste toe!",
-    message:"Stuur 'n boodskap vir ons op WhatsApp",
     allowus:'Laat ons toe om onsself voor te stel',
-    areyou:"Is jy gereed vir 'n opwindende reis na die wêreld van Duepoint-besigheid? Binne net 3 minute sal hierdie video jou meevoer op 'n avontuur wat die begin van 'n ongelooflike finansiële reis is. Gryp dus 'n sitplek, gordel vas, en kom ons begin hierdie opwindende rit saam!",
-    embark:"Begin op 'n buitengewone reis na finansiële bemagtiging met Duepoint! Hierdie boeiende video omsluit die kern van ons bate-gebaseerde besigheid. Soos jy in die boeiende verhaal daarvan delf, sal jy die onbeperkte geleenthede ontdek wat wag.",
-    getinvolved:"Raak vandag betrokke en word deel van 'n dinamiese gemeenskap wat deur groot visie gedryf word. Laat hierdie video jou rigtingwyser wees na 'n beter finansiële toekoms met Duepoint!",
-    asfor:"Wat ons betref, ons het ingespring. Kopieer die Wealth Engineer-nommer om te skryf oor wie jou voorgestel het? Ja, dit is so maklik!",
-    alternatively:"Alternatiewelik, as jy verder wil verken, klik hieronder om 'Besware oorheers!' of kontak ons ​​direk op WhatsApp.",
-    thejourney:"Die reis begin...",
-    thewealth:"Die rykdom ontbloot ...",
-    whywait:"Hoekom nou wag...",
+    duepointbus: "DuePoint Business is 'n innoverende versekeringsmodel wat in 2016 bekend gestel is, met die doel om plaaslike Suid-Afrikaners deur dinamiese besigheidsvennootskappe te bemagtig. Sy missie? Om 'n verskeidenheid essensiële produkte aan te bied, van versekering en begrafnisdekking tot mediese en regshulp, wat aangepas is aan die behoeftes van die Suid-Afrikaanse bevolking.",
+    seeking: "Ons is op soek na gedrewe individue wat gereed is om aan hul welvaart-skepping reis te begin deur die DuePoint saak te bevorder. Jou rol? Eenvoudig om mede-Suid-Afrikaners met DuePoint te verbind, en kyk hoe DuePoint kwaliteit produkte deur jou netwerk verkoop. Maar hier is die opwindende deel: vir elke produk betaal deur jou kontakte, sal jy 'n deel van die winste ontvang, maandeliks, vir die res van jou lewe.",
+    readright: "Ja, jy het dit reg gelees. DuePoint glo in die deel van die welvaart met dié wat hulle help om te floreer. En die beste deel? Daar is geen een-grootte-pas-alles benadering hier nie. Hetsy jy hou van mond-tot-mond verwysings, digitale netwerke, of enige ander metode, DuePoint bemagtig jou om die DuePoint boodskap te versprei op 'n manier wat vir jou die beste pas.",
+    picture: "Stel jou voor: verhoog jou inkomste en hou jou huidige werk terwyl jy jou inspansings by DuePoint beloon word, waar jou inkomspotensiaal geen perke ken nie. Sluit aan by die geledere van menigtes ander wat reeds hierdie opwindende geleentheid regoor Suid-Afrika omhels het.",
+    opportunity: "Moenie wag vir geleenthede om verby te gaan nie. Die keuse is aan jou, en watter pad jy ookal kies, ons is hier om jou elke stap van die pad te ondersteun. Kom ons maak dit werk, kom ons verbind!",
+    message:"Stuur 'n boodskap vir ons op WhatsApp",
+    
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //GUIDE 
