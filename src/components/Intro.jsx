@@ -49,7 +49,7 @@ const Intro = () => {
         <div className="md:w-1/2 md:mr-4">
 
           {/* popup message */}
-        <Popup message={"Welcome! \n We don't take anyone's hard earned money. No deposit is needed to anyone' account! We only share opportunity. You make your own research. \n Thank you. "} />
+        <Popup message={"No money you need to sign-up!. No deposit is needed into anyone's account! \n We only share opportunity. You make your own research. And do it the way it suits you! \n See you inside."} />
          
           <h2 className="text-black text-xl font-bold mb-2">{translations[language].thejourney}...</h2>
           <p className="text-black mb-4">{translations[language].areyou}!</p>

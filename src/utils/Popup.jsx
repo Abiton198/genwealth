@@ -25,7 +25,7 @@ function Popup({ message }) {
           className="fixed top-0 left-0 w-full h-screen flex justify-center items-center bg-gray-500 bg-opacity-50"
           style={{ zIndex: 1000 }}
         >
-          <div className="bg-blue-200 rounded-lg p-4 md:p-6 lg:p-8">
+          <div className="bg-blue-100 rounded-lg p-4 md:p-6 lg:p-8">
             <h2 className="text-lg font-bold">Did you know?</h2>
             {message.split('\n').map((item, index) => (
               <p key={index}>{item}</p>))}

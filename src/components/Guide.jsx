@@ -50,7 +50,7 @@ export default function Guide() {
         <h2 className="text-lg font-bold text-black mb-5">{translations[language].welcome}</h2>
        
         {/* popup message */}
-        <Popup message={"Cheers, \n Don't forget to copy the Wealth Engineer Number when signing-up \n Thank you. "} />
+        <Popup message={" \n You need to copy the Wealth Engineer Number when signing-up \n Thank you! "} />
        
         <p className="text-lg text-black leading-7 mb-4">
           {translations[language].signup}
