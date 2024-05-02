@@ -1,22 +1,28 @@
 import React, { useState, useEffect } from 'react';
+import { FaThumbsUp } from 'react-icons/fa'; // Import thumbs-up 
+import { TbRuler } from 'react-icons/tb';
 
 function Popup({ message }) {
-  const [showPopup, setShowPopup] = useState(false);
+  const [showPopup, setShowPopup] = useState(TbRuler);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 500) {
-        setShowPopup(true);
-      } else {
-        setShowPopup(false);
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+    // Check if the popup has been shown before
+    const popupShownBefore = localStorage.getItem('popupShown');
+
+    // If the popup has not been shown before, set showPopup to true
+    if (!popupShownBefore) {
+      setShowPopup(true);
+    }
+  }, []); // Empty dependency array ensures this effect runs only once
+
+  const handleClose = () => {
+    setShowPopup(false);
+    localStorage.setItem('popupShown', true); // Save the popup shown state to local storage
+  };
+  
+  const handleGoodClick = () => {
+    handleClose();
+  };
 
   return (
     <div>
@@ -28,13 +34,14 @@ function Popup({ message }) {
           <div className="bg-blue-100 rounded-lg p-4 md:p-6 lg:p-8">
             <h2 className="text-lg font-bold">Did you know?</h2>
             {message.split('\n').map((item, index) => (
-              <p key={index}>{item}</p>))}
-            <button
-              className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"
-              onClick={() => setShowPopup(false)}
-            >
-              Close
-            </button>
+              <p key={index}>{item}</p>
+            ))}
+            <div className="icon-container">
+              <button className="icon-button p-2" onClick={handleGoodClick}>
+                <FaThumbsUp /> {/* Thumbs-up icon */}
+              </button>
+             
+            </div>
           </div>
         </div>
       )}

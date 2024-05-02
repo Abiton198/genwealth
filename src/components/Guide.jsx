@@ -49,9 +49,6 @@ export default function Guide() {
       <div className="my-2 lg:my-1 mt-0">
         <h2 className="text-lg font-bold text-black mb-5">{translations[language].welcome}</h2>
        
-        {/* popup message */}
-        <Popup message={" \n You need to copy the Wealth Engineer Number when signing-up \n Thank you! "} />
-       
         <p className="text-lg text-black leading-7 mb-4">
           {translations[language].signup}
         </p>
@@ -123,6 +120,9 @@ export default function Guide() {
         </div>
       </div>
     </div>
+{/* popup message */}
+<Popup message={" \n You need to copy the Wealth Engineer Number when signing-up \n Thank you! "} />
     </div>
   );
 }
+

@@ -54,8 +54,6 @@ const About = () => {
           </select>
         </div>
         
-          {/* a pop up message when a person scrolls on the about page */}
-        <Popup message={"3 Membership benefits: \n - 24/7 Road Assistance\n - 24/7 Legal Call\n - 24/7 Medical Call"} />
 
       <h2 className="text-2xl font-bold text-center mb-2">{translations[language].allowus}:</h2>
       
@@ -137,7 +135,9 @@ const About = () => {
           <p className="bg-green-500 hover:bg-green-600 text-white font-bold px-4 rounded inline-flex items-center animate-flicker">{translations[language].message}</p>
         </a>
       </div>
-     
+      {/* a pop up message when a person scrolls on the about page */}
+    <Popup message={"3 Membership benefits: \n - 24/7 Road Assistance\n - 24/7 Legal Call\n - 24/7 Medical Call"} />
+        
     </div>
   );
 };

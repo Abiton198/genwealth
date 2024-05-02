@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 
 # Welcome to GenWealth!
 
-![Your Website Screenshot](screenshot.png)
+![GenWealth](screenshot.png)
 
 ## Table of Contents
 
@@ -33,6 +33,8 @@ GenWealth is developed to in pursuit of our family business interests. It serves
 - **Feature 1:** [A pop-up message]
 - **Feature 2:** [weather display]
 - **Feature 3:** [action buttons]
+- **Feature 3:** [language toggle]
+- **Feature 3:** [embedded Youtube videos]
 - ...
 
 ## Installation
