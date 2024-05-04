@@ -64,6 +64,14 @@ const Sidebar = () => {
         >
           Guide
         </Link>
+        {/* <Link
+          id="commentform"
+          className={`menu-item ${clickedItem === 'commentform' ? 'clicked' : ''}`}
+          to="/CommentForm"
+          onClick={() => handleItemClick('commentform')}
+        >
+          Comments
+        </Link> */}
         <p className="menu-item mt-8">Ref # <br/> <span className="text-aqua">W1001488205</span></p>
       </Menu>
     </div>

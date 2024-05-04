@@ -56,6 +56,9 @@ const NavBar = () => {
         <Link to="/questions" className="nav-link" onClick={() => handleItemClick('questions')}>
           Q & A
         </Link>
+        {/* <Link to="/commentform" className="nav-link" onClick={() => handleItemClick('commentform')}>
+          Comments
+        </Link> */}
         {/* <Link
           to="/requestmeeting"
           className={`nav-link ${clickedItem === 'requestmeeting' ? 'clicked' : ''}`}
@@ -110,6 +113,15 @@ const NavBar = () => {
         >
           Q & A
         </Link>
+
+        {/* <Link
+          to="/commentform"
+          className={`menu-item ${clickedItem === 'commentform' ? 'clicked' : ''}`}
+          onClick={() => handleItemClick('commentform')}
+        >
+          Comments
+        </Link> */}
+
 {/*         
         Reques page - needs backend intergration first
 
