@@ -11,7 +11,7 @@ import Popup from '../utils/Popup';
 
 
 const About = () => {
-  const whatsappNumber = '+27761272025';
+  const whatsappNumber = '+27664314171';
   const [isCollapsed, setIsCollapsed] = useState(false);
   
     // Define state for language and set default language to English

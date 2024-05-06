@@ -2,7 +2,7 @@ import React from 'react'
 import que_image from '../img/world_image.jpeg'
 
 export default function Questions() {
-  const whatsappNumber = '+27761272025';
+  const whatsappNumber = '+27664314171';
   return (
     <div>
 
