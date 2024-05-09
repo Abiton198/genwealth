@@ -6,7 +6,7 @@ const translationsEn = {
     become: "Do you care about changing narratives?",
     ourwebsite:'Explore the opportunity now!',
     notselling: 'No selling, No Bitcoin, No Trading !',
-    getStarted: 'Get Started',
+    getStarted: 'Check it now!',
     unlock: 'Connect to life changing opportunity now!',
 
     // ///////////////////////////////////////////////////////////////////////////////////

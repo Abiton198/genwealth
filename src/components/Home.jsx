@@ -46,18 +46,18 @@ const Home = () => {
       {/* Text displayed on home-page */}
       <div className='content-container'>
       
-        <p className='italic text-red-700 text-bold animate-flicker'>{translations[language].become}</p>
+        <p className='italic text-green-500 text-bold animate-flicker'>{translations[language].become}</p>
         
         {/* popup message */}
 
-        <p className='italic'>{translations[language].genwealth}</p>
-        <p className='text'>{translations[language].ourwebsite}</p>
+        {/* <p className='italic'>{translations[language].genwealth}</p>
+        <p className='text'>{translations[language].ourwebsite}</p> */}
       </div>
 
     {/* Image */}
-      <div className="world-image2 p-10" >
+      {/* <div className="world-image2 p-10" >
           <img src={que_image} alt="Profile"  />
-        </div>
+        </div> */}
 
       <div className='button-container'>
         <Link to='/Intro' className='button animate-flicker'>{translations[language].getStarted}</Link>

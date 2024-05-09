@@ -412,6 +412,7 @@ background-color: white;
 /* Container for the entire home page */
 .home-container {
   position: absolute;
+  background-image: url('/src/img/home_new.png');
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -460,13 +461,13 @@ background-color: white;
 .text2{
   font-size: 15px;
   
-  color: blueviolet;
+  color: black;
 }
 
 /* Button styles */
 .button-container {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 355px;
 
 }
 
