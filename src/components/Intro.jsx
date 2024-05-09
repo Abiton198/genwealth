@@ -5,6 +5,7 @@ import translationsAf from '../translations/translationsAf';
 import translationsZu from '../translations/translationsZu';
 import CopyTextToClipboard from '../utils/CopyToClipboard';
 import Popup from '../utils/Popup';
+import Footer from './Footer';
 
 const Intro = () => {
   const youtubeVideoId1 = "WodCbX6hhhE";
@@ -114,6 +115,8 @@ const Intro = () => {
 
         </div>
       </div>
+
+      <Footer/>
     </div>
   );
 };

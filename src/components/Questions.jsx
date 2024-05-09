@@ -25,6 +25,8 @@ export default function Questions() {
       <div className="digital-card-header">
           <img src={que_image} alt="Profile" className="world-image" />
         </div>
+
+        <Footer/>
     </div>
 
    

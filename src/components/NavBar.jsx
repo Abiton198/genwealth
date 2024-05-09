@@ -30,7 +30,7 @@ const NavBar = () => {
         <div className="flex">
           <h2 className="text-white text-2xl m-6 font-bold">
             GenWealth <br />
-            <span className="text-white text-center text-xs font-thin">"Changing lives through empowerment"</span>
+            <span className="text-white text-center text-xs font-thin">"Changing narratives"</span>
           </h2>
         </div>
         

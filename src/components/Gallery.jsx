@@ -151,6 +151,8 @@ const Gallery = () => {
             />
           ))}
         </div>
+
+        <Footer/>
     </div>
   );
 };

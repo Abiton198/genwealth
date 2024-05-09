@@ -137,7 +137,9 @@ const About = () => {
       </div>
       {/* a pop up message when a person scrolls on the about page */}
     <Popup message={"3 Membership benefits: \n - 24/7 Road Assistance\n - 24/7 Legal Call\n - 24/7 Medical Call"} />
-        
+
+
+     <Footer/>   
     </div>
   );
 };

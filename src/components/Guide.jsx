@@ -13,6 +13,7 @@ import translationsVe from '../translations/translationsVe';
 import { useState } from "react";
 import CopyTextToClipboard from "../utils/CopyToClipboard";
 import Popup from '../utils/Popup';
+import Footer from "./Footer";
 
 export default function Guide() {
   // Define state for language and set default language to English
@@ -122,6 +123,8 @@ export default function Guide() {
     </div>
 {/* popup message */}
 <Popup message={" \n You need to copy the Wealth Engineer Number when signing-up \n Thank you! "} />
+    
+    <Footer/>
     </div>
   );
 }
