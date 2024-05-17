@@ -8,10 +8,11 @@ import translationsVe from '../translations/translationsVe';
 import que_image from '../img/world_image.jpeg'
 import { Link } from 'react-router-dom';
 
-
 const Home = () => {
   // Define state for language and set default language to English
   const [language, setLanguage] = useState('en');
+  // Define state for popup visibility
+  const [isPopupVisible, setIsPopupVisible] = useState(true);
 
   // Define translations object based on the selected language
   const translations = {
@@ -27,11 +28,15 @@ const Home = () => {
     setLanguage(selectedLanguage);
   };
 
+  // Function to close the popup
+  const closePopup = () => {
+    setIsPopupVisible(false);
+  };
+
   return (
     <div className='home-container'>
       <WeatherDisplay />
     
-
       {/* Language toggle dropdown */}
       <div className='language-dropdown'>
         <select value={language} onChange={(e) => toggleLanguage(e.target.value)}>
@@ -45,25 +50,31 @@ const Home = () => {
 
       {/* Text displayed on home-page */}
       <div className='content-container'>
-      
         <p className='italic text-green-500 text-bold animate-flicker'>{translations[language].become}</p>
-        
-        {/* popup message */}
-
-        {/* <p className='italic'>{translations[language].genwealth}</p>
-        <p className='text'>{translations[language].ourwebsite}</p> */}
       </div>
-
-    {/* Image */}
-      {/* <div className="world-image2 p-10" >
-          <img src={que_image} alt="Profile"  />
-        </div> */}
 
       <div className='button-container'>
         <Link to='/Intro' className='button animate-flicker'>{translations[language].getStarted}</Link>
       </div>
 
       <p className='text2 italic'>{translations[language].unlock}</p>
+
+      {/* Popup */}
+      {isPopupVisible && (
+        <div className='popup'>
+          <div className='popup-content'>
+            <p>Toggle language of preference!</p>
+            <ul>
+              <li>En - English</li>
+              <li>Zu - IsiZulu</li>
+              <li>Xh - isiXhosa</li>
+              <li>Af - Afrikans</li>
+              <li>Ve - IsiVenda</li>
+            </ul>
+            <button onClick={closePopup}>Close</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
