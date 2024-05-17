@@ -10,6 +10,17 @@ const translationsAf = {
    unlock: "Koppel nou aan die lewensveranderende geleentheid!",
 
     ///////////////////////////////////////////////////////////////////////////
+// INTRO
+   areyou: "Is jy gereed vir 'n opwindende reis in die wêreld van Duepoint-besigheid? In net 3 minute sal hierdie video jou wegvoer op 'n avontuur wat die begin van 'n ongelooflike finansiële reis aandui. So gryp 'n stoel, maak vas, en laat ons saam op hierdie opwindende rit vertrek!",
+   embark: "Begin 'n buitengewone reis na finansiële bemagtiging met Duepoint! Hierdie boeiende video vergestalt die kern van ons bategebaseerde besigheid. Soos jy in sy meesleurende verhaal delf, sal jy die onbeperkte geleenthede ontdek wat op jou wag.",
+   getinvolved: "Raak vandag betrokke en word deel van 'n dinamiese gemeenskap gedryf deur 'n groot visie. Laat hierdie video jou gids wees na 'n helderder finansiële toekoms met Duepoint!",
+   asfor:"Wat ons betref, het ons ingespring. Kopieer die Wealth Engineer Nommer (W1001488205) om te skryf wie jou voorgestel het? Ja, dit is so maklik!",
+   alternatively:"Alternatiewelik, as jy verder wil verken, klik hieronder om 'Objections Overruled!' te kyk of kontak ons direk op WhatsApp.",
+   thejourney: "Die reis begin...",
+   thewealth: "Die rykdom onthul...",
+   whywait: "Waarom nou wag...",
+
+    /////////////////////////////////////////////////////////////////////////////////////
     //ABOUT
     weare:'Ons is Abiton en Michelle, en ons waardeer dit opreg dat jy die tyd geneem het om ons platform te verken. In die lig van die uitdagende ekonomiese landskap in Suid-Afrika en regoor die wêreld, het ons alternatiewe maniere gesoek om ons inkomste aan te vul.',
     allowus:'Laat ons toe om onsself voor te stel',

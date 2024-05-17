@@ -6,6 +6,7 @@ import translationsZu from '../translations/translationsZu';
 import CopyTextToClipboard from '../utils/CopyToClipboard';
 import Popup from '../utils/Popup';
 import Footer from './Footer';
+import translationsVe from '../translations/translationsVe';
 
 const Intro = () => {
   const youtubeVideoId1 = "WodCbX6hhhE";
@@ -21,7 +22,8 @@ const Intro = () => {
     en: translationsEn,
     xh: translationsXh,
     af: translationsAf,
-    zu: translationsZu
+    zu: translationsZu,
+    ve: translationsVe,
   };
 
   // Function to handle language toggle
@@ -41,6 +43,7 @@ const Intro = () => {
             <option value="af">Af</option>
             <option value="xh">Xh</option>
             <option value="zu">Zu</option>
+            <option value="ve">Ve</option>
           </select>
         </div>
 
